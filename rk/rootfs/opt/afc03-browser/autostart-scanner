@@ -1,0 +1,10 @@
+#!/bin/sh
+# Wait for the board web service; opening the UI never starts a scan.
+for attempt in $(seq 1 90); do
+    if /usr/bin/curl -fsS --max-time 2 http://127.0.0.1:8081/api/status >/dev/null; then
+        exec /opt/afc03-browser/launch-scanner
+    fi
+    sleep 2
+done
+echo "AFC03 service unavailable; use desktop shortcut once it recovers" >&2
+exit 1

@@ -1,0 +1,11 @@
+{
+  "status": "implementing",
+  "baseline": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-capture-pipeline-20261004",
+  "plan": [
+    "ABI6 all qualified candidates, limit16 with explicit overflow",
+    "FPGA calibrated conservative pre-distance spatial mask; minimum25",
+    "RK local RGB100..160 ->25..40; protect fixed40 branch",
+    "archive exact comparison, compile, timing, SRAM, Flash"
+  ],
+  "production_unchanged": true
+}

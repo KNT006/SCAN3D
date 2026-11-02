@@ -1,0 +1,152 @@
+[
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core.adc",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core.adc",
+    "sha256": "91adc2f196d66ec7dcce3dfa77bf4a05be7f93c1ee9eaf47b506d6c4492ee80d",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core.v",
+    "sha256": "60809d985fd187efcbfd594e860191ac8b7793e395b9f5cbc2d5fe506f8ba4f4",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core.sdc",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core.sdc",
+    "sha256": "1c050ecce25cb2408c1b152673c527452b4edb9f4ec628188bd9d245d4fa88b0",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core_hxt_csr_fastsim.hex",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core_hxt_csr_fastsim.hex",
+    "sha256": "deb1c1e57b5f3cdaa3a4a7cc8bb2857638fbf86816611e474f21ea2de575ff1c",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core_hxt_csr.hex",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core_hxt_csr.hex",
+    "sha256": "dd6df30d2058e4ba0545f712cfdd2f20cd86fbacf99077870edffdf2f868f5b6",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core_hxt_sram_fastsim.hex",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core_hxt_sram_fastsim.hex",
+    "sha256": "8ca67639663be59887ccb6ccb6d0bb8494d60b3f6a9c51bef0eb1cc31adefe1b",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core_hxt_sram.hex",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\pcie_brg_pcie_core\\pcie_brg_pcie_core_hxt_sram.hex",
+    "sha256": "830dbeb7a541e4c1d6c78f10014f14dd4a0e657aed1bbf1fb9431e5fc36dc1bc",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\uisrc\\03_ip\\ui_isp\\ui_awb\\divider_gate.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\uisrc\\03_ip\\ui_isp\\ui_awb\\divider_gate.v",
+    "sha256": "892d573d7b82ae6bc7ae644eaee95731ff69b1458632580483d05a1031038b9f",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\uisrc\\03_ip\\ui_isp\\ui_awb\\ui_ram_awb_delay_signal\\ui_ram_awb_delay_signal.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\uisrc\\03_ip\\ui_isp\\ui_awb\\ui_ram_awb_delay_signal\\ui_ram_awb_delay_signal.v",
+    "sha256": "4e0de6644806b067a28234a42fde7fadaf513e4d7080a4503186056785506695",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\PH1_LOGIC_PCIE.adc",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\PH1_LOGIC_PCIE.adc",
+    "sha256": "06c253ebe2f178c20c0d559eccc010481188bde982ec18bb36825ea647359959",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\PH1_LOGIC_PCIE.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\PH1_LOGIC_PCIE.v",
+    "sha256": "a605ad64a09afee51836ae3b38a2482cd1db82f3e1761d41f57544ac8533f5c0",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\PH1_LOGIC_PCIE_ph1_dbi_init_mux.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\PH1_LOGIC_PCIE_ph1_dbi_init_mux.v",
+    "sha256": "5cef8bbbb200f6bc90857d420ed9f280daada1f37b9782f09f540157ce7fca59",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\PH1_LOGIC_PCIE_ph1_pcie_basic_top.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\PH1_LOGIC_PCIE_ph1_pcie_basic_top.v",
+    "sha256": "d30630d474acc5ec13642b7bb65193aa42c6e6f9de24cf007c694e7e9e1b407e",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\PH1_LOGIC_PCIE_ph1_pcie_cfg_rom.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\PH1_LOGIC_PCIE_ph1_pcie_cfg_rom.v",
+    "sha256": "74cc2ef38e4747863885e1e3a7bca584f2a705c6be045153353e795c525aa6ce",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\PH1_LOGIC_PCIE_ph1_pcie_clock_ctrl.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\PH1_LOGIC_PCIE_ph1_pcie_clock_ctrl.v",
+    "sha256": "662aa47906baea4a23d61f9889164bdb2d45c2ce0064aceb1222c9e2153069df",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\PH1_LOGIC_PCIE_ph1_pcie_core_pll.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\PH1_LOGIC_PCIE_ph1_pcie_core_pll.v",
+    "sha256": "3d83fb17695ba6f8154e53c3df4789c61dd802d9f08bccbacd334fc200fe9a35",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\PH1_LOGIC_PCIE.sdc",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\PH1_LOGIC_PCIE.sdc",
+    "sha256": "99869e4a1de9d93b6e172a928541cb2961892071771d284d876b32267f0887f9",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\al_pcie_ip.txt",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\al_pcie_ip.txt",
+    "sha256": "aa8085c659037e9ab125c88e5c5203d145f0370016c113b4818a2c0218da463f",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\al_pcie_ip.dat",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\al_pcie_ip.dat",
+    "sha256": "b43b2af4574d1d23f1efe956d2edb113efbd1ae491bebcde3e2ba3cbfe4a988b",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\sgdma_pll.vhd",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\sgdma_pll.vhd",
+    "sha256": "7a2a81a429b910b1edb5d2b66abd2cfc618c7f05f70303f888e9d4d3ad554da1",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\sgdma_pll.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\sgdma_pll.v",
+    "sha256": "bd9500591adb2689fe3fb47d0f5a4c25384cfc18d8c449fe4ec7170a4bbea451",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\ui_pll.vhd",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\ui_pll.vhd",
+    "sha256": "6485ff295fd72457fcdac0660144e8066fb356dfb15d25b35f94be553ed5150d",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\AFC03_IMX415_PCIE_X1\\AFC03_IMX415_PCIE_X1\\IMX415_PCIE_X1\\al_ip\\ui_pll.v",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-capture-pipeline-20261004\\board\\fpga\\al_ip\\ui_pll.v",
+    "sha256": "78bc9f58ea9bba6d35098528305ae47093ac5c2a46c5f47c27c5a5c8c2bdacb9",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\_colorcache26\\fpga-laser-20261001\\vendor-ip\\afc03_ddr\\afc03_ddr_mcu_rom.txt",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-laser-20261001\\vendor-ip\\afc03_ddr\\afc03_ddr_mcu_rom.txt",
+    "sha256": "cd913458ff92970525649254b69f4f8123ff968ab9a9172018d1adbf2f73b2b7",
+    "already_present": true
+  },
+  {
+    "source": "D:\\PCle\\_colorcache26\\fpga-laser-20261001\\vendor-ip\\afc03_ddr\\afc03_ddr_cfg_rom.txt",
+    "target": "fpga-gain-handshake-20261013\\sources\\fpga-laser-20261001\\vendor-ip\\afc03_ddr\\afc03_ddr_cfg_rom.txt",
+    "sha256": "5f9dba89138e1436587abc6f07aa78e7fc00d8074feec661d61c0bd8c12508f6",
+    "already_present": true
+  }
+]

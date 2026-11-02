@@ -1,0 +1,14 @@
+{
+  "fpga-gain-handshake-20261013/rtl/laser_full_row_core.v": {
+    "original_sha256": "6065072fe966e116e151338d8ab65b5b2e463eec3750281f5c4d1319e3769275",
+    "updated_sha256": "da53f13318a08b7e9ed8dd700c75c36b8aecedcfd35d23e2f23700942b9ba4de",
+    "original_comment": "// Functional full-row composition, in rotated-row coordinates.\r\n// RGB positive-difference max and raw-on max are provided as two uint8 streams.\r\n// Computes Gaussian, median, all peaks, all rejection gates, and up to 2 centers.\r\n// Center is an exact (numerator,denominator) pair; no RK peak selection required.\r\n// Functional prototype: no synthesis/board speed claim. One Gaussian computation\r\n// feeds both the peak detector and a clearly derived precomputed evaluator.\r\n",
+    "updated_comment": "// Rotated-row candidate extraction from positive RGB difference and raw-on maxima.\r\n// Gaussian smoothing, peak detection and local rejection produce up to 16 candidates.\r\n// Centers retain exact numerator/denominator pairs; RK applies final candidate selection.\r\n"
+  },
+  "fpga-rgb-adaptive-20261010/rtl/laser_full_row_core.v": {
+    "original_sha256": "6065072fe966e116e151338d8ab65b5b2e463eec3750281f5c4d1319e3769275",
+    "updated_sha256": "da53f13318a08b7e9ed8dd700c75c36b8aecedcfd35d23e2f23700942b9ba4de",
+    "original_comment": "// Functional full-row composition, in rotated-row coordinates.\r\n// RGB positive-difference max and raw-on max are provided as two uint8 streams.\r\n// Computes Gaussian, median, all peaks, all rejection gates, and up to 2 centers.\r\n// Center is an exact (numerator,denominator) pair; no RK peak selection required.\r\n// Functional prototype: no synthesis/board speed claim. One Gaussian computation\r\n// feeds both the peak detector and a clearly derived precomputed evaluator.\r\n",
+    "updated_comment": "// Rotated-row candidate extraction from positive RGB difference and raw-on maxima.\r\n// Gaussian smoothing, peak detection and local rejection produce up to 16 candidates.\r\n// Centers retain exact numerator/denominator pairs; RK applies final candidate selection.\r\n"
+  }
+}

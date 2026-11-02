@@ -1,0 +1,23 @@
+[
+  {
+    "stage": "syn_1",
+    "passed": true,
+    "exit_code": 0,
+    "errors": [],
+    "log_sha256": "71df43fa7976fa58a369a087a24d032f380d66719bb5c9056812476b42ac3181"
+  },
+  {
+    "stage": "phy_1",
+    "passed": false,
+    "exit_code": 0,
+    "errors": [
+      "USR-8159 CRITICAL-WARNING: Command set_false_path -to [get_pins {u_mipi_monitor_reset/pipe_reg*.*sr */u_al_pcie_ip_msi_pipeline/u_msi_negedge_reset/pipe_reg*.*sr}] in D:/PCle/_b28/fpga-laser-20261001/rgb-roi/strict-afc03_camera_cdc.sdc(11) fails.",
+      "USR-8159 CRITICAL-WARNING: Command set_false_path -to [get_pins {u_mipi_monitor_reset/pipe_reg*.*sr */u_al_pcie_ip_msi_pipeline/u_msi_negedge_reset/pipe_reg*.*sr}] in D:/PCle/_b28/fpga-laser-20261001/rgb-roi/strict-afc03_camera_cdc.sdc(11) fails.",
+      "USR-8159 CRITICAL-WARNING: Command set_false_path -to [get_pins {u_mipi_monitor_reset/pipe_reg*.*sr */u_al_pcie_ip_msi_pipeline/u_msi_negedge_reset/pipe_reg*.*sr}] in D:/PCle/_b28/fpga-laser-20261001/rgb-roi/strict-afc03_camera_cdc.sdc(11) fails."
+    ],
+    "changed_inputs": [],
+    "started": 1793189570.8187957,
+    "seconds": 1472.7295167446136,
+    "log_sha256": "2e85e7ca68c559e7ba87cca6bbab4d80730cdf8540283a57f6a5733fe27fde53"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "stage": "syn_1",
+    "passed": true,
+    "seconds": 536.5039265155792,
+    "exit_code": 0,
+    "errors": []
+  },
+  {
+    "stage": "phy_1",
+    "passed": true,
+    "seconds": 1615.699030160904,
+    "exit_code": 0,
+    "errors": []
+  }
+]

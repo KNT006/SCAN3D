@@ -1,0 +1,17 @@
+[Unit]
+Description=AFC03 FPGA DDR initialization
+Wants=afc03-pcie.service
+After=afc03-pcie.service
+Before=afc03-camera.service
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/opt/afc03-scanner/fpga
+Environment=PYTHONPATH=/opt/afc03-scanner/vendor
+ExecStart=/usr/bin/python3 /opt/afc03-scanner/fpga/boot_ready.py
+RemainAfterExit=yes
+TimeoutStartSec=30
+
+[Install]
+WantedBy=multi-user.target

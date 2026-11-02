@@ -1,0 +1,98 @@
+FPGA gain-handshake repair candidate — 2026-10-13
+
+Scope
+Fix recommendation 2 from analysis/black-cloud-audit-20261013: serialize the
+camera gain write with periodic camera-start register refresh. This candidate
+does not add recommendation 1 (per-angle COLOR brightness rejection/retry).
+No motor operation, RK deployment, JTAG download or Flash programming is part
+of the offline scripts in this directory.
+
+Baseline
+fpga-rgb-adaptive-20261010/qualified-20261010-023412/
+afc03-spatial-rgb-adaptive-v1.bit
+SHA256 a8802376d4e0919e336af94aaf2abc905dede19c837a99b68f7c66510a105ad4
+The original qualified release and its sources are retained unchanged.
+
+Defect and correction
+An AE request coincident with the first periodic startup-register write could
+previously receive an acceptance/completion handshake without a 0x3090 gain
+write. PCIe register readback therefore did not prove that the sensor gain had
+changed. The candidate waits for startup completion and settled AE register
+selection, latches the requested gain, and completes after the actual gain
+transaction. Periodic startup refresh cannot preempt that transaction.
+I2C NACK is retained in the existing error output until the next explicit gain
+request. Completion means the bus transaction ended, not unconditional ACK.
+
+Source changes
+The sole changed compiled source is:
+sources/fpga-capture-pipeline-20261004/board/fpga/uisrc/03_ip/ui_imx415_cfg/ui_cfg_imx415.v
+The board-tree editing copy is mirrored. Unchanged compiled sources and DDR
+initialization ROMs are recorded by build-inputs.json and source-delta.json.
+No extraction threshold, spatial mask, color calibration or DMA ABI change.
+
+Offline evidence
+gain-validation.json: seven configuration-FSM tests (I2C transaction model).
+gain-i2c-validation.json: five tests in each of 1080p and 4K modes using the
+production I2C master/reset/ROM,
+with an independent SCL/SDA-decoding ACK/NACK slave. Includes the original
+collision, in-flight data latching, NACK retention and explicit recovery.
+Both reports bind results to source and testbench SHA256 hashes.
+These tests model protocol behavior, not sensor optical settling or wiring.
+
+Build and qualification
+build.py performs fresh synthesis and routing in this directory only.
+finish_offline.py waits for that build, generates strict timing and CDC reports,
+inspects actual physical reset mappings, and invokes bitgen only on success.
+Timing failure stops qualification; no negative-slack image is released.
+qualified.json is created only after offline qualification and bit generation.
+Its hardware_validated and flash_written flags start false.
+Old subsystem validation is explicitly identified as baseline evidence, not
+reported as freshly rerun hardware tests.
+
+Required board acceptance (pending RK connection)
+1. Confirm current scan/mesh work is idle. Save camera settings and light state.
+2. Quiesce capture and PCIe using the established maintenance sequence, then
+   temporarily load the candidate through JTAG and restore the connection.
+3. Confirm PC/HDMI capture and DMA frames recover. Do not rotate the turntable.
+4. Under unchanged illumination/exposure, alternate scan COLOR and laser gain
+   settings repeatedly; inspect completion/pending/error status plus actual
+   raw-frame brightness and frame identifiers. Register echo alone is inadequate.
+5. Verify static A/B extraction against the qualified baseline. Log image and
+   timing results. Investigate any failed command or brightness outlier.
+6. Only after hardware acceptance, program Flash, power-cycle, and repeat a
+   short gain/capture check. Retain baseline bitstream for rollback.
+
+Limits
+This closes the reproduced handshake defect; it cannot exclude dark images
+caused by disconnected/intermittent lighting, changed scene/exposure, sensor
+settling, or unrelated faults. Do not claim all historical black strips have
+been conclusively attributed to this defect or eliminated before board tests.
+
+Offline final result
+17 functional scenarios passed (7 transaction-level + 5 pin-level in each of two modes).
+Strict setup WNS +0.106 ns; hold WNS +0.020 ns. CDC and reset mapping checks passed.
+Bitstream: F:\AAA_FPGA\afc03-esp32-motor\fpga-gain-handshake-20261013\qualified-20261013-141151\afc03-gain-handshake-v1.bit
+SHA256: e543b9f7650c8c7db2b6237320b555be1ced71b5cea9e44f834432192039e55e
+Board validation and Flash programming remain pending.
+
+Board deployment update — 2026-10-13T17:07:08.818163+08:00
+Temporary JTAG load passed 100 alternating gain transactions with fresh RGB
+brightness verification. Flash programmed and verified; capture restored.
+After Flash programming, PCIe did not enumerate until the same candidate
+was reloaded into SRAM through JTAG. This is NOT Flash-boot validation.
+20 further gain/image checks passed, DDR health and all three services normal.
+Original camera gain restored. No motor or lighting commands were issued.
+ESP32 serial was unavailable: static laser A/B extraction was not rerun.
+No claim of a fresh complete scan or cold-boot acceptance; power-cycle pending.
+See deployment-status.json and board-inspection/ for evidence.
+
+Cold-boot acceptance — 2026-10-13T17:15:55.729180+08:00
+User power cycle confirmed. RK uptime 169 seconds at first inspection.
+PCIe, DDR initialization, camera and scanner services recovered automatically.
+No JTAG reload or service restart performed during this acceptance.
+Initial dark test had 100 gain acknowledgments but no brightness separation;
+LEDSTATE was white=0. With LED IO4 set to 8, all 100 gain/image checks passed.
+Gain 0 median=37; gain 50 median=94, both stable. Camera error counters zero.
+Gain restored to 70, LED restored to 0, lasers off, motor unchanged at 0 pulses.
+Full scanning regression and local HDMI visual check not performed.
+See coldboot-acceptance.json for complete evidence.

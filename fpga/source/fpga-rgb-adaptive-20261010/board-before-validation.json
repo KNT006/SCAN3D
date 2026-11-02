@@ -1,0 +1,38 @@
+{
+  "status": {
+    "version": "0.3.1",
+    "mode": "live_and_offline",
+    "host": "RK3576",
+    "camera": {
+      "frames": 1853,
+      "age": 0.049432537001848686,
+      "raw_frames": 3276,
+      "raw_age": 0.02987185899837641,
+      "stream_id": "fce18e2dbf8e441bb2862781f83dcbd2",
+      "raw_bad_sizes": 0,
+      "raw_timeouts": 0,
+      "raw_pts_nonmonotonic": 0,
+      "raw_metadata_version": 1,
+      "marker_capture_stage": "source",
+      "online": true
+    },
+    "active_calibrations": [],
+    "memory_available_mib": 2400,
+    "motion_control_enabled": true,
+    "active_scans": [],
+    "serial_present": true,
+    "active_jobs": []
+  },
+  "registers": {
+    "96": 1,
+    "144": 0,
+    "152": 0
+  },
+  "parameters": {
+    "poll_mode": "1",
+    "enable_st_c2h_credit": "1",
+    "desc_blen_max": "1048576",
+    "poll_sleep_us": "100",
+    "frame_desc_contiguous": "Y"
+  }
+}

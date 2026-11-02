@@ -1,0 +1,18 @@
+#!/bin/sh
+set -eu
+mode=/sys/kernel/debug/usb/23000000.usb/mode
+count=0
+while [ ! -e "$mode" ] && [ "$count" -lt 20 ]; do
+    sleep 1
+    count=$((count+1))
+done
+[ -e "$mode" ] || { echo "USB0 role control unavailable" >&2; exit 1; }
+if [ "$(cat "$mode")" != host ]; then printf host > "$mode"; fi
+count=0
+while [ "$count" -lt 10 ]; do
+    [ "$(cat "$mode")" = host ] && exit 0
+    sleep 1
+    count=$((count+1))
+done
+echo "USB0 did not enter host mode" >&2
+exit 1

@@ -1,0 +1,4 @@
+set_ipinst_assignment {u_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_ppc/u_ddrppc} {LOCATION = X65Y40Z0}
+set_ipinst_assignment {u_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_bank/bkIdx[1]$bk_used$u_ddrbank_top/u_ddrbank} {LOCATION = X81Y40Z0}
+set_ipinst_assignment {u_ddrmc_top/u_ddr_phy/u_ddrphy_clk_gen/u_ddrphy_pll0/pll_inst} { LOCATION = X81Y79Z0}
+set_ipinst_assignment {u_ddrmc_top/u_ddr_phy/u_ddrphy_clk_gen/u_ddrphy_pll1/pll_inst} { LOCATION = X81Y40Z0}

@@ -1,0 +1,748 @@
+{
+  "status": "complete",
+  "motor_operations": false,
+  "points_are_static_profile": true,
+  "absolute_accuracy_validated": false,
+  "transport": "dma_result_queue_atomic_capture_v2",
+  "timings": {
+    "background_capture_and_save_s": 0.2757913440000266
+  },
+  "lasers": {
+    "A": {
+      "passed": true,
+      "batches": [
+        {
+          "epoch": 1436146393,
+          "records": 60,
+          "rows": 60,
+          "centers": 0,
+          "crc32": 1192220024,
+          "cycles": 1496896,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 200,
+          "roi": [
+            1000,
+            0,
+            1060,
+            1080
+          ],
+          "receive_seconds": 0.0019124779992125696,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 60,
+          "rows": 60,
+          "centers": 0,
+          "crc32": 3402235246,
+          "cycles": 1487267,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 201,
+          "roi": [
+            1060,
+            0,
+            1120,
+            1080
+          ],
+          "receive_seconds": 0.0014544740006385837,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 76,
+          "rows": 60,
+          "centers": 8,
+          "crc32": 1557057721,
+          "cycles": 1503085,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 202,
+          "roi": [
+            1120,
+            0,
+            1180,
+            1080
+          ],
+          "receive_seconds": 0.001731346999804373,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 2589899309,
+          "cycles": 1597781,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 203,
+          "roi": [
+            1180,
+            0,
+            1240,
+            1080
+          ],
+          "receive_seconds": 0.0017134570007328875,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 2464961269,
+          "cycles": 1659925,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 204,
+          "roi": [
+            1240,
+            0,
+            1300,
+            1080
+          ],
+          "receive_seconds": 0.0016177180004888214,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 171400358,
+          "cycles": 1872940,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 205,
+          "roi": [
+            1300,
+            0,
+            1360,
+            1080
+          ],
+          "receive_seconds": 0.0015328709996538237,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 3839679050,
+          "cycles": 1806691,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 206,
+          "roi": [
+            1360,
+            0,
+            1420,
+            1080
+          ],
+          "receive_seconds": 0.0016947929998423206,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 1385305899,
+          "cycles": 1883695,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 207,
+          "roi": [
+            1420,
+            0,
+            1480,
+            1080
+          ],
+          "receive_seconds": 0.0016800119992694817,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 333346247,
+          "cycles": 1905230,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 208,
+          "roi": [
+            1480,
+            0,
+            1540,
+            1080
+          ],
+          "receive_seconds": 0.0016810340002848534,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 266490052,
+          "cycles": 1893837,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 209,
+          "roi": [
+            1540,
+            0,
+            1600,
+            1080
+          ],
+          "receive_seconds": 0.0016897800014703535,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 3980788811,
+          "cycles": 2057033,
+          "on_frame": 1167,
+          "bg_frame": 1157,
+          "token": 210,
+          "roi": [
+            1600,
+            0,
+            1660,
+            1080
+          ],
+          "receive_seconds": 0.001708753999992041,
+          "overlap_callback_seconds": 0.38013607900029456
+        }
+      ],
+      "rows": 660,
+      "centers": 488,
+      "payload_crc32": 3660341822,
+      "seconds": 1.2013864499986084,
+      "transport": "dma_result_queue_atomic_capture_v2",
+      "hardware_seconds": 0.1916438,
+      "retained_points": 410,
+      "turntable_filter": {
+        "enabled": true,
+        "method": "axis_height",
+        "min_axis_y_mm": -74.8,
+        "input_points": 488,
+        "removed_points": 75,
+        "kept_points": 413,
+        "profile": "cat-ground-v2-20261014"
+      },
+      "strategy": {
+        "version": "rk-ground-first-near20-single-peak-v2",
+        "candidates": 488,
+        "finite_candidates": 488,
+        "after_ground": 413,
+        "after_geometry": 413,
+        "main_branch": {
+          "chosen": 385,
+          "continuity1": 384,
+          "weak_width": 384,
+          "continuity2": 384,
+          "spatial_support": 384,
+          "retained": 384
+        },
+        "adaptive_branch": {
+          "chosen": 410,
+          "continuity1": 410,
+          "weak_width": 410,
+          "continuity2": 410,
+          "spatial_support": 410,
+          "retained": 410
+        },
+        "retained_points": 410,
+        "adaptive_added": 26,
+        "secondary_removed": 0,
+        "near_peak_removed": 0,
+        "single_peak_removed": 0,
+        "max_final_peaks_per_row": 1,
+        "long_track_suspects": 0,
+        "long_track_deleted": 0,
+        "long_track_mode": "advisory_only",
+        "long_track_seconds": 0.002867228000468458,
+        "multipeak_enabled": false,
+        "ground_branch": {
+          "enabled": false,
+          "added_points": 0
+        },
+        "spatial_filter": {
+          "version": 1,
+          "enabled": true,
+          "radius_mm": 70.0,
+          "margin_mm": 0.0,
+          "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+          "effective_radius_mm": 70.0,
+          "input_points": 488,
+          "removed_points": 0,
+          "kept_points": 488,
+          "method": "axis_radial_cylinder"
+        },
+        "turntable_filter": {
+          "enabled": true,
+          "method": "axis_height",
+          "min_axis_y_mm": -74.8,
+          "input_points": 488,
+          "removed_points": 75,
+          "kept_points": 413,
+          "profile": "cat-ground-v2-20261014"
+        },
+        "pipeline": [
+          "validated_fpga_candidates",
+          "ground_height",
+          "geometry_and_radius",
+          "local_rgb_threshold_and_width",
+          "continuity",
+          "secondary_guard",
+          "near20_ratio60",
+          "single_peak_per_row",
+          "long_track_advisory"
+        ],
+        "seconds": 0.13750603500011493,
+        "inferred_points": 0,
+        "execution": "FPGA candidates; RK ground-first near20 filtering; long-track advisory only",
+        "stripe_settings": {
+          "radius_mm": 70.0,
+          "signal_min": 40,
+          "adaptive_min": 25,
+          "dark_v": 100,
+          "bright_v": 160,
+          "prominence": 18,
+          "distance": 8,
+          "width_max": 100,
+          "weak_width_max": 65,
+          "weak_signal": 80,
+          "core_fraction": 0.7,
+          "core_radius": 10,
+          "neighbor_rows": 4,
+          "min_support": 3,
+          "weak_support": 4,
+          "adaptive_width": 25,
+          "dx_intercept": 2,
+          "dx_per_row": 3,
+          "noise_gate": false
+        },
+        "source_frame_id": 1167,
+        "raw_images_preserved": true,
+        "raw_images_read_for_extraction": false,
+        "color_patch_size": 7,
+        "noise_gate": false
+      },
+      "legacy_fpga_multiple_peak_rows": 0,
+      "comparison": {
+        "passed": true,
+        "rows": 660,
+        "centers": 488,
+        "exact_rational_and_metadata": true,
+        "mismatch_rows": 0
+      },
+      "capture_and_raw_save_s": 0.25821243099926505,
+      "extract_and_receive_s": 1.9942804709990014,
+      "rk_geometry_s": 0.19506813299994974,
+      "software_reference_s": 1.2250953010006924
+    },
+    "B": {
+      "passed": true,
+      "batches": [
+        {
+          "epoch": 1436146393,
+          "records": 60,
+          "rows": 60,
+          "centers": 0,
+          "crc32": 1289666942,
+          "cycles": 2564245,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 300,
+          "roi": [
+            1000,
+            0,
+            1060,
+            1080
+          ],
+          "receive_seconds": 0.0016244810012722155,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 60,
+          "rows": 60,
+          "centers": 0,
+          "crc32": 3207550190,
+          "cycles": 2413585,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 301,
+          "roi": [
+            1060,
+            0,
+            1120,
+            1080
+          ],
+          "receive_seconds": 0.0017114839993155329,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 82,
+          "rows": 60,
+          "centers": 11,
+          "crc32": 1549723824,
+          "cycles": 2123007,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 302,
+          "roi": [
+            1120,
+            0,
+            1180,
+            1080
+          ],
+          "receive_seconds": 0.0017074500010494376,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 3852996294,
+          "cycles": 1814659,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 303,
+          "roi": [
+            1180,
+            0,
+            1240,
+            1080
+          ],
+          "receive_seconds": 0.0016402000001107808,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 3035360893,
+          "cycles": 1797801,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 304,
+          "roi": [
+            1240,
+            0,
+            1300,
+            1080
+          ],
+          "receive_seconds": 0.0016918159999477211,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 2936684927,
+          "cycles": 2066806,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 305,
+          "roi": [
+            1300,
+            0,
+            1360,
+            1080
+          ],
+          "receive_seconds": 0.001632759998756228,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 210,
+          "rows": 60,
+          "centers": 75,
+          "crc32": 4165504688,
+          "cycles": 2085792,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 306,
+          "roi": [
+            1360,
+            0,
+            1420,
+            1080
+          ],
+          "receive_seconds": 0.0016771949995018076,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 190,
+          "rows": 60,
+          "centers": 65,
+          "crc32": 2874336837,
+          "cycles": 2209487,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 307,
+          "roi": [
+            1420,
+            0,
+            1480,
+            1080
+          ],
+          "receive_seconds": 0.0016457759993500076,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 324,
+          "rows": 60,
+          "centers": 132,
+          "crc32": 2469299242,
+          "cycles": 2246230,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 308,
+          "roi": [
+            1480,
+            0,
+            1540,
+            1080
+          ],
+          "receive_seconds": 0.0016569609997532098,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 306,
+          "rows": 60,
+          "centers": 123,
+          "crc32": 4141371122,
+          "cycles": 2377878,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 309,
+          "roi": [
+            1540,
+            0,
+            1600,
+            1080
+          ],
+          "receive_seconds": 0.0015906869994068984,
+          "overlap_callback_seconds": 0
+        },
+        {
+          "epoch": 1436146393,
+          "records": 180,
+          "rows": 60,
+          "centers": 60,
+          "crc32": 2091355544,
+          "cycles": 2617353,
+          "on_frame": 1218,
+          "bg_frame": 1157,
+          "token": 310,
+          "roi": [
+            1600,
+            0,
+            1660,
+            1080
+          ],
+          "receive_seconds": 0.0016294349989038892,
+          "overlap_callback_seconds": 0
+        }
+      ],
+      "rows": 660,
+      "centers": 646,
+      "payload_crc32": 3494835439,
+      "seconds": 0.9155449030004092,
+      "transport": "dma_result_queue_atomic_capture_v2",
+      "hardware_seconds": 0.24316843,
+      "retained_points": 412,
+      "turntable_filter": {
+        "enabled": true,
+        "method": "axis_height",
+        "min_axis_y_mm": -74.8,
+        "input_points": 646,
+        "removed_points": 75,
+        "kept_points": 571,
+        "profile": "cat-ground-v2-20261014"
+      },
+      "strategy": {
+        "version": "rk-ground-first-near20-single-peak-v2",
+        "candidates": 646,
+        "finite_candidates": 646,
+        "after_ground": 571,
+        "after_geometry": 571,
+        "main_branch": {
+          "chosen": 452,
+          "continuity1": 452,
+          "weak_width": 452,
+          "continuity2": 452,
+          "spatial_support": 452,
+          "retained": 452
+        },
+        "adaptive_branch": {
+          "chosen": 463,
+          "continuity1": 458,
+          "weak_width": 458,
+          "continuity2": 458,
+          "spatial_support": 458,
+          "retained": 454
+        },
+        "retained_points": 412,
+        "adaptive_added": 1,
+        "secondary_removed": 4,
+        "near_peak_removed": 18,
+        "single_peak_removed": 19,
+        "max_final_peaks_per_row": 1,
+        "long_track_suspects": 0,
+        "long_track_deleted": 0,
+        "long_track_mode": "advisory_only",
+        "long_track_seconds": 0.002766190000329516,
+        "multipeak_enabled": false,
+        "ground_branch": {
+          "enabled": false,
+          "added_points": 0
+        },
+        "spatial_filter": {
+          "version": 1,
+          "enabled": true,
+          "radius_mm": 70.0,
+          "margin_mm": 0.0,
+          "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+          "effective_radius_mm": 70.0,
+          "input_points": 646,
+          "removed_points": 0,
+          "kept_points": 646,
+          "method": "axis_radial_cylinder"
+        },
+        "turntable_filter": {
+          "enabled": true,
+          "method": "axis_height",
+          "min_axis_y_mm": -74.8,
+          "input_points": 646,
+          "removed_points": 75,
+          "kept_points": 571,
+          "profile": "cat-ground-v2-20261014"
+        },
+        "pipeline": [
+          "validated_fpga_candidates",
+          "ground_height",
+          "geometry_and_radius",
+          "local_rgb_threshold_and_width",
+          "continuity",
+          "secondary_guard",
+          "near20_ratio60",
+          "single_peak_per_row",
+          "long_track_advisory"
+        ],
+        "seconds": 0.15610192500025732,
+        "inferred_points": 0,
+        "execution": "FPGA candidates; RK ground-first near20 filtering; long-track advisory only",
+        "stripe_settings": {
+          "radius_mm": 70.0,
+          "signal_min": 40,
+          "adaptive_min": 25,
+          "dark_v": 100,
+          "bright_v": 160,
+          "prominence": 18,
+          "distance": 8,
+          "width_max": 100,
+          "weak_width_max": 65,
+          "weak_signal": 80,
+          "core_fraction": 0.7,
+          "core_radius": 10,
+          "neighbor_rows": 4,
+          "min_support": 3,
+          "weak_support": 4,
+          "adaptive_width": 25,
+          "dx_intercept": 2,
+          "dx_per_row": 3,
+          "noise_gate": false
+        },
+        "source_frame_id": 1218,
+        "raw_images_preserved": true,
+        "raw_images_read_for_extraction": false,
+        "color_patch_size": 7,
+        "noise_gate": false
+      },
+      "legacy_fpga_multiple_peak_rows": 92,
+      "comparison": {
+        "passed": true,
+        "rows": 660,
+        "centers": 646,
+        "exact_rational_and_metadata": true,
+        "mismatch_rows": 0
+      },
+      "capture_and_raw_save_s": 0.2599836610006605,
+      "extract_and_receive_s": 0.9432305930004077,
+      "rk_geometry_s": 0.19285840399970766,
+      "software_reference_s": 1.6731834149995848
+    }
+  },
+  "pid": 59474,
+  "boot_id": "061b3fa5-21b6-42fa-9e73-006e0744b966",
+  "timing_profile": {
+    "background_wait": 0.05,
+    "laser_wait": 0.05,
+    "color_wait": 0.1,
+    "motor_settle": 0.15,
+    "rate_pps": 120,
+    "name": "fast"
+  },
+  "full_pixel_check": true,
+  "camera_profile": {
+    "device": "/dev/video73",
+    "before": "gain: 70",
+    "applied": "gain: 0"
+  },
+  "capture_overlap": {
+    "enabled": true,
+    "policy": "A_last_batch_with_B_capture",
+    "note": "Extraction interval includes the next capture; do not sum overlapping timings"
+  },
+  "capture_order": [
+    "COLOR",
+    "OFF",
+    "A",
+    "B"
+  ],
+  "rgb_processing": {
+    "color_preload": true,
+    "a_policy_during_b_extraction": true,
+    "algorithm_changed": false
+  },
+  "acquisition_seconds": 5.538070221000453,
+  "preview_gain": {
+    "device": "/dev/video73",
+    "saved": 70,
+    "restored": 70,
+    "verified": true
+  },
+  "color": {
+    "led": 8,
+    "gain": 50,
+    "capture_and_save_s": 0.29371939200063935,
+    "samples": 822,
+    "median_max": 124.0,
+    "saturated_fraction": 0.0,
+    "stream_id": "1d5b650d209545c28f66de3a6cf5123c",
+    "frame_id": 1147,
+    "same_commanded_position": true
+  },
+  "passed": true,
+  "scan_ready": true,
+  "scan_ready_scope": "Static point-count gate only; repeatability and motor closure remain separate",
+  "elapsed_seconds": 8.707086435999372
+}

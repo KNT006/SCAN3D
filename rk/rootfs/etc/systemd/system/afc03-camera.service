@@ -1,0 +1,17 @@
+[Unit]
+Description=AFC03 full-frame camera for local and LAN scanner UI
+After=afc03-pcie.service
+Wants=afc03-pcie.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/deploy
+ExecStart=/usr/bin/python3 -u /root/deploy/camera_web_preview.py
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target

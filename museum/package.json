@@ -1,0 +1,19 @@
+{
+  "name": "scan3d-duck-pond",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 8830 --strictPort",
+    "build": "vite build",
+    "test": "node --test tests/local-chat.test.mjs && node --experimental-strip-types tests/state.test.mjs"
+  },
+  "dependencies": {
+    "vue": "3.5.43",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "vite": "8.3.1",
+    "typescript": "~5.9.3",
+    "@vitejs/plugin-vue": "6.0.9"
+  }
+}

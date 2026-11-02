@@ -1,0 +1,18 @@
+[Unit]
+Description=AFC03 serial hardware control
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=dialout
+RuntimeDirectory=afc03-controller
+RuntimeDirectoryMode=0750
+ExecStart=/usr/bin/python3 -u /root/deploy/controller-20261002/controllerd.py
+Environment=AFC03_MODULE_PROFILE=/etc/afc03-control/module.json
+Restart=no
+RestartSec=3
+TimeoutStopSec=15
+
+[Install]
+WantedBy=multi-user.target

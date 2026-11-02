@@ -1,0 +1,6 @@
+{
+  "before_sha256": "01e7ef27a000c4a464781131d9a910ce6fd79cda3e53dd39e4e2641d1455984d",
+  "candidate_sha256": "9b8be445fed779b00440a24daf4f85b7da7e85abc59bef8a89e99dd61046c6b1",
+  "only_change": "planes_sha256 binding for new ROM",
+  "deployed": true
+}

@@ -1,0 +1,15 @@
+# Core runtime versions captured from the RK on 2026-10-09.
+# PyGObject/GStreamer are supplied by the board OS, not pip here.
+fastapi==0.115.12
+uvicorn==0.34.2
+pydantic==2.11.4
+numpy==1.26.4
+scipy==1.14.1
+opencv-python-headless==4.11.0.86
+pyserial==3.5
+trimesh==4.4.9
+shapely==2.0.6
+mapbox-earcut==2.1.0
+scikit-image==0.24.0
+networkx==3.2.1
+Pillow==10.4.0

@@ -1,0 +1,16 @@
+[Unit]
+Description=AFC03 USB0 host role
+After=local-fs.target systemd-udev-trigger.service sys-kernel-debug.mount
+Wants=sys-kernel-debug.mount
+Before=afc03-scanner.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/afc03-usb0-host
+RemainAfterExit=yes
+TimeoutStartSec=30
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

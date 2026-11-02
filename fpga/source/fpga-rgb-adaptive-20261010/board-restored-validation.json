@@ -1,0 +1,12 @@
+{
+  "frames": 18,
+  "age": 0.05967575999966357,
+  "raw_frames": 30,
+  "raw_age": 0.03820522200112464,
+  "stream_id": "8c02465e52f143b68f868561ec0eacb8",
+  "raw_bad_sizes": 0,
+  "raw_timeouts": 0,
+  "raw_pts_nonmonotonic": 0,
+  "raw_metadata_version": 1,
+  "marker_capture_stage": "source"
+}

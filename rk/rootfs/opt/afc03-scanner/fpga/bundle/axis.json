@@ -1,0 +1,66 @@
+{
+  "kind": "axis",
+  "axis_point_closest_to_camera_origin_mm": [
+    -0.8123506402752244,
+    -1.7053336894320397,
+    204.25116138089382
+  ],
+  "camera_sha256": "32ef6bc57b8ef02cf0043ecb657ae2fbad72dc12bb0653d787c7e93c8884f8d1",
+  "training_rms_px": 1.0301592226536707,
+  "held_out_rms_max_px": 1.2571608328265522,
+  "per_view": [
+    {
+      "id": "pose00",
+      "held_out": false,
+      "angle": 0.0,
+      "rms_px": 0.6210929395423823
+    },
+    {
+      "id": "pose01",
+      "held_out": true,
+      "angle": 7.5375,
+      "rms_px": 0.6847039702120912
+    },
+    {
+      "id": "pose02",
+      "held_out": false,
+      "angle": 14.9625,
+      "rms_px": 0.7876822417337166
+    },
+    {
+      "id": "pose03",
+      "held_out": false,
+      "angle": 30.0375,
+      "rms_px": 1.0891648537099667
+    },
+    {
+      "id": "pose04",
+      "held_out": true,
+      "angle": 37.4625,
+      "rms_px": 1.2571608328265522
+    },
+    {
+      "id": "pose05",
+      "held_out": false,
+      "angle": 45.0,
+      "rms_px": 1.4326312379759683
+    },
+    {
+      "id": "pose06",
+      "held_out": true,
+      "angle": 0.0,
+      "rms_px": 0.6314691641876803
+    }
+  ],
+  "passed": true,
+  "axis_direction_for_positive_pulses_camera": [
+    0.0002626927019639912,
+    -0.9999651214756561,
+    -0.008347863482377722
+  ],
+  "commanded_zero_degrees": 0.0,
+  "angle_source": "commanded_pulses_no_encoder",
+  "activated": false,
+  "absolute_accuracy_validated": false,
+  "return_closure_p95_px": 0.07931029641022876
+}

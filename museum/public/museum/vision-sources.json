@@ -1,0 +1,214 @@
+{
+  "duck": {
+    "geometry_key": "222a21512f201dd591c6fe4d1bb4134385793c05e0bfc9c9ab657f24c46c1db1",
+    "images": [
+      {
+        "url": "/museum/duck/vision/view-00.jpg",
+        "sha256": "eabefcba6de94fb8fd5ee74a2a4460f4aa496f77233bf81ad57ff7d61226c1d2",
+        "source_sha256": "681505ed2c24b669a0a8ab37ef5c4899752a028295fdd421f9c4dd4ae245e06e",
+        "position": "position-000",
+        "crop_xyxy": [
+          222,
+          1152,
+          722,
+          1658
+        ]
+      },
+      {
+        "url": "/museum/duck/vision/view-12.jpg",
+        "sha256": "2dbe34f8aefdcf93d94aa379356255e4027b98a9ec1696105fee42d438c00683",
+        "source_sha256": "21f421f8e799096b625d97b1f3fd6d2ba912976be3fc21bbf84a7fae5a15d948",
+        "position": "position-204",
+        "crop_xyxy": [
+          184,
+          1142,
+          758,
+          1660
+        ]
+      },
+      {
+        "url": "/museum/duck/vision/view-24.jpg",
+        "sha256": "f4fe1b5b7f4acab3cc7f25569cb75a698d1f7f283b8aa7dc537b9b578e892046",
+        "source_sha256": "5de51d8db28473f8e5c1c0843b5bf042e037bb2c333e8ae27f8b48c0a1955edd",
+        "position": "position-408",
+        "crop_xyxy": [
+          240,
+          1130,
+          743,
+          1668
+        ]
+      },
+      {
+        "url": "/museum/duck/vision/view-36.jpg",
+        "sha256": "c2615984e2cf315cca192eccc7c23c0b6f94fc29e35bbe586f8fb976e67a30a4",
+        "source_sha256": "6040bcb4eb52a6a2f6ab146cc8750e2f04c0dfd4ca68a963dfdcd60b28fc11b1",
+        "position": "position-612",
+        "crop_xyxy": [
+          209,
+          1140,
+          775,
+          1651
+        ]
+      }
+    ]
+  },
+  "doll": {
+    "geometry_key": "a937d690093a7d2e05fccb646693fbc0ba4f09825ea3aa2f5d62a6ff90e3b703",
+    "images": [
+      {
+        "url": "/museum/doll/vision/view-00.jpg",
+        "sha256": "7ec8bd3678d5be9f44db5efb486ea311b122d700064f00f64fac133efc0091a8",
+        "source_sha256": "b62c610f6f6ca7036b46c3ee2258f0f7cfa2c128a2412a56b897fc27d24ef890",
+        "position": "position-000",
+        "crop_xyxy": [
+          245,
+          988,
+          746,
+          1665
+        ]
+      },
+      {
+        "url": "/museum/doll/vision/view-12.jpg",
+        "sha256": "539dc1727c2954444b9ff62e8a90bd9c77d2d15c586289ad6c344dcaf4b46897",
+        "source_sha256": "4237e2c6c7e789ac044254e1db35edf4b7822c2072527cf0ac291e205cd51e86",
+        "position": "position-816",
+        "crop_xyxy": [
+          163,
+          997,
+          696,
+          1654
+        ]
+      },
+      {
+        "url": "/museum/doll/vision/view-24.jpg",
+        "sha256": "39deaa6780fbe2c0ca3382ac7805d96a4ace7b768dff37bd8b2c6d58bdb045e4",
+        "source_sha256": "041ab55403af85a89eb54e27d00d4a4224c2fcf39cad7e1a237d5c02d1aa3835",
+        "position": "position-1633",
+        "crop_xyxy": [
+          218,
+          1003,
+          729,
+          1669
+        ]
+      },
+      {
+        "url": "/museum/doll/vision/view-36.jpg",
+        "sha256": "b08d9c13edda09ed1956f4f8d46235a4ba503694359d573254e969bc5776951d",
+        "source_sha256": "96ece30625d44138b0392ed897373548f238a709850263efab2466db0355134c",
+        "position": "position-2450",
+        "crop_xyxy": [
+          276,
+          989,
+          803,
+          1693
+        ]
+      }
+    ]
+  },
+  "cat": {
+    "geometry_key": "341b8ee182988a883159a122d104ab10792f578cf6459e50b55728418f0c52a0",
+    "images": [
+      {
+        "url": "/museum/cat/vision/view-00.jpg",
+        "sha256": "ae503006a74958754fa45285afd2b465e58d67aa6c5803daec22e6784d430b48",
+        "source_sha256": "a3e5f9740f42d794473fd276ef6a9d23a8b4cfc6d9359a0c58e3fee9bc4f2070",
+        "position": "position-000",
+        "crop_xyxy": [
+          257,
+          1343,
+          665,
+          1624
+        ]
+      },
+      {
+        "url": "/museum/cat/vision/view-12.jpg",
+        "sha256": "b683ed10b6d0e7a0cddb855f1e94af77922cd61274fe4ae2b396a3dab93fba0c",
+        "source_sha256": "3bea320b63e45fb8f094192fb75d2806902d74e2b96030e81cf92e8121a9539d",
+        "position": "position-044",
+        "crop_xyxy": [
+          366,
+          1325,
+          627,
+          1664
+        ]
+      },
+      {
+        "url": "/museum/cat/vision/view-24.jpg",
+        "sha256": "cc9b8ce76f4e9345bb6e524c616f876639fc2d7c054b555a093da2d125e10b2d",
+        "source_sha256": "8e791e3aed2e47eddddcf49c4c935babe2d1ee576d3ffa599c7df7e97ca4ec10",
+        "position": "position-089",
+        "crop_xyxy": [
+          290,
+          1347,
+          706,
+          1610
+        ]
+      },
+      {
+        "url": "/museum/cat/vision/view-36.jpg",
+        "sha256": "f16ca38031d851e7d905578ce0ef47d6b809ff8b1564b2ad9fac95342381dd20",
+        "source_sha256": "103a15863ed507917bcf229e3f7b7289f1058830aa00420fde9b863395028804",
+        "position": "position-134",
+        "crop_xyxy": [
+          350,
+          1354,
+          603,
+          1641
+        ]
+      }
+    ]
+  },
+  "duck-last": {
+    "geometry_key": "038e8100083862400bfcd498ad3d8f2cd8b6b2adcc83ead64a446e60b25492b8",
+    "images": [
+      {
+        "url": "/museum/duck-last/vision/view-00.jpg",
+        "sha256": "e8456b8507accacde69c68b081fc57ff54b875a989ef8cc022b6d3ad5289ed96",
+        "source_sha256": "52789e7edea0733775ef34528da8c694e70411ad1b3e0e32f7064e134c97aa8e",
+        "position": "position-000",
+        "crop_xyxy": [
+          259,
+          1153,
+          761,
+          1662
+        ]
+      },
+      {
+        "url": "/museum/duck-last/vision/view-12.jpg",
+        "sha256": "d057343ddb64d44a8727143e8bffa5c70bd40b6c1f4f5badfd478cc15f538c0c",
+        "source_sha256": "219b7d1729ed79eff817a424aeb7cc5eb3a8c078fdb1657df23cbca199f67c29",
+        "position": "position-816",
+        "crop_xyxy": [
+          198,
+          1136,
+          752,
+          1645
+        ]
+      },
+      {
+        "url": "/museum/duck-last/vision/view-24.jpg",
+        "sha256": "04e756bf9b775364b4728f0446738e41752e2f04b3206ced58f5631f636145dc",
+        "source_sha256": "67013bb3412585e66829cd0dff82fb4d9617da30749a6578b98f2b96b6b6e23b",
+        "position": "position-1633",
+        "crop_xyxy": [
+          205,
+          1130,
+          702,
+          1666
+        ]
+      },
+      {
+        "url": "/museum/duck-last/vision/view-36.jpg",
+        "sha256": "1dd53b5016f5ab9a9239a4a29b45cd9172bd0a4d25ef71ea81b248f9de3d8818",
+        "source_sha256": "0224f754d358ad8d836cbc8a9e41b80b03352d17d10286cde69c97c55dda05c5",
+        "position": "position-2450",
+        "crop_xyxy": [
+          196,
+          1148,
+          771,
+          1670
+        ]
+      }
+    ]
+  }
+}

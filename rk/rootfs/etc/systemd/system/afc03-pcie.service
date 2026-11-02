@@ -1,0 +1,19 @@
+[Unit]
+Description=AFC03 PCIe camera initialization
+After=local-fs.target systemd-udev-trigger.service
+StartLimitIntervalSec=180
+StartLimitBurst=2
+ConditionPathExists=/root/deploy/pcie_setup.sh
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/afc03-pcie-init
+RemainAfterExit=yes
+TimeoutStartSec=90
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

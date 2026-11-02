@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "output": "ATOMIC_PASS: reject retains token; DDR/video exact64; midframe readiness/backpressure; reset\n",
+  "sha256": {
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\rtl\\afc03_capture_admission.sv": "958863a4a54f100f8f2b2610837ddf7bbd4ad53229c3135d23fcbb2a2bb8a532",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\rtl\\afc03_rgb_roi_probe.sv": "edb88f0e0b8bdfa474ace489e08304deb1ffbf36ffbd235006954ef35d63a666",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\rtl\\afc03_camera_roi_tap.sv": "ed0d1ff28322a6babbfa690c4e20eb5d34c66257d8524c8a1098688ef2ee9cbe",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\tb_atomic.sv": "ea7bf960a4be690b1a674f6777312cc1229d1cb576d618275fbeeedd356fdc92"
+  }
+}

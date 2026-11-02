@@ -1,0 +1,29 @@
+{
+  "status": "deployed_and_flash_verified",
+  "recorded_at": "2026-10-10 03:04:29",
+  "qualified": {
+    "bit": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\qualified-20261010-023412\\afc03-spatial-rgb-adaptive-v1.bit",
+    "sha256": "a8802376d4e0919e336af94aaf2abc905dede19c837a99b68f7c66510a105ad4",
+    "bytes": 4850315,
+    "hardware_validated": true,
+    "flash_written": true,
+    "strict_db_sha256": "6a9e04910f187aa96491b6ed0b43a1aeef228e693a90471aa26d83bf58497639",
+    "job_abi": "0x00060000",
+    "c2h_channels": 2,
+    "spatial_rom_sha256": "9c7444500f11bc383458c516ded37c205c004c6329e67752a20acb0747dc22c0",
+    "cold_boot_tested": false
+  },
+  "production_activated": true,
+  "motor_moved": false,
+  "cold_boot_tested": false,
+  "pc_replay_cases": 122,
+  "rk_replay_cases": 6,
+  "static_positions": 4,
+  "production_static_positions": 1,
+  "strategy": "fpga-spatial25-rk-localrgb100-160-protected-v1",
+  "setup_wns_ns": 0.1,
+  "hold_wns_ns": 0.02,
+  "rollback_host": "/opt/afc03-scanner/candidates/rgb-adaptive-20261010/production-backup-27450978271823",
+  "candidate_root": "/opt/afc03-scanner/candidates/rgb-adaptive-20261010",
+  "ui_offline_replay_migrated": false
+}

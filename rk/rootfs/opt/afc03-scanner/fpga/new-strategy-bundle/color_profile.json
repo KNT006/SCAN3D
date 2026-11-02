@@ -1,0 +1,546 @@
+{
+  "version": 1,
+  "id": "bambu-sixteen-20261009-v2",
+  "title": "16 色样片试用校正 · 橙黄保护",
+  "status": "provisional_catalog_and_tag_reference",
+  "processor": "RK CPU",
+  "domain": "encoded_RGB_8bit_affine",
+  "source": "old_LED8_preview_JPEG_3_frames_plus_new_LED8_full_RGB_PPM_5_frames",
+  "matrix_rgb": [
+    [
+      1.2677505759603902,
+      0.04647564965414913,
+      0.030534933243960463,
+      -0.12484978299223588
+    ],
+    [
+      -0.11693979129768306,
+      1.5760943416382238,
+      -0.12025273548598901,
+      -0.15044475740814714
+    ],
+    [
+      0.02735849759434683,
+      -0.3180543623097173,
+      1.5426333610008456,
+      -0.10667664299604317
+    ]
+  ],
+  "strength": 0.65,
+  "white_target": 220,
+  "gain": 50,
+  "led": 8,
+  "led_count": 35,
+  "patch_count": 16,
+  "fit_patch_count": 14,
+  "unverified_reference_ids": [
+    "12102",
+    "12101"
+  ],
+  "conditions": "白灯 8 / 增益 50 / 激光关闭；同样的环境光和样片摆放平面",
+  "limitation": "13 色厂商 HEX + 1 色社区原始 RFID 读出作为近似参考；旧灰黑待核实。非标准测色标定；两批样片位置/格式不同，白灰观测存在差异。仅预览，原图和扫描颜色不变。",
+  "sources": [
+    "https://bambu-lab-global.myshopify.com/products/petg-basic",
+    "https://bambu-lab-global.myshopify.com/products/abs-filament",
+    "https://bambu-lab-global.myshopify.com/products/pla-basic-filament",
+    "https://github.com/queengooborg/Bambu-Lab-RFID-Library/tree/main/PLA/PLA%20Tough/Orange"
+  ],
+  "patch_results": [
+    {
+      "id": "30100",
+      "capture": "old_led8_jpeg",
+      "rgb": [
+        177.0,
+        180.0,
+        183.0
+      ],
+      "hex": "#FFFFFF",
+      "v1_rgb": [
+        182.75,
+        182.36,
+        183.78
+      ],
+      "v2_rgb": [
+        206.51,
+        202.63,
+        202.69
+      ],
+      "hue_deg": {
+        "rgb": 210.0,
+        "v1_rgb": 256.4788732394362,
+        "v2_rgb": 359.0721649484536
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "30102",
+      "capture": "old_led8_jpeg",
+      "rgb": [
+        116.0,
+        128.0,
+        135.5
+      ],
+      "hex": "#9EA2A2",
+      "v1_rgb": [
+        107.66,
+        116.72,
+        123.52
+      ],
+      "v2_rgb": [
+        125.31,
+        133.52,
+        144.29
+      ],
+      "hue_deg": {
+        "rgb": 203.07692307692312,
+        "v1_rgb": 205.72509457755356,
+        "v2_rgb": 214.04636459430975
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "30601",
+      "capture": "old_led8_jpeg",
+      "rgb": [
+        82.0,
+        103.0,
+        113.0
+      ],
+      "hex": "#688197",
+      "v1_rgb": [
+        65.7,
+        85.88,
+        94.87
+      ],
+      "v2_rgb": [
+        80.36,
+        100.8,
+        116.6
+      ],
+      "hue_deg": {
+        "rgb": 199.3548387096774,
+        "v1_rgb": 198.49160095989032,
+        "v2_rgb": 206.15894039735102
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "12102",
+      "capture": "old_led8_jpeg",
+      "rgb": [
+        71.0,
+        83.0,
+        90.0
+      ],
+      "hex": null,
+      "v1_rgb": [
+        52.35,
+        58.55,
+        66.32
+      ],
+      "v2_rgb": [
+        64.78,
+        73.33,
+        87.18
+      ],
+      "hue_deg": {
+        "rgb": 202.10526315789474,
+        "v1_rgb": 213.3715103793844,
+        "v2_rgb": 217.09821428571428
+      },
+      "reference_kind": "unverified"
+    },
+    {
+      "id": "12101",
+      "capture": "old_led8_jpeg",
+      "rgb": [
+        56.0,
+        71.0,
+        78.0
+      ],
+      "hex": null,
+      "v1_rgb": [
+        33.84,
+        43.5,
+        51.16
+      ],
+      "v2_rgb": [
+        44.84,
+        57.61,
+        72.07
+      ],
+      "hue_deg": {
+        "rgb": 199.09090909090912,
+        "v1_rgb": 206.53579676674363,
+        "v2_rgb": 211.8619170033052
+      },
+      "reference_kind": "unverified"
+    },
+    {
+      "id": "30200",
+      "capture": "old_led8_jpeg",
+      "rgb": [
+        167.0,
+        87.0,
+        68.0
+      ],
+      "hex": "#D6001C",
+      "v1_rgb": [
+        172.14,
+        48.7,
+        42.25
+      ],
+      "v2_rgb": [
+        186.0,
+        71.05,
+        54.59
+      ],
+      "hue_deg": {
+        "rgb": 11.515151515151516,
+        "v1_rgb": 2.9794441450458065,
+        "v2_rgb": 7.515409786165432
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "40500",
+      "capture": "old_led8_jpeg",
+      "rgb": [
+        49.0,
+        112.0,
+        78.0
+      ],
+      "hex": "#00AE42",
+      "v1_rgb": [
+        23.08,
+        102.11,
+        53.36
+      ],
+      "v2_rgb": [
+        37.87,
+        123.05,
+        58.84
+      ],
+      "hue_deg": {
+        "rgb": 147.61904761904762,
+        "v1_rgb": 142.98873845375175,
+        "v2_rgb": 134.77107302183612
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "30602",
+      "capture": "old_led8_jpeg",
+      "rgb": [
+        65.0,
+        123.0,
+        159.0
+      ],
+      "hex": "#0069B1",
+      "v1_rgb": [
+        44.42,
+        118.39,
+        150.12
+      ],
+      "v2_rgb": [
+        61.14,
+        128.77,
+        180.73
+      ],
+      "hue_deg": {
+        "rgb": 202.9787234042553,
+        "v1_rgb": 198.01135288552504,
+        "v2_rgb": 206.06906932017728
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "40501",
+      "capture": "old_led8_jpeg",
+      "rgb": [
+        95.0,
+        169.0,
+        154.0
+      ],
+      "hex": "#7AE1BF",
+      "v1_rgb": [
+        79.74,
+        178.2,
+        147.35
+      ],
+      "v2_rgb": [
+        101.16,
+        198.37,
+        159.21
+      ],
+      "hue_deg": {
+        "rgb": 167.83783783783784,
+        "v1_rgb": 161.2004875076173,
+        "v2_rgb": 155.82964715564245
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "10202",
+      "capture": "new_led8_ppm",
+      "rgb": [
+        164.0,
+        95.0,
+        101.0
+      ],
+      "hex": "#EC008C",
+      "v1_rgb": [
+        168.72,
+        61.72,
+        81.7
+      ],
+      "v2_rgb": [
+        183.57,
+        80.04,
+        102.88
+      ],
+      "hue_deg": {
+        "rgb": 354.78260869565213,
+        "v1_rgb": 348.79626168224297,
+        "v2_rgb": 346.7632570269487
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "30400",
+      "capture": "new_led8_ppm",
+      "rgb": [
+        188.0,
+        172.0,
+        91.0
+      ],
+      "hex": "#FCE300",
+      "v1_rgb": [
+        194.91,
+        165.75,
+        74.66
+      ],
+      "v2_rgb": [
+        217.27,
+        199.8,
+        63.62
+      ],
+      "hue_deg": {
+        "rgb": 50.103092783505154,
+        "v1_rgb": 45.450311850311856,
+        "v2_rgb": 53.17800195248942
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "10201",
+      "capture": "new_led8_ppm",
+      "rgb": [
+        159.0,
+        153.0,
+        152.0
+      ],
+      "hex": "#F7E6DE",
+      "v1_rgb": [
+        160.78,
+        145.95,
+        145.24
+      ],
+      "v2_rgb": [
+        181.49,
+        165.91,
+        162.97
+      ],
+      "hue_deg": {
+        "rgb": 8.571428571428575,
+        "v1_rgb": 2.741312741312665,
+        "v2_rgb": 9.524838012958948
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "12300",
+      "capture": "new_led8_ppm",
+      "rgb": [
+        206.0,
+        105.0,
+        54.0
+      ],
+      "hex": "#FF7F41",
+      "v1_rgb": [
+        219.91,
+        67.49,
+        27.41
+      ],
+      "v2_rgb": [
+        235.85,
+        96.54,
+        28.34
+      ],
+      "hue_deg": {
+        "rgb": 20.13157894736842,
+        "v1_rgb": 12.492467532467531,
+        "v2_rgb": 19.719531588839086
+      },
+      "reference_kind": "community_RFID_readout"
+    },
+    {
+      "id": "40701",
+      "capture": "new_led8_ppm",
+      "rgb": [
+        85.0,
+        100.0,
+        130.0
+      ],
+      "hex": "#7248BD",
+      "v1_rgb": [
+        69.98,
+        81.9,
+        114.87
+      ],
+      "v2_rgb": [
+        84.54,
+        93.67,
+        143.86
+      ],
+      "hue_deg": {
+        "rgb": 220.00000000000003,
+        "v1_rgb": 224.0677210960125,
+        "v2_rgb": 230.76534052596088
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "40502",
+      "capture": "new_led8_ppm",
+      "rgb": [
+        75.0,
+        106.0,
+        87.0
+      ],
+      "hex": "#789D4A",
+      "v1_rgb": [
+        56.2,
+        90.1,
+        64.14
+      ],
+      "v2_rgb": [
+        70.83,
+        109.47,
+        75.34
+      ],
+      "hue_deg": {
+        "rgb": 143.22580645161293,
+        "v1_rgb": 134.05309734513276,
+        "v2_rgb": 127.00310559006212
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "10603",
+      "capture": "new_led8_ppm",
+      "rgb": [
+        58.0,
+        120.0,
+        157.0
+      ],
+      "hex": "#0086D6",
+      "v1_rgb": [
+        35.73,
+        115.16,
+        147.46
+      ],
+      "v2_rgb": [
+        52.06,
+        125.11,
+        178.41
+      ],
+      "hue_deg": {
+        "rgb": 202.42424242424244,
+        "v1_rgb": 197.3453861988723,
+        "v2_rgb": 205.31064503363672
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "30100",
+      "capture": "new_led8_ppm",
+      "rgb": [
+        173.0,
+        186.0,
+        192.0
+      ],
+      "hex": "#FFFFFF",
+      "v1_rgb": [
+        177.64,
+        191.76,
+        194.7
+      ],
+      "v2_rgb": [
+        201.99,
+        211.47,
+        214.56
+      ],
+      "hue_deg": {
+        "rgb": 198.94736842105266,
+        "v1_rgb": 190.33997655334113,
+        "v2_rgb": 194.74940334128883
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    },
+    {
+      "id": "30102",
+      "capture": "new_led8_ppm",
+      "rgb": [
+        102.5,
+        115.0,
+        122.0
+      ],
+      "hex": "#9EA2A2",
+      "v1_rgb": [
+        91.04,
+        99.97,
+        106.57
+      ],
+      "v2_rgb": [
+        107.18,
+        116.23,
+        127.23
+      ],
+      "hue_deg": {
+        "rgb": 201.5384615384615,
+        "v1_rgb": 205.49903412749518,
+        "v2_rgb": 212.91770573566086
+      },
+      "reference_kind": "manufacturer_catalog_HEX"
+    }
+  ],
+  "fit_reference_rgb_rmse_before": 37.87224219639554,
+  "fit_reference_rgb_rmse_after": 28.52489927689878,
+  "metric_note": "Same-sample catalogue-fit RGB residual, not independent accuracy or Delta E",
+  "full_frame_out_of_range_fraction": 0.007267554012345679,
+  "fit_observation_count": 16,
+  "hue_constraints": [
+    "12300",
+    "30400"
+  ],
+  "regularization": [
+    0.03,
+    0.03,
+    0.03,
+    0.12
+  ],
+  "white_constraint": "mean of two white observations; target 220 before 65% blend",
+  "model_selection_note": "Compared affine and root-polynomial fits. Unconstrained leave-one-color-out RGB RMSE ~35.78 vs 35.05; retained simpler affine, added orange/yellow hue guards. Final constrained fit still requires independent object validation.",
+  "orange_reference_provenance": {
+    "kind": "community_primary_RFID_readout",
+    "not_official_colorimetric_reference": true,
+    "variant": "A09-A0",
+    "code": "12300",
+    "hex": "#FF7F41",
+    "sources": [
+      "https://raw.githubusercontent.com/queengooborg/Bambu-Lab-RFID-Library/main/PLA/PLA%20Tough/Orange/F04AB42F/hf-mf-F04AB42F-dump.json",
+      "https://raw.githubusercontent.com/queengooborg/Bambu-Lab-RFID-Library/main/PLA/PLA%20Tough/Orange/3023542E/hf-mf-3023542E-dump.json"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "kind": "camera",
+  "camera_matrix": [
+    [
+      1585.7195233454752,
+      0.0,
+      488.942682378408
+    ],
+    [
+      0.0,
+      1590.2166565068408,
+      965.2541553873132
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "distortion_coefficients": [
+    0.17719813696505193,
+    -0.2774108752742209,
+    -0.0001905477892835949,
+    -0.0023629619624656755,
+    0.0
+  ],
+  "input_raw_size_wh": [
+    1920,
+    1080
+  ],
+  "calibration_image_size_wh": [
+    1080,
+    1920
+  ],
+  "preprocessing": {
+    "rotate_clockwise_degrees": 90,
+    "crop": false,
+    "resize": false
+  },
+  "pattern": [
+    8,
+    6
+  ],
+  "square_mm": 11,
+  "rms_px": 0.6054562045926016,
+  "per_view": [
+    {
+      "id": "800b1bfc38c8",
+      "held_out": false,
+      "rms_px": 0.48700301267031376
+    },
+    {
+      "id": "972dc60a2752",
+      "held_out": false,
+      "rms_px": 0.628507337111802
+    },
+    {
+      "id": "ab39350e22d5",
+      "held_out": false,
+      "rms_px": 0.49591018025435346
+    },
+    {
+      "id": "3c216da1a485",
+      "held_out": false,
+      "rms_px": 0.7700406886907778
+    },
+    {
+      "id": "c3cd301148a6",
+      "held_out": false,
+      "rms_px": 0.5313911217458397
+    },
+    {
+      "id": "812502c5c411",
+      "held_out": false,
+      "rms_px": 0.5207039765151332
+    },
+    {
+      "id": "ef881f5f4dfb",
+      "held_out": false,
+      "rms_px": 0.6414156344657304
+    },
+    {
+      "id": "2c1dbe9cfa0e",
+      "held_out": false,
+      "rms_px": 0.5214998459263188
+    },
+    {
+      "id": "4eec39c522f2",
+      "held_out": false,
+      "rms_px": 0.7689126764318169
+    },
+    {
+      "id": "374e76731df5",
+      "held_out": true,
+      "rms_px": 0.5175408446797725
+    },
+    {
+      "id": "12ac71eca4b7",
+      "held_out": true,
+      "rms_px": 1.030695797721216
+    }
+  ],
+  "tilt_span_degrees": 38.53086472285477,
+  "center_coverage_fraction": [
+    0.22569994543805535,
+    0.2150010903676351
+  ],
+  "held_out_rms_max_px": 1.030695797721216,
+  "passed": true,
+  "review_reasons": [],
+  "training_count": 9,
+  "held_out_count": 2,
+  "absolute_accuracy_validated": false,
+  "activated": false
+}

@@ -1,0 +1,38 @@
+{
+  "scanner": {
+    "version": "0.3.1",
+    "mode": "live_and_offline",
+    "host": "RK3576",
+    "camera": {
+      "frames": 6884,
+      "age": 0.014892713999870466,
+      "raw_frames": 12228,
+      "raw_age": 0.03153757499967469,
+      "stream_id": "1d5b650d209545c28f66de3a6cf5123c",
+      "raw_bad_sizes": 0,
+      "raw_timeouts": 0,
+      "raw_pts_nonmonotonic": 0,
+      "raw_metadata_version": 1,
+      "marker_capture_stage": "source",
+      "online": true
+    },
+    "active_calibrations": [],
+    "memory_available_mib": 2695,
+    "motion_control_enabled": true,
+    "active_scans": [],
+    "serial_present": true,
+    "active_jobs": []
+  },
+  "camera": {
+    "frames": 6884,
+    "age": 0.031618025999705424,
+    "raw_frames": 12229,
+    "raw_age": 0.008619931000794168,
+    "stream_id": "1d5b650d209545c28f66de3a6cf5123c",
+    "raw_bad_sizes": 0,
+    "raw_timeouts": 0,
+    "raw_pts_nonmonotonic": 0,
+    "raw_metadata_version": 1,
+    "marker_capture_stage": "source"
+  }
+}

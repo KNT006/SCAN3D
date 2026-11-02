@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "bit_sha256": "be4a1ab543de7402cc07e130a2964f185199db846928333dd13fcb3944d0df8f",
+  "flash_verified": true,
+  "cold_boot_tested": false,
+  "object_scan": {
+    "scan": "/userdata/afc03-scanner/jobs/scan3d-20261028-214500-nativeb",
+    "status": "complete",
+    "scan_passed": true,
+    "completed_positions": 61,
+    "closure": {
+      "tracked": 231,
+      "features": 250,
+      "p95_px": 1.1418111324310303,
+      "median_px": 0.19905731081962585,
+      "passed": true,
+      "limit_px": 3.0
+    },
+    "retained_points": {
+      "A": 24442,
+      "B": 24885
+    },
+    "combined_points": 49327,
+    "finite_points": true,
+    "position_count": 60,
+    "planes_sha256": "4219e460decd036b1d0afd9049601c4bb8e18f151a776e9e32b9afb9aa319d61",
+    "split_reconstruction_active": false,
+    "radial_comparison": {
+      "height_bin_mm": 2,
+      "angle_bin_degrees": 10,
+      "minimum_samples_per_laser": 3,
+      "common_cells": 827,
+      "B_minus_A_p5_median_p95_mm": [
+        -0.0329782960714865,
+        0.3498986152292112,
+        0.5811482684277293
+      ],
+      "median_absolute_difference_mm": 0.3551621181003384
+    },
+    "absolute_accuracy_validated": false,
+    "scope": "A/B agreement in same-height/azimuth bins; occlusion and shape influence this metric, not caliper accuracy"
+  },
+  "gourd_static_exact_comparison": {
+    "A": {
+      "passed": true,
+      "rows": 660,
+      "centers": 488,
+      "exact_rational_and_metadata": true,
+      "mismatch_rows": 0
+    },
+    "B": {
+      "passed": true,
+      "rows": 660,
+      "centers": 646,
+      "exact_rational_and_metadata": true,
+      "mismatch_rows": 0
+    }
+  },
+  "native_replay_matches_archive": true,
+  "services_restored": true,
+  "evidence_sha256": "d6fab1582879e7ccf3942c7842929ca7fa08d9c271e369e7c35168e9cc1f0b8c",
+  "absolute_accuracy_validated": false
+}

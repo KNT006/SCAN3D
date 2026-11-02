@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "seconds": 25.67839026451111,
+  "sha256": "a8802376d4e0919e336af94aaf2abc905dede19c837a99b68f7c66510a105ad4",
+  "mode": "sram",
+  "passed": true,
+  "flash_written": false,
+  "log_review_required": false,
+  "cold_boot_tested": false
+}

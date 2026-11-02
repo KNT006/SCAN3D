@@ -1,0 +1,1040 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "index": 0,
+      "laser": "A",
+      "candidates": 592,
+      "points": 465,
+      "added": 54,
+      "seconds": 0.12166100000104052
+    },
+    {
+      "index": 0,
+      "laser": "B",
+      "candidates": 629,
+      "points": 513,
+      "added": 20,
+      "seconds": 0.05025309999837191
+    },
+    {
+      "index": 1,
+      "laser": "A",
+      "candidates": 557,
+      "points": 459,
+      "added": 61,
+      "seconds": 0.1092752999975346
+    },
+    {
+      "index": 1,
+      "laser": "B",
+      "candidates": 630,
+      "points": 511,
+      "added": 16,
+      "seconds": 0.041463999998086365
+    },
+    {
+      "index": 2,
+      "laser": "A",
+      "candidates": 547,
+      "points": 465,
+      "added": 73,
+      "seconds": 0.045833399999537505
+    },
+    {
+      "index": 2,
+      "laser": "B",
+      "candidates": 645,
+      "points": 510,
+      "added": 14,
+      "seconds": 0.04194930000085151
+    },
+    {
+      "index": 3,
+      "laser": "A",
+      "candidates": 586,
+      "points": 429,
+      "added": 60,
+      "seconds": 0.03707520000170916
+    },
+    {
+      "index": 3,
+      "laser": "B",
+      "candidates": 654,
+      "points": 500,
+      "added": 17,
+      "seconds": 0.041574800001399126
+    },
+    {
+      "index": 4,
+      "laser": "A",
+      "candidates": 590,
+      "points": 417,
+      "added": 62,
+      "seconds": 0.03842050000093877
+    },
+    {
+      "index": 4,
+      "laser": "B",
+      "candidates": 658,
+      "points": 501,
+      "added": 19,
+      "seconds": 0.042403600000398
+    },
+    {
+      "index": 5,
+      "laser": "A",
+      "candidates": 601,
+      "points": 413,
+      "added": 46,
+      "seconds": 0.03221510000003036
+    },
+    {
+      "index": 5,
+      "laser": "B",
+      "candidates": 663,
+      "points": 505,
+      "added": 28,
+      "seconds": 0.08978410000054282
+    },
+    {
+      "index": 6,
+      "laser": "A",
+      "candidates": 564,
+      "points": 399,
+      "added": 82,
+      "seconds": 0.036494100000709295
+    },
+    {
+      "index": 6,
+      "laser": "B",
+      "candidates": 669,
+      "points": 506,
+      "added": 29,
+      "seconds": 0.04324829999677604
+    },
+    {
+      "index": 7,
+      "laser": "A",
+      "candidates": 572,
+      "points": 371,
+      "added": 82,
+      "seconds": 0.03831939999872702
+    },
+    {
+      "index": 7,
+      "laser": "B",
+      "candidates": 663,
+      "points": 479,
+      "added": 30,
+      "seconds": 0.03912530000161496
+    },
+    {
+      "index": 8,
+      "laser": "A",
+      "candidates": 539,
+      "points": 411,
+      "added": 83,
+      "seconds": 0.03522979999979725
+    },
+    {
+      "index": 8,
+      "laser": "B",
+      "candidates": 666,
+      "points": 500,
+      "added": 35,
+      "seconds": 0.04091849999895203
+    },
+    {
+      "index": 9,
+      "laser": "A",
+      "candidates": 546,
+      "points": 385,
+      "added": 30,
+      "seconds": 0.03242189999946277
+    },
+    {
+      "index": 9,
+      "laser": "B",
+      "candidates": 629,
+      "points": 491,
+      "added": 41,
+      "seconds": 0.05166129999997793
+    },
+    {
+      "index": 10,
+      "laser": "A",
+      "candidates": 560,
+      "points": 387,
+      "added": 41,
+      "seconds": 0.038947499997448176
+    },
+    {
+      "index": 10,
+      "laser": "B",
+      "candidates": 603,
+      "points": 488,
+      "added": 39,
+      "seconds": 0.05538000000160537
+    },
+    {
+      "index": 11,
+      "laser": "A",
+      "candidates": 559,
+      "points": 404,
+      "added": 48,
+      "seconds": 0.042743200003314996
+    },
+    {
+      "index": 11,
+      "laser": "B",
+      "candidates": 588,
+      "points": 491,
+      "added": 39,
+      "seconds": 0.03667750000022352
+    },
+    {
+      "index": 12,
+      "laser": "A",
+      "candidates": 560,
+      "points": 402,
+      "added": 37,
+      "seconds": 0.03249660000074073
+    },
+    {
+      "index": 12,
+      "laser": "B",
+      "candidates": 579,
+      "points": 493,
+      "added": 33,
+      "seconds": 0.03911739999966812
+    },
+    {
+      "index": 13,
+      "laser": "A",
+      "candidates": 587,
+      "points": 375,
+      "added": 29,
+      "seconds": 0.03498850000323728
+    },
+    {
+      "index": 13,
+      "laser": "B",
+      "candidates": 566,
+      "points": 466,
+      "added": 33,
+      "seconds": 0.0460958000003302
+    },
+    {
+      "index": 14,
+      "laser": "A",
+      "candidates": 594,
+      "points": 400,
+      "added": 35,
+      "seconds": 0.03359510000154842
+    },
+    {
+      "index": 14,
+      "laser": "B",
+      "candidates": 558,
+      "points": 429,
+      "added": 28,
+      "seconds": 0.04461720000108471
+    },
+    {
+      "index": 15,
+      "laser": "A",
+      "candidates": 587,
+      "points": 388,
+      "added": 21,
+      "seconds": 0.05111570000008214
+    },
+    {
+      "index": 15,
+      "laser": "B",
+      "candidates": 537,
+      "points": 420,
+      "added": 24,
+      "seconds": 0.03944899999987683
+    },
+    {
+      "index": 16,
+      "laser": "A",
+      "candidates": 547,
+      "points": 415,
+      "added": 21,
+      "seconds": 0.03548009999940405
+    },
+    {
+      "index": 16,
+      "laser": "B",
+      "candidates": 569,
+      "points": 426,
+      "added": 47,
+      "seconds": 0.044606700001168065
+    },
+    {
+      "index": 17,
+      "laser": "A",
+      "candidates": 545,
+      "points": 438,
+      "added": 26,
+      "seconds": 0.04025019999971846
+    },
+    {
+      "index": 17,
+      "laser": "B",
+      "candidates": 618,
+      "points": 463,
+      "added": 79,
+      "seconds": 0.0403794999983802
+    },
+    {
+      "index": 18,
+      "laser": "A",
+      "candidates": 541,
+      "points": 436,
+      "added": 15,
+      "seconds": 0.05371009999726084
+    },
+    {
+      "index": 18,
+      "laser": "B",
+      "candidates": 611,
+      "points": 425,
+      "added": 50,
+      "seconds": 0.03993840000111959
+    },
+    {
+      "index": 19,
+      "laser": "A",
+      "candidates": 536,
+      "points": 447,
+      "added": 13,
+      "seconds": 0.04511689999708324
+    },
+    {
+      "index": 19,
+      "laser": "B",
+      "candidates": 632,
+      "points": 473,
+      "added": 49,
+      "seconds": 0.10972000000037951
+    },
+    {
+      "index": 20,
+      "laser": "A",
+      "candidates": 536,
+      "points": 453,
+      "added": 15,
+      "seconds": 0.04164719999971567
+    },
+    {
+      "index": 20,
+      "laser": "B",
+      "candidates": 648,
+      "points": 442,
+      "added": 18,
+      "seconds": 0.04015660000004573
+    },
+    {
+      "index": 21,
+      "laser": "A",
+      "candidates": 537,
+      "points": 450,
+      "added": 18,
+      "seconds": 0.04592910000064876
+    },
+    {
+      "index": 21,
+      "laser": "B",
+      "candidates": 650,
+      "points": 450,
+      "added": 2,
+      "seconds": 0.049752999999327585
+    },
+    {
+      "index": 22,
+      "laser": "A",
+      "candidates": 536,
+      "points": 453,
+      "added": 18,
+      "seconds": 0.037727800001448486
+    },
+    {
+      "index": 22,
+      "laser": "B",
+      "candidates": 589,
+      "points": 451,
+      "added": 17,
+      "seconds": 0.04063519999908749
+    },
+    {
+      "index": 23,
+      "laser": "A",
+      "candidates": 540,
+      "points": 446,
+      "added": 6,
+      "seconds": 0.033288000002357876
+    },
+    {
+      "index": 23,
+      "laser": "B",
+      "candidates": 603,
+      "points": 442,
+      "added": 27,
+      "seconds": 0.03812939999988885
+    },
+    {
+      "index": 24,
+      "laser": "A",
+      "candidates": 678,
+      "points": 421,
+      "added": 1,
+      "seconds": 0.05402749999848311
+    },
+    {
+      "index": 24,
+      "laser": "B",
+      "candidates": 605,
+      "points": 438,
+      "added": 14,
+      "seconds": 0.03909580000254209
+    },
+    {
+      "index": 25,
+      "laser": "A",
+      "candidates": 528,
+      "points": 455,
+      "added": 1,
+      "seconds": 0.03588889999809908
+    },
+    {
+      "index": 25,
+      "laser": "B",
+      "candidates": 580,
+      "points": 433,
+      "added": 14,
+      "seconds": 0.04006360000130371
+    },
+    {
+      "index": 26,
+      "laser": "A",
+      "candidates": 529,
+      "points": 455,
+      "added": 1,
+      "seconds": 0.039925100001710234
+    },
+    {
+      "index": 26,
+      "laser": "B",
+      "candidates": 565,
+      "points": 431,
+      "added": 12,
+      "seconds": 0.042112099999940256
+    },
+    {
+      "index": 27,
+      "laser": "A",
+      "candidates": 515,
+      "points": 441,
+      "added": 0,
+      "seconds": 0.03309570000055828
+    },
+    {
+      "index": 27,
+      "laser": "B",
+      "candidates": 590,
+      "points": 484,
+      "added": 13,
+      "seconds": 0.040290200002345955
+    },
+    {
+      "index": 28,
+      "laser": "A",
+      "candidates": 508,
+      "points": 433,
+      "added": 0,
+      "seconds": 0.03638199999841163
+    },
+    {
+      "index": 28,
+      "laser": "B",
+      "candidates": 598,
+      "points": 492,
+      "added": 15,
+      "seconds": 0.10701010000047972
+    },
+    {
+      "index": 29,
+      "laser": "A",
+      "candidates": 507,
+      "points": 417,
+      "added": 1,
+      "seconds": 0.0372215999996115
+    },
+    {
+      "index": 29,
+      "laser": "B",
+      "candidates": 622,
+      "points": 505,
+      "added": 21,
+      "seconds": 0.03847740000128397
+    },
+    {
+      "index": 30,
+      "laser": "A",
+      "candidates": 408,
+      "points": 269,
+      "added": 7,
+      "seconds": 0.023484000001189997
+    },
+    {
+      "index": 30,
+      "laser": "B",
+      "candidates": 624,
+      "points": 517,
+      "added": 13,
+      "seconds": 0.04217440000138595
+    },
+    {
+      "index": 31,
+      "laser": "A",
+      "candidates": 481,
+      "points": 371,
+      "added": 89,
+      "seconds": 0.03506820000256994
+    },
+    {
+      "index": 31,
+      "laser": "B",
+      "candidates": 611,
+      "points": 518,
+      "added": 12,
+      "seconds": 0.04327199999897857
+    },
+    {
+      "index": 32,
+      "laser": "A",
+      "candidates": 539,
+      "points": 411,
+      "added": 111,
+      "seconds": 0.03299209999750019
+    },
+    {
+      "index": 32,
+      "laser": "B",
+      "candidates": 604,
+      "points": 521,
+      "added": 14,
+      "seconds": 0.03845029999865801
+    },
+    {
+      "index": 33,
+      "laser": "A",
+      "candidates": 536,
+      "points": 444,
+      "added": 143,
+      "seconds": 0.07859469999675639
+    },
+    {
+      "index": 33,
+      "laser": "B",
+      "candidates": 567,
+      "points": 460,
+      "added": 21,
+      "seconds": 0.03674669999963953
+    },
+    {
+      "index": 34,
+      "laser": "A",
+      "candidates": 509,
+      "points": 391,
+      "added": 166,
+      "seconds": 0.028930799999216106
+    },
+    {
+      "index": 34,
+      "laser": "B",
+      "candidates": 516,
+      "points": 436,
+      "added": 5,
+      "seconds": 0.032918599998083664
+    },
+    {
+      "index": 35,
+      "laser": "A",
+      "candidates": 475,
+      "points": 369,
+      "added": 156,
+      "seconds": 0.025565199997799937
+    },
+    {
+      "index": 35,
+      "laser": "B",
+      "candidates": 534,
+      "points": 411,
+      "added": 0,
+      "seconds": 0.0317367000025115
+    },
+    {
+      "index": 36,
+      "laser": "A",
+      "candidates": 484,
+      "points": 392,
+      "added": 143,
+      "seconds": 0.03428210000129184
+    },
+    {
+      "index": 36,
+      "laser": "B",
+      "candidates": 603,
+      "points": 511,
+      "added": 0,
+      "seconds": 0.04228689999945345
+    },
+    {
+      "index": 37,
+      "laser": "A",
+      "candidates": 490,
+      "points": 413,
+      "added": 119,
+      "seconds": 0.03071269999782089
+    },
+    {
+      "index": 37,
+      "laser": "B",
+      "candidates": 604,
+      "points": 517,
+      "added": 0,
+      "seconds": 0.04661689999920782
+    },
+    {
+      "index": 38,
+      "laser": "A",
+      "candidates": 493,
+      "points": 404,
+      "added": 91,
+      "seconds": 0.03505849999783095
+    },
+    {
+      "index": 38,
+      "laser": "B",
+      "candidates": 671,
+      "points": 499,
+      "added": 0,
+      "seconds": 0.05194420000043465
+    },
+    {
+      "index": 39,
+      "laser": "A",
+      "candidates": 515,
+      "points": 428,
+      "added": 92,
+      "seconds": 0.03283020000162651
+    },
+    {
+      "index": 39,
+      "laser": "B",
+      "candidates": 710,
+      "points": 461,
+      "added": 0,
+      "seconds": 0.04774130000078003
+    },
+    {
+      "index": 40,
+      "laser": "A",
+      "candidates": 543,
+      "points": 443,
+      "added": 80,
+      "seconds": 0.032891400001972215
+    },
+    {
+      "index": 40,
+      "laser": "B",
+      "candidates": 812,
+      "points": 449,
+      "added": 0,
+      "seconds": 0.048475100000359816
+    },
+    {
+      "index": 41,
+      "laser": "A",
+      "candidates": 552,
+      "points": 441,
+      "added": 68,
+      "seconds": 0.035790400001133094
+    },
+    {
+      "index": 41,
+      "laser": "B",
+      "candidates": 932,
+      "points": 254,
+      "added": 0,
+      "seconds": 0.06447849999676691
+    },
+    {
+      "index": 42,
+      "laser": "A",
+      "candidates": 569,
+      "points": 428,
+      "added": 54,
+      "seconds": 0.033803600003011525
+    },
+    {
+      "index": 42,
+      "laser": "B",
+      "candidates": 769,
+      "points": 474,
+      "added": 0,
+      "seconds": 0.08754589999807649
+    },
+    {
+      "index": 43,
+      "laser": "A",
+      "candidates": 556,
+      "points": 384,
+      "added": 59,
+      "seconds": 0.03541570000015781
+    },
+    {
+      "index": 43,
+      "laser": "B",
+      "candidates": 679,
+      "points": 467,
+      "added": 0,
+      "seconds": 0.03843179999967106
+    },
+    {
+      "index": 44,
+      "laser": "A",
+      "candidates": 525,
+      "points": 384,
+      "added": 60,
+      "seconds": 0.04201939999984461
+    },
+    {
+      "index": 44,
+      "laser": "B",
+      "candidates": 745,
+      "points": 443,
+      "added": 0,
+      "seconds": 0.0693174000007275
+    },
+    {
+      "index": 45,
+      "laser": "A",
+      "candidates": 583,
+      "points": 458,
+      "added": 61,
+      "seconds": 0.037851699999009725
+    },
+    {
+      "index": 45,
+      "laser": "B",
+      "candidates": 727,
+      "points": 413,
+      "added": 2,
+      "seconds": 0.04206170000179554
+    },
+    {
+      "index": 46,
+      "laser": "A",
+      "candidates": 605,
+      "points": 472,
+      "added": 62,
+      "seconds": 0.03604840000116383
+    },
+    {
+      "index": 46,
+      "laser": "B",
+      "candidates": 681,
+      "points": 438,
+      "added": 46,
+      "seconds": 0.05132650000086869
+    },
+    {
+      "index": 47,
+      "laser": "A",
+      "candidates": 616,
+      "points": 494,
+      "added": 68,
+      "seconds": 0.0459742000020924
+    },
+    {
+      "index": 47,
+      "laser": "B",
+      "candidates": 710,
+      "points": 448,
+      "added": 51,
+      "seconds": 0.05337199999848963
+    },
+    {
+      "index": 48,
+      "laser": "A",
+      "candidates": 611,
+      "points": 485,
+      "added": 63,
+      "seconds": 0.04568989999825135
+    },
+    {
+      "index": 48,
+      "laser": "B",
+      "candidates": 613,
+      "points": 508,
+      "added": 45,
+      "seconds": 0.04351619999943068
+    },
+    {
+      "index": 49,
+      "laser": "A",
+      "candidates": 609,
+      "points": 486,
+      "added": 62,
+      "seconds": 0.050139999999373686
+    },
+    {
+      "index": 49,
+      "laser": "B",
+      "candidates": 623,
+      "points": 500,
+      "added": 39,
+      "seconds": 0.040406399999483256
+    },
+    {
+      "index": 50,
+      "laser": "A",
+      "candidates": 614,
+      "points": 490,
+      "added": 52,
+      "seconds": 0.0412307000005967
+    },
+    {
+      "index": 50,
+      "laser": "B",
+      "candidates": 624,
+      "points": 515,
+      "added": 31,
+      "seconds": 0.04803929999980028
+    },
+    {
+      "index": 51,
+      "laser": "A",
+      "candidates": 611,
+      "points": 495,
+      "added": 44,
+      "seconds": 0.05354490000172518
+    },
+    {
+      "index": 51,
+      "laser": "B",
+      "candidates": 635,
+      "points": 498,
+      "added": 26,
+      "seconds": 0.046816599999147
+    },
+    {
+      "index": 52,
+      "laser": "A",
+      "candidates": 605,
+      "points": 489,
+      "added": 43,
+      "seconds": 0.052530999997543404
+    },
+    {
+      "index": 52,
+      "laser": "B",
+      "candidates": 610,
+      "points": 495,
+      "added": 23,
+      "seconds": 0.0387918999986141
+    },
+    {
+      "index": 53,
+      "laser": "A",
+      "candidates": 604,
+      "points": 494,
+      "added": 32,
+      "seconds": 0.047035400002641836
+    },
+    {
+      "index": 53,
+      "laser": "B",
+      "candidates": 603,
+      "points": 509,
+      "added": 23,
+      "seconds": 0.04490789999908884
+    },
+    {
+      "index": 54,
+      "laser": "A",
+      "candidates": 600,
+      "points": 494,
+      "added": 36,
+      "seconds": 0.04104159999769763
+    },
+    {
+      "index": 54,
+      "laser": "B",
+      "candidates": 652,
+      "points": 490,
+      "added": 14,
+      "seconds": 0.04153840000071796
+    },
+    {
+      "index": 55,
+      "laser": "A",
+      "candidates": 611,
+      "points": 490,
+      "added": 34,
+      "seconds": 0.09144100000048638
+    },
+    {
+      "index": 55,
+      "laser": "B",
+      "candidates": 695,
+      "points": 512,
+      "added": 14,
+      "seconds": 0.0441863000014564
+    },
+    {
+      "index": 56,
+      "laser": "A",
+      "candidates": 625,
+      "points": 467,
+      "added": 29,
+      "seconds": 0.048560200000792975
+    },
+    {
+      "index": 56,
+      "laser": "B",
+      "candidates": 656,
+      "points": 520,
+      "added": 12,
+      "seconds": 0.0460598999998183
+    },
+    {
+      "index": 57,
+      "laser": "A",
+      "candidates": 621,
+      "points": 469,
+      "added": 40,
+      "seconds": 0.04191550000177813
+    },
+    {
+      "index": 57,
+      "laser": "B",
+      "candidates": 658,
+      "points": 513,
+      "added": 18,
+      "seconds": 0.041488000002573244
+    },
+    {
+      "index": 58,
+      "laser": "A",
+      "candidates": 591,
+      "points": 473,
+      "added": 34,
+      "seconds": 0.03655309999885503
+    },
+    {
+      "index": 58,
+      "laser": "B",
+      "candidates": 654,
+      "points": 499,
+      "added": 20,
+      "seconds": 0.04234490000089863
+    },
+    {
+      "index": 59,
+      "laser": "A",
+      "candidates": 575,
+      "points": 471,
+      "added": 43,
+      "seconds": 0.0984303999975964
+    },
+    {
+      "index": 59,
+      "laser": "B",
+      "candidates": 638,
+      "points": 519,
+      "added": 22,
+      "seconds": 0.043943900000158465
+    },
+    {
+      "index": 60,
+      "laser": "A",
+      "candidates": 591,
+      "points": 459,
+      "added": 52,
+      "seconds": 0.03420420000111335
+    },
+    {
+      "index": 60,
+      "laser": "B",
+      "candidates": 636,
+      "points": 513,
+      "added": 19,
+      "seconds": 0.041822099999990314
+    }
+  ],
+  "points_excluding_closure": 54402,
+  "seconds": 16.819602899999154,
+  "sha256": {
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\afc03_roi_capture.py": "91e2d71d767acb67ad3dce753c53e918c723aa1c873675713c99edd322584fbe",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\benchmark_existing.py": "5a6a05d0bc7e66295a818eb443a12169c5cc4b824b7030df9ddfbf8a28d30e21",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\boot_ready.py": "a7ab5157d62b4d81e005176a4e26590dc8b209eb27974d959d64d3264ece233a",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\capture_health.py": "d0f5c89c358ad3f57d4cb7e3bc4eb6ab2a9bd94a429acfc801276c79de41321e",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\capture_retry.py": "ebd0900aa424b2b74e57f20f61e69a50faa1459a24b566187f1f2b825b37b1fd",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\coarse6_motion.py": "3b1639428dda1a975c4a775c10c77e567c670000715f01cb0740e2c5f84e1520",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\coarse_motion.py": "f95ff9cf5847674eba5e23bc363eff869c1d13f08c8f64eb8ad88e4543283853",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\coarse_scan.py": "609f45cbffc6e6604d43f18c63404d66a57a71a4804f3bc31d59f2176800464c",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\compare_new_stripes.py": "8154862c751e38b4e62c51e6f441946b14370fa3f884160ba5ad97f325ef4e75",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\compare_spatial_candidates.py": "2a3f37191750b86e0720a9b2d48c680d446e37e29591bf9305a4f02665182ba9",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\dual_identity.py": "8aa8b1e268b7c3b9b3fecd54bb02a22a29ca00f299c210714c3e59e03f0312ff",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\duck_scan.py": "bfc6a194cb324a20e792143c3cd92cadd63de2ae96853dae79486ed10be42401",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\duck_tail_once.py": "a0c9f74dd7b400b54753e8e4e9f315024b01006cb105b0803bf4177b07b556b8",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\fpga_stripe_strategy.py": "2a7f16c3a3f0503a9e55c162fd2dfdbf58b055e0e35ec9e84a88e60d236a0d39",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\full_roi.py": "49b1f17b4f4754d584864ec27849448519eaec166f679b26f68773e6b8fbd09a",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\full_scan.py": "d40893b698f503ae0bba7119d8dbd2f6b78318cfcef498759309d7552fe74e0b",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\ground_branch_policy.py": "4b17391aa6808b7d05bfed6b1f0cd0469b16b099928a1f28e635f95f6468e2b0",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\integer_peaks.py": "c011e13ec2afa82eb401497a8c2f3661faa066715a4811b34932b797467f8cdd",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\job_client.py": "3a06ffe494228fd8f26740ab1652ed901b78706f43b0c14620b8314f33bca1b5",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\manual_color_round.py": "6bc965995ba04c4c66295ae95e9b2d178ff279659fb77f59b80b73bdf6105c3e",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\manual_peaks.py": "838a3a8f4036bbcd06b4303650b72ae01926776d2a4ce88765236ed7d31616c0",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\manual_peaks_reference.py": "6c6f7cd9e72dc77258a5754879540bb61c3ac41d6f02070055378af868c62750",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\multipeak_policy.py": "e520c0ae699fccfe2d2937aa23367b9dd3d2e5c393a4bfdb8db66caab57b2ae0",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\offline_shared_extractor.py": "223dd2e492411ec4e73e3ec6fea84db81770575c1430b4ffa51c36bfc1a8e216",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\pilot.py": "c2547c1df5fa010c68ea161fa4bcec72f25a5f6106fe4c59d8a4587eca296d17",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\pointcloud_adapter.py": "6e9379499cdd0e8252eb8d6ac3fb996009e7e3444046397313f4f7111fdcdf6c",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\result_dma.py": "eb9213fc8b2a67e5d7e050ced57df227abad03e9d0dd93d3526bf3269f9db61e",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\review_scan.py": "5f3afe338f630030f1a92bc84e67e542a10a2c0e73162cffc4ae36f07452785f",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\rgb_adaptive_strategy.py": "b7896fb7d9e0ea1722a8994a57e7ff458013a0628209539bc0ba2ba19d3256c0",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\rk_ddr_diag.py": "3377f51a9339ec779c50a713ea23e85fb3bf8d004563902aa93c486f9e11c3b7",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\rk_laser_diag.py": "94f561685b7003e6dbed08c07d3d171b3038f4076442e22b580162d89c9c8039",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\rk_laser_ready.py": "a720b0a676c99deeeddd9a4328b50364279b0101cadc81b06c9dd7d07f6dc65b",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\rk_rgb_roi_diag.py": "8e612365c95b9c6ed3865f26a31a530e191c0c13ca7f221c074c43bc074dc272",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\rk_stripe_strategy.py": "6fb80fc2f031404f6945b8bff6d4884c981779868228b4cd09ce561c75bb6e8e",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\role_capture.py": "bf2ae42e1e09663b28bfa9fc361599ba381ddb0a825b92616aae20d5e9cac534",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\role_client.py": "192709ab2952678a848f9af4464f287327c6aa570535ee82a4ef46c6122f5f36",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\row_model.py": "88ec9b995025397edca856f6de71700d33ffc36525c0e188928da611cc9f0705",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\row_results.py": "cfbd7703c1a165d5747c20e1da9016cb2eeb7a46aa293459c93cbd5c222ca648",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\scan_pipeline.py": "159dc1145b7d7a87bdeff58c6470a5d92616dd0e82ccdf6e2c275f21b1443b9c",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\scan_storage.py": "6a426d148f3f52b0a5a6ad115472d419043a30aefcd6ecd32021f8ba9a8e0fff",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\scan_tuning.py": "3b48853377b2877d9e089776df1a3e4202c3c5f8d4218fc9034ee3f3a20cb501",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\spatial_filter.py": "0118efd3f2e9fc173d657a3dc9e441584e59091bc20503b8773fbcfd1cb3d1c5",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\spatial_reference.py": "aff667c3d6fce0c0a948145649dee3a5467a324b0e08c987953f4b5a4c920024",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\stationary.py": "1f1996fa7cc9803b52fcc5bda5de6d52017a209a0a60b751e17b2fc6537e781b",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\stationary_strategy.py": "53ae40fe91076115d094957e84cc7c047899383c03b059016e4dc69703e33f68",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\strategy_coarse6.py": "7ffe38d6dfa1f7e69c4dd416daff45c8ed7b520938bba777aafc577e158ec8ac",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\strategy_scan.py": "89d970c0f98f956400749aae1d986440aec8120112cd19a3310feaf1271e29f2",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\test_capture_retry.py": "293dafc4c22861f5b1838dd16f46bced0646636d63f7417a5a66e94791798e93",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\test_full_scan.py": "0643222ea299cd1a6c7185a908299acb367413c4f4ee03fdc4ecb21908a6599e",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\test_multipeak_policy.py": "d8b69d8170c6aa120a51fd25764a1dbc2d6b56247f2120f405acfe22cd46b335",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\test_pilot.py": "8a1d0161721e09d867d5a7016d988580094a9cfb175c036d0cfaf062cc473e4e",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\test_scan_storage.py": "623c41d18f498eecd52622513eb78feb5218c81edcf6908feac4dd79bd48ca3f",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\test_strategy_coarse6.py": "8b7701964a1ad8afc7348b80ec43787007e0e8ce48fe10d348f030f80a761076",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\test_strategy_scan.py": "6e92b66e183b9b19115f104301418bb12068a3b0e3415f8948ffbbafa85227b4",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\host\\turntable_filter.py": "63bae0accc2a358b6794ea21c3523de4bbba716c105f77016e151bf40844145c"
+  }
+}

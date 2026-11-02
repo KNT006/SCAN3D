@@ -1,0 +1,24 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FPGA 验证</title>
+<style>body{font:16px system-ui;background:#eef3f1;color:#193d3b;max-width:1000px;margin:32px auto;padding:0 20px}section{background:white;border:1px solid #d6e1dc;border-radius:12px;padding:22px;margin:20px 0}h1{font-size:26px}p{line-height:1.6}table{border-collapse:collapse;width:100%}td,th{text-align:left;padding:12px;border-bottom:1px solid #ddd}a{color:#146b65}canvas{width:100%;height:380px;background:#112b2c;border-radius:8px;touch-action:none}.muted{color:#667b75}button{padding:9px 16px;border:0;border-radius:6px;background:#146b65;color:white;cursor:pointer}</style>
+<a href="/">← 返回扫描界面</a><a href="/surface" style="margin-left:20px">点云局部补洞</a><h1>FPGA 提取验证</h1><p>双激光扫描状态与点云预览。扫描时请保持物体和支架不动。</p>
+<section><p id="status">正在读取板端状态…</p><button onclick="load()">刷新状态</button> <button id="stop" onclick="stopRun()" hidden>停止扫描</button> <a id="download" hidden>下载彩色点云</a><p id="run" class="muted"></p><table><thead><tr><th>激光</th><th>检查行数</th><th>末帧有效三维点</th><th>提取与回传</th><th>数值核对</th></tr></thead><tbody id="rows"></tbody></table></section>
+<section><h2>试验点云</h2><p class="muted">有颜色数据时显示实拍颜色；否则 A 为青色、B 为橙色。拖动旋转。显示已完成试验采集的点，不代表完整模型或已验证的尺寸精度。</p><canvas id="cloud"></canvas><p id="note"></p></section>
+<script>
+let xyz=[],yaw=.3,pitch=.2,drag=null,activeId=null,loadedId=null;const c=document.querySelector('#cloud'),ctx=c.getContext('2d');
+function draw(){c.width=c.clientWidth*devicePixelRatio;c.height=c.clientHeight*devicePixelRatio;ctx.clearRect(0,0,c.width,c.height);if(!xyz.length)return;const mean=[0,1,2].map(k=>xyz.reduce((s,p)=>s+p[k],0)/xyz.length);let ps=xyz.map(p=>{let [x,y,z]=p.map((v,k)=>v-mean[k]);let a=x*Math.cos(yaw)+z*Math.sin(yaw),b=-x*Math.sin(yaw)+z*Math.cos(yaw);return [a,y*Math.cos(pitch)-b*Math.sin(pitch),p[3],y*Math.sin(pitch)+b*Math.cos(pitch)]});ps.sort((a,b)=>b[3]-a[3]);let extent=1;for(const p of ps)extent=Math.max(extent,Math.abs(p[0]),Math.abs(p[1]));const scale=Math.min(c.width,c.height)*.42/extent;for(const p of ps){ctx.fillStyle=p[2]==='A'?'#4fe0cc':p[2]==='B'?'#ffb161':p[2];ctx.beginPath();ctx.arc(c.width/2+p[0]*scale,c.height/2-p[1]*scale,1.2*devicePixelRatio,0,7);ctx.fill()}}
+c.onpointerdown=e=>{drag=[e.clientX,e.clientY];c.setPointerCapture(e.pointerId)};c.onpointermove=e=>{if(!drag)return;yaw+=(e.clientX-drag[0])*.01;pitch+=(e.clientY-drag[1])*.01;drag=[e.clientX,e.clientY];draw()};c.onpointerup=()=>drag=null;c.onpointercancel=()=>drag=null;window.onresize=draw;
+async function stopRun(){if(activeId){let r=await fetch('/api/fpga/runs/'+encodeURIComponent(activeId)+'/stop',{method:'POST'});if(!r.ok)alert('停止请求失败，请联系操作人员');await load()}}
+async function load(){try{
+let r=await fetch('/api/fpga/status',{cache:'no-store'});if(!r.ok)throw Error('状态读取失败');let s=await r.json(),v=s.runs[0];
+document.querySelector('#status').textContent=s.ddr.passed?'DDR 已就绪':'DDR 尚未就绪';if(!v)return;activeId=v.id;
+let description=v.review_ready?'采集完成，验收未通过':v.status==='complete'?'采集完成':v.status==='running'?'采集中':v.status==='paused'?'已暂停':'采集未完成';
+document.querySelector('#run').textContent=v.id+' · '+description+(v.mode==='full'?' · '+v.completed_positions+'/801 个位置 · '+(v.commanded_degrees||0).toFixed(2)+'°':'');
+document.querySelector('#stop').hidden=!(v.mode==='full'&&v.status==='running');
+const download=document.querySelector('#download');download.hidden=!(v.mode==='full'&&(v.passed||v.review_ready));download.textContent=v.review_ready?'下载待验收点云':'下载彩色点云';download.href='/api/fpga/runs/'+encodeURIComponent(v.id)+(v.review_ready?'/review-model':'/model');
+const rows=document.querySelector('#rows');rows.replaceChildren();for(let label of ['A','B']){let a=v.lasers[label];if(!a)continue;let tr=document.createElement('tr');for(let value of [label,a.rows,a.retained_points,a.extract_and_receive_s.toFixed(3)+' 秒',a.comparison?.passed?'一致':'本帧未做软件复算']){let td=document.createElement('td');td.textContent=value;tr.append(td)}rows.append(tr)}
+if((v.passed||v.review_ready)&&loadedId!==v.id){r=await fetch('/api/fpga/runs/'+encodeURIComponent(v.id)+'/points');if(!r.ok)throw Error('点云读取失败');let d=await r.json();xyz=Object.entries(d.points).flatMap(([label,ps])=>ps.map((p,i)=>[...p,d.colors?.[label]?.[i]?'rgb('+d.colors[label][i].join(',')+')':label]));loadedId=v.id;draw()}
+if(!v.passed&&!v.review_ready&&loadedId!==v.id){xyz=[];draw()}
+document.querySelector('#note').textContent=(v.review_ready?'待验收：'+v.review_points.toLocaleString()+' 个点。首尾特征位移 P95 为 '+v.closure.p95_px.toFixed(2)+' 像素，超过 '+v.closure.limit_px+' 像素门槛；头顶、手部和底部仍有缺口。':v.error)||((v.mode==='full'&&v.status==='running')?'预计剩余约 '+Math.ceil((v.estimated_remaining_seconds||0)/60)+' 分钟；完成后检查首尾图像一致性。':'当前结果不代表已验证的尺寸精度。');
+}catch(e){document.querySelector('#status').textContent=e.message}}
+load();setInterval(load,5000);
+</script></html>

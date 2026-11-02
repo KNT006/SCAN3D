@@ -1,0 +1,20 @@
+[Unit]
+Description=SCAN3D image pipeline demonstration
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/scan3d-pipeline-demo/server.py --port 8840 --gpio-chip /dev/gpiochip1 --gpio-line 15
+Restart=on-failure
+Nice=10
+CPUQuota=150%
+MemoryMax=384M
+Environment=PYTHONPATH=/opt/afc03-scanner/vendor:/opt/afc03-scanner/fpga
+Environment=DEMO_CANDIDATES_DIR=/opt/scan3d-pipeline-demo
+Environment=OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,276 @@
+{
+  "method": {
+    "method": "printed_grid_edge_exclusion_v4",
+    "minimum_grid_edge_distance_mm": 0.5,
+    "square_mm": 11,
+    "base_method": "centroid_signal_gate_printed_board_mask_v3",
+    "minimum_points_per_frame": 30,
+    "minimum_board_y_span_mm": 20,
+    "note": "Calibration target only. Rule developed using prior diagnostic/validation images; fresh validation required."
+  },
+  "training_poses": [
+    "pose01-upright",
+    "pose02-backward",
+    "pose03-forward-tilt",
+    "pose05-near-upright"
+  ],
+  "diagnostic_poses": [
+    "pose04-back-tilt-validation"
+  ],
+  "fresh_independent_validation_complete": false,
+  "passed": false,
+  "activated": false,
+  "absolute_accuracy_validated": false,
+  "planes": {
+    "laser_A": {
+      "normal_camera": [
+        -0.8338410223400173,
+        -0.009824159712088814,
+        0.5519172359592568
+      ],
+      "offset_mm_n_dot_X_equals_offset": 113.32469576296737,
+      "camera_sha256": "32ef6bc57b8ef02cf0043ecb657ae2fbad72dc12bb0653d787c7e93c8884f8d1",
+      "training_p95_max_mm": 0.2468423427364336,
+      "diagnostic_p95_max_mm": 0.25979132130557686,
+      "second_spread_mm": 15.681079376419616,
+      "development_checks_passed": true,
+      "per_pose": [
+        {
+          "pose": "pose01-upright",
+          "used_in_fit": true,
+          "counts": [
+            {
+              "before": 180,
+              "after": 137,
+              "board_y_span_mm": 58.999307449226464
+            },
+            {
+              "before": 179,
+              "after": 133,
+              "board_y_span_mm": 56.97355869979648
+            }
+          ],
+          "source": "pose01-upright\\laser_A-bae5d908bfa1-points.npz",
+          "source_sha256": "1f47fbb8fa8a8208e1c4d2ce5db608ed55a7309f1af794fff1a181f6b9cb8f4b",
+          "filtered_points": "pose01-upright-laser_A-points.npz",
+          "filtered_sha256": "b23bce100b6d56e43408e9f82cad0d2cec472ab0dd173d8827eb7fd6a1ea8bfe",
+          "p95_mm": 0.17779736212520875,
+          "rms_mm": 0.11042040151198844
+        },
+        {
+          "pose": "pose02-backward",
+          "used_in_fit": true,
+          "counts": [
+            {
+              "before": 180,
+              "after": 147,
+              "board_y_span_mm": 57.070346669883975
+            },
+            {
+              "before": 182,
+              "after": 149,
+              "board_y_span_mm": 57.07048634869983
+            }
+          ],
+          "source": "pose02-backward\\laser_A-8f7a63f34b04-points.npz",
+          "source_sha256": "1c467ed9c99b92cb4d245023695107c825b721a13cd11cd11f554bf5ff79561c",
+          "filtered_points": "pose02-backward-laser_A-points.npz",
+          "filtered_sha256": "52f0aaa4df0bc4e1096861a44d6c9efb36782cee1c0d6449d476ae9abad98aae",
+          "p95_mm": 0.1500617123179815,
+          "rms_mm": 0.11655477614737085
+        },
+        {
+          "pose": "pose03-forward-tilt",
+          "used_in_fit": true,
+          "counts": [
+            {
+              "before": 237,
+              "after": 179,
+              "board_y_span_mm": 53.794481034707076
+            },
+            {
+              "before": 228,
+              "after": 165,
+              "board_y_span_mm": 53.654827141923604
+            }
+          ],
+          "source": "pose03-forward-tilt\\laser_A-67bc7b866b7e-points.npz",
+          "source_sha256": "2695836091250add10359d8314baf9c7e3aed68ce49eea8264aa7da3b6379291",
+          "filtered_points": "pose03-forward-tilt-laser_A-points.npz",
+          "filtered_sha256": "b4e2754de13e598f9ed2ecccefe84f9f5b5ea670e82f54f237b3a1be5481dcd7",
+          "p95_mm": 0.2468423427364336,
+          "rms_mm": 0.1402166491711083
+        },
+        {
+          "pose": "pose05-near-upright",
+          "used_in_fit": true,
+          "counts": [
+            {
+              "before": 146,
+              "after": 120,
+              "board_y_span_mm": 53.66026196094352
+            },
+            {
+              "before": 149,
+              "after": 124,
+              "board_y_span_mm": 53.65781118293511
+            }
+          ],
+          "source": "pose05-near-upright\\laser_A-f19309d881a8-points.npz",
+          "source_sha256": "1b155b4ca71ae0b566650508629c2f26cee9c1c2f0e4baf46507c1fc375657b4",
+          "filtered_points": "pose05-near-upright-laser_A-points.npz",
+          "filtered_sha256": "d3f869a44c61c964b66cb7252f793315e93d1033c989ffe637c9ec92b1e44e17",
+          "p95_mm": 0.12946036395056948,
+          "rms_mm": 0.0682189450740785
+        },
+        {
+          "pose": "pose04-back-tilt-validation",
+          "used_in_fit": false,
+          "counts": [
+            {
+              "before": 215,
+              "after": 135,
+              "board_y_span_mm": 57.64031830088617
+            },
+            {
+              "before": 212,
+              "after": 135,
+              "board_y_span_mm": 56.30800077705951
+            }
+          ],
+          "source": "pose04-back-tilt-validation\\laser_A-d20bbf92df98-points.npz",
+          "source_sha256": "54874b359001c8fa366aa4e8072b70f002d534ec5376eb8aa1f491497eaa2b12",
+          "filtered_points": "pose04-back-tilt-validation-laser_A-points.npz",
+          "filtered_sha256": "67ea8ecf88416528e9317b2d01c5fba33bcacf001bca6922a2c35b71c6c1a815",
+          "p95_mm": 0.25979132130557686,
+          "rms_mm": 0.21437353739708712
+        }
+      ]
+    },
+    "laser_B": {
+      "normal_camera": [
+        0.8331132512596573,
+        0.0018652122061244985,
+        0.5530992962922563
+      ],
+      "offset_mm_n_dot_X_equals_offset": 112.25141137297842,
+      "camera_sha256": "32ef6bc57b8ef02cf0043ecb657ae2fbad72dc12bb0653d787c7e93c8884f8d1",
+      "training_p95_max_mm": 0.2791184491664893,
+      "diagnostic_p95_max_mm": 0.20054192251767233,
+      "second_spread_mm": 15.887244040289893,
+      "development_checks_passed": true,
+      "per_pose": [
+        {
+          "pose": "pose01-upright",
+          "used_in_fit": true,
+          "counts": [
+            {
+              "before": 238,
+              "after": 206,
+              "board_y_span_mm": 58.50732054806727
+            },
+            {
+              "before": 238,
+              "after": 206,
+              "board_y_span_mm": 57.631902284861745
+            }
+          ],
+          "source": "pose01-upright\\laser_B-bc688556dbc6-points.npz",
+          "source_sha256": "67678856d36e002f6d960f9826d92410a91ceb893dc1a000bee091d809bf44c6",
+          "filtered_points": "pose01-upright-laser_B-points.npz",
+          "filtered_sha256": "dcf8fa7065be3fb5e86318b1df6a8e5b257dc60d9c2b315dba9e114534248b5f",
+          "p95_mm": 0.114320476957878,
+          "rms_mm": 0.06133909891453026
+        },
+        {
+          "pose": "pose02-backward",
+          "used_in_fit": true,
+          "counts": [
+            {
+              "before": 204,
+              "after": 173,
+              "board_y_span_mm": 63.7763745181692
+            },
+            {
+              "before": 202,
+              "after": 173,
+              "board_y_span_mm": 63.77635289750693
+            }
+          ],
+          "source": "pose02-backward\\laser_B-37e1fca7608f-points.npz",
+          "source_sha256": "558c0aee8aaf315460d601d34d08aebcfc6a39edb6892d8e4505ecbf989d96ba",
+          "filtered_points": "pose02-backward-laser_B-points.npz",
+          "filtered_sha256": "dcc92caec76096df1f71baece12f078a987c322b9af8de8b9d993dfad0896ca2",
+          "p95_mm": 0.2791184491664893,
+          "rms_mm": 0.11423595801527371
+        },
+        {
+          "pose": "pose03-forward-tilt",
+          "used_in_fit": true,
+          "counts": [
+            {
+              "before": 225,
+              "after": 147,
+              "board_y_span_mm": 58.98847451668283
+            },
+            {
+              "before": 226,
+              "after": 146,
+              "board_y_span_mm": 63.44751316076666
+            }
+          ],
+          "source": "pose03-forward-tilt\\laser_B-23a640a0cd71-points.npz",
+          "source_sha256": "7161784e6e27a652e9fcfb81c7ddc53f75ee326f1ba783887e14195c01ad48ed",
+          "filtered_points": "pose03-forward-tilt-laser_B-points.npz",
+          "filtered_sha256": "bec85ec184765ae23680af8272974059c13c4c84bf52063834406d7eca8a754b",
+          "p95_mm": 0.16786765461092726,
+          "rms_mm": 0.12943058996438653
+        },
+        {
+          "pose": "pose05-near-upright",
+          "used_in_fit": true,
+          "counts": [
+            {
+              "before": 154,
+              "after": 123,
+              "board_y_span_mm": 47.31762297281098
+            },
+            {
+              "before": 150,
+              "after": 120,
+              "board_y_span_mm": 44.13926232761009
+            }
+          ],
+          "source": "pose05-near-upright\\laser_B-2098766c9125-points.npz",
+          "source_sha256": "f257bc8637cf4d8fc8e407c72d9071f9000fc5bc31a428941abd743b8cbb30c7",
+          "filtered_points": "pose05-near-upright-laser_B-points.npz",
+          "filtered_sha256": "8699ebb5b36094356f6904e08222ca92908ef42eb5b82b0fb4b0f6f981c13ac0",
+          "p95_mm": 0.09090087287099913,
+          "rms_mm": 0.05338722900316114
+        },
+        {
+          "pose": "pose04-back-tilt-validation",
+          "used_in_fit": false,
+          "counts": [
+            {
+              "before": 213,
+              "after": 154,
+              "board_y_span_mm": 47.9323768068602
+            },
+            {
+              "before": 214,
+              "after": 153,
+              "board_y_span_mm": 47.932059139284206
+            }
+          ],
+          "source": "pose04-back-tilt-validation\\laser_B-ead9a83f89ce-points.npz",
+          "source_sha256": "ef78a246a18edf9715c494d15b8a75fbabdfb6412948a758836449bf93d279c2",
+          "filtered_points": "pose04-back-tilt-validation-laser_B-points.npz",
+          "filtered_sha256": "20d450eefe6dd96aa72de55c989494ce22379461337febaa3532f4b563bf7dd1",
+          "p95_mm": 0.20054192251767233,
+          "rms_mm": 0.12701221925273173
+        }
+      ]
+    }
+  }
+}

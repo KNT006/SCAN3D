@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "enabled": true,
+  "radius_mm": 70.0,
+  "margin_mm": 0.0,
+  "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b"
+}

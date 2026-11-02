@@ -1,0 +1,1946 @@
+{
+  "path": "/userdata/afc03-scanner/jobs/rgb-adaptive-20261010/overlap-27413674016621",
+  "passed": true,
+  "mode": "overlap",
+  "count": 2,
+  "seconds": 15.112225068998669,
+  "before": {
+    "session": 128850160,
+    "emitted": 6400,
+    "estimated_deg": "720.00000",
+    "moving": 0,
+    "armed": 0,
+    "count_known": 1,
+    "pending": 0,
+    "feedback": "none",
+    "physical_enable": "commanded_1",
+    "fault": "stopped"
+  },
+  "after": {
+    "session": 128850160,
+    "emitted": 6400,
+    "estimated_deg": "720.00000",
+    "moving": 0,
+    "armed": 0,
+    "count_known": 1,
+    "pending": 0,
+    "feedback": "none",
+    "physical_enable": "commanded_1",
+    "fault": "stopped"
+  },
+  "results": [
+    {
+      "folder": "/userdata/afc03-scanner/jobs/rgb-adaptive-20261010/overlap-27413674016621/position-000",
+      "report": {
+        "status": "complete",
+        "motor_operations": false,
+        "points_are_static_profile": true,
+        "absolute_accuracy_validated": false,
+        "transport": "dma_result_queue_atomic_capture_v2",
+        "timings": {
+          "background_capture_and_save_s": 0.2828332550016057
+        },
+        "lasers": {
+          "A": {
+            "passed": true,
+            "batches": [
+              {
+                "epoch": 801292207,
+                "records": 60,
+                "rows": 60,
+                "centers": 0,
+                "crc32": 4106158763,
+                "cycles": 1501257,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 200,
+                "roi": [
+                  1000,
+                  0,
+                  1060,
+                  1080
+                ],
+                "receive_seconds": 0.0020000420008727815,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 134,
+                "rows": 60,
+                "centers": 37,
+                "crc32": 1718896,
+                "cycles": 1689580,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 201,
+                "roi": [
+                  1060,
+                  0,
+                  1120,
+                  1080
+                ],
+                "receive_seconds": 0.0016670900004100986,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 3713956319,
+                "cycles": 1597264,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 202,
+                "roi": [
+                  1120,
+                  0,
+                  1180,
+                  1080
+                ],
+                "receive_seconds": 0.0017123370016633999,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 182,
+                "rows": 60,
+                "centers": 61,
+                "crc32": 1157277934,
+                "cycles": 1741673,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 203,
+                "roi": [
+                  1180,
+                  0,
+                  1240,
+                  1080
+                ],
+                "receive_seconds": 0.0026039919976028614,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 3590155642,
+                "cycles": 1858118,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 204,
+                "roi": [
+                  1240,
+                  0,
+                  1300,
+                  1080
+                ],
+                "receive_seconds": 0.0015798509994056076,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 2379349843,
+                "cycles": 1952332,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 205,
+                "roi": [
+                  1300,
+                  0,
+                  1360,
+                  1080
+                ],
+                "receive_seconds": 0.0016191319991776254,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 150,
+                "rows": 60,
+                "centers": 45,
+                "crc32": 893318905,
+                "cycles": 1967219,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 206,
+                "roi": [
+                  1360,
+                  0,
+                  1420,
+                  1080
+                ],
+                "receive_seconds": 0.0015769139972690027,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 2609086619,
+                "cycles": 1892787,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 207,
+                "roi": [
+                  1420,
+                  0,
+                  1480,
+                  1080
+                ],
+                "receive_seconds": 0.0018616320012370124,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 505927028,
+                "cycles": 1837782,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 208,
+                "roi": [
+                  1480,
+                  0,
+                  1540,
+                  1080
+                ],
+                "receive_seconds": 0.0025312990001111757,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 242,
+                "rows": 60,
+                "centers": 91,
+                "crc32": 3936599000,
+                "cycles": 1784407,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 209,
+                "roi": [
+                  1540,
+                  0,
+                  1600,
+                  1080
+                ],
+                "receive_seconds": 0.002487251000275137,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 456569220,
+                "cycles": 1934349,
+                "on_frame": 1073,
+                "bg_frame": 1062,
+                "token": 210,
+                "roi": [
+                  1600,
+                  0,
+                  1660,
+                  1080
+                ],
+                "receive_seconds": 0.0016309989987348672,
+                "overlap_callback_seconds": 0.41924057100186474
+              }
+            ],
+            "rows": 660,
+            "centers": 594,
+            "payload_crc32": 579638862,
+            "seconds": 1.288056632001826,
+            "transport": "dma_result_queue_atomic_capture_v2",
+            "hardware_seconds": 0.19756768,
+            "retained_points": 463,
+            "turntable_filter": {
+              "enabled": true,
+              "method": "axis_height",
+              "min_axis_y_mm": -75.7,
+              "input_points": 474,
+              "removed_points": 61,
+              "kept_points": 413,
+              "profile": "duck-platform-height-20261003"
+            },
+            "strategy": {
+              "version": "fpga-spatial25-rk-localrgb100-160-protected-v1",
+              "execution": "FPGA spatial pre-gate, peak detection and bright-core; RK local raw RGB threshold, precise radius and sparse continuity/geometry",
+              "stripe_settings": {
+                "radius_mm": 70.0,
+                "signal_min": 40,
+                "adaptive_min": 25,
+                "dark_v": 100,
+                "bright_v": 160,
+                "prominence": 18,
+                "distance": 8,
+                "width_max": 100,
+                "weak_width_max": 65,
+                "weak_signal": 80,
+                "core_fraction": 0.7,
+                "core_radius": 10,
+                "neighbor_rows": 4,
+                "min_support": 3,
+                "weak_support": 4,
+                "adaptive_width": 25,
+                "dx_intercept": 2,
+                "dx_per_row": 3,
+                "noise_gate": false
+              },
+              "candidates": 594,
+              "main_branch": {
+                "chosen": 500,
+                "first_continuity": 499,
+                "weak_width": 477,
+                "second_continuity": 474,
+                "retained": 413,
+                "spatial_filter": {
+                  "version": 1,
+                  "enabled": true,
+                  "radius_mm": 70.0,
+                  "margin_mm": 0.0,
+                  "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                  "effective_radius_mm": 70.0,
+                  "input_points": 474,
+                  "removed_points": 0,
+                  "kept_points": 474,
+                  "method": "axis_radial_cylinder",
+                  "continuity_rejected": 0,
+                  "before_multipeak": true,
+                  "invalid_geometry_points": 0
+                },
+                "turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 474,
+                  "removed_points": 61,
+                  "kept_points": 413,
+                  "profile": "duck-platform-height-20261003"
+                },
+                "ground_branch": {
+                  "version": "ground-unique-frozen-branch-v1",
+                  "settings": {
+                    "neighbor_rows": 4,
+                    "min_support": 3,
+                    "dx_intercept": 2,
+                    "dx_per_row": 3,
+                    "ground_margin_mm": 0,
+                    "large_separation_diagnostic_px": 100
+                  },
+                  "enabled": true,
+                  "original_final_points": 413,
+                  "eligible_points": 0,
+                  "added_points": 0,
+                  "original_points_removed": 0,
+                  "final_points": 413,
+                  "support_rejected": 0,
+                  "cross_angle_gate": false,
+                  "large_separation_gate": false,
+                  "legacy_turntable_filter": {
+                    "enabled": true,
+                    "method": "axis_height",
+                    "min_axis_y_mm": -75.7,
+                    "input_points": 474,
+                    "removed_points": 61,
+                    "kept_points": 413,
+                    "profile": "duck-platform-height-20261003"
+                  }
+                }
+              },
+              "adaptive_branch": {
+                "chosen": 553,
+                "first_continuity": 550,
+                "weak_width": 528,
+                "second_continuity": 525,
+                "retained": 463,
+                "spatial_filter": {
+                  "version": 1,
+                  "enabled": true,
+                  "radius_mm": 70.0,
+                  "margin_mm": 0.0,
+                  "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                  "effective_radius_mm": 70.0,
+                  "input_points": 525,
+                  "removed_points": 0,
+                  "kept_points": 525,
+                  "method": "axis_radial_cylinder",
+                  "continuity_rejected": 0,
+                  "before_multipeak": true,
+                  "invalid_geometry_points": 0
+                },
+                "turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 525,
+                  "removed_points": 61,
+                  "kept_points": 464,
+                  "profile": "duck-platform-height-20261003"
+                },
+                "ground_branch": {
+                  "version": "ground-unique-frozen-branch-v1",
+                  "settings": {
+                    "neighbor_rows": 4,
+                    "min_support": 3,
+                    "dx_intercept": 2,
+                    "dx_per_row": 3,
+                    "ground_margin_mm": 0,
+                    "large_separation_diagnostic_px": 100
+                  },
+                  "enabled": true,
+                  "original_final_points": 464,
+                  "eligible_points": 0,
+                  "added_points": 0,
+                  "original_points_removed": 0,
+                  "final_points": 464,
+                  "support_rejected": 0,
+                  "cross_angle_gate": false,
+                  "large_separation_gate": false,
+                  "legacy_turntable_filter": {
+                    "enabled": true,
+                    "method": "axis_height",
+                    "min_axis_y_mm": -75.7,
+                    "input_points": 525,
+                    "removed_points": 61,
+                    "kept_points": 464,
+                    "profile": "duck-platform-height-20261003"
+                  }
+                }
+              },
+              "retained_points": 463,
+              "adaptive_added": 50,
+              "original_points_removed": 0,
+              "spatial_filter": {
+                "version": 1,
+                "enabled": true,
+                "radius_mm": 70.0,
+                "margin_mm": 0.0,
+                "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                "effective_radius_mm": 70.0,
+                "input_points": 474,
+                "removed_points": 0,
+                "kept_points": 474,
+                "method": "axis_radial_cylinder",
+                "continuity_rejected": 0,
+                "before_multipeak": true,
+                "invalid_geometry_points": 0
+              },
+              "turntable_filter": {
+                "enabled": true,
+                "method": "axis_height",
+                "min_axis_y_mm": -75.7,
+                "input_points": 474,
+                "removed_points": 61,
+                "kept_points": 413,
+                "profile": "duck-platform-height-20261003"
+              },
+              "ground_branch": {
+                "version": "ground-unique-frozen-branch-v1",
+                "settings": {
+                  "neighbor_rows": 4,
+                  "min_support": 3,
+                  "dx_intercept": 2,
+                  "dx_per_row": 3,
+                  "ground_margin_mm": 0,
+                  "large_separation_diagnostic_px": 100
+                },
+                "enabled": true,
+                "original_final_points": 413,
+                "eligible_points": 0,
+                "added_points": 0,
+                "original_points_removed": 0,
+                "final_points": 413,
+                "support_rejected": 0,
+                "cross_angle_gate": false,
+                "large_separation_gate": false,
+                "legacy_turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 474,
+                  "removed_points": 61,
+                  "kept_points": 413,
+                  "profile": "duck-platform-height-20261003"
+                }
+              },
+              "seconds": 0.21070043699728558,
+              "source_frame_id": 1073,
+              "inferred_points": 0,
+              "raw_images_preserved": true,
+              "raw_images_read_for_extraction": false,
+              "color_patch_size": 7,
+              "noise_gate": false
+            },
+            "legacy_fpga_multiple_peak_rows": 33,
+            "comparison": {
+              "passed": true,
+              "rows": 660,
+              "centers": 594,
+              "exact_rational_and_metadata": true,
+              "mismatch_rows": 0
+            },
+            "capture_and_raw_save_s": 0.29332799799885834,
+            "extract_and_receive_s": 2.208714972999587,
+            "rk_geometry_s": 0.26262086399947293,
+            "software_reference_s": 2.109814141997049
+          },
+          "B": {
+            "passed": true,
+            "batches": [
+              {
+                "epoch": 801292207,
+                "records": 72,
+                "rows": 60,
+                "centers": 6,
+                "crc32": 1821334274,
+                "cycles": 1714961,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 300,
+                "roi": [
+                  1000,
+                  0,
+                  1060,
+                  1080
+                ],
+                "receive_seconds": 0.0016643480012135115,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 196,
+                "rows": 60,
+                "centers": 68,
+                "crc32": 2947029078,
+                "cycles": 1802598,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 301,
+                "roi": [
+                  1060,
+                  0,
+                  1120,
+                  1080
+                ],
+                "receive_seconds": 0.001653004001127556,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 1111157353,
+                "cycles": 1714359,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 302,
+                "roi": [
+                  1120,
+                  0,
+                  1180,
+                  1080
+                ],
+                "receive_seconds": 0.0014087189993006177,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 4210883032,
+                "cycles": 2096180,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 303,
+                "roi": [
+                  1180,
+                  0,
+                  1240,
+                  1080
+                ],
+                "receive_seconds": 0.0025391150011273567,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 1121164391,
+                "cycles": 2144315,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 304,
+                "roi": [
+                  1240,
+                  0,
+                  1300,
+                  1080
+                ],
+                "receive_seconds": 0.0024877619980543386,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 2805146236,
+                "cycles": 2222569,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 305,
+                "roi": [
+                  1300,
+                  0,
+                  1360,
+                  1080
+                ],
+                "receive_seconds": 0.0015468310011783615,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 200,
+                "rows": 60,
+                "centers": 70,
+                "crc32": 898595637,
+                "cycles": 2117046,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 306,
+                "roi": [
+                  1360,
+                  0,
+                  1420,
+                  1080
+                ],
+                "receive_seconds": 0.0015285619992937427,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 194,
+                "rows": 60,
+                "centers": 67,
+                "crc32": 2587106328,
+                "cycles": 2278067,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 307,
+                "roi": [
+                  1420,
+                  0,
+                  1480,
+                  1080
+                ],
+                "receive_seconds": 0.0017915609969350044,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 190,
+                "rows": 60,
+                "centers": 65,
+                "crc32": 316894116,
+                "cycles": 2258279,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 308,
+                "roi": [
+                  1480,
+                  0,
+                  1540,
+                  1080
+                ],
+                "receive_seconds": 0.0029532820008171257,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 2091014448,
+                "cycles": 2343800,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 309,
+                "roi": [
+                  1540,
+                  0,
+                  1600,
+                  1080
+                ],
+                "receive_seconds": 0.0025175890004902612,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 801292207,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 3130303968,
+                "cycles": 2622247,
+                "on_frame": 1129,
+                "bg_frame": 1062,
+                "token": 310,
+                "roi": [
+                  1600,
+                  0,
+                  1660,
+                  1080
+                ],
+                "receive_seconds": 0.001303510998695856,
+                "overlap_callback_seconds": 0.48214932799965027
+              }
+            ],
+            "rows": 660,
+            "centers": 636,
+            "payload_crc32": 3044260108,
+            "seconds": 1.4042955980003171,
+            "transport": "dma_result_queue_atomic_capture_v2",
+            "hardware_seconds": 0.23314421,
+            "retained_points": 513,
+            "turntable_filter": {
+              "enabled": true,
+              "method": "axis_height",
+              "min_axis_y_mm": -75.7,
+              "input_points": 564,
+              "removed_points": 70,
+              "kept_points": 494,
+              "profile": "duck-platform-height-20261003"
+            },
+            "strategy": {
+              "version": "fpga-spatial25-rk-localrgb100-160-protected-v1",
+              "execution": "FPGA spatial pre-gate, peak detection and bright-core; RK local raw RGB threshold, precise radius and sparse continuity/geometry",
+              "stripe_settings": {
+                "radius_mm": 70.0,
+                "signal_min": 40,
+                "adaptive_min": 25,
+                "dark_v": 100,
+                "bright_v": 160,
+                "prominence": 18,
+                "distance": 8,
+                "width_max": 100,
+                "weak_width_max": 65,
+                "weak_signal": 80,
+                "core_fraction": 0.7,
+                "core_radius": 10,
+                "neighbor_rows": 4,
+                "min_support": 3,
+                "weak_support": 4,
+                "adaptive_width": 25,
+                "dx_intercept": 2,
+                "dx_per_row": 3,
+                "noise_gate": false
+              },
+              "candidates": 636,
+              "main_branch": {
+                "chosen": 606,
+                "first_continuity": 603,
+                "weak_width": 600,
+                "second_continuity": 600,
+                "retained": 494,
+                "spatial_filter": {
+                  "version": 1,
+                  "enabled": true,
+                  "radius_mm": 70.0,
+                  "margin_mm": 0.0,
+                  "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                  "effective_radius_mm": 70.0,
+                  "input_points": 600,
+                  "removed_points": 0,
+                  "kept_points": 600,
+                  "method": "axis_radial_cylinder",
+                  "continuity_rejected": 0,
+                  "before_multipeak": true,
+                  "invalid_geometry_points": 0
+                },
+                "turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 564,
+                  "removed_points": 70,
+                  "kept_points": 494,
+                  "profile": "duck-platform-height-20261003"
+                },
+                "ground_branch": {
+                  "version": "ground-unique-frozen-branch-v1",
+                  "settings": {
+                    "neighbor_rows": 4,
+                    "min_support": 3,
+                    "dx_intercept": 2,
+                    "dx_per_row": 3,
+                    "ground_margin_mm": 0,
+                    "large_separation_diagnostic_px": 100
+                  },
+                  "enabled": true,
+                  "original_final_points": 494,
+                  "eligible_points": 0,
+                  "added_points": 0,
+                  "original_points_removed": 0,
+                  "final_points": 494,
+                  "support_rejected": 0,
+                  "cross_angle_gate": false,
+                  "large_separation_gate": false,
+                  "legacy_turntable_filter": {
+                    "enabled": true,
+                    "method": "axis_height",
+                    "min_axis_y_mm": -75.7,
+                    "input_points": 564,
+                    "removed_points": 70,
+                    "kept_points": 494,
+                    "profile": "duck-platform-height-20261003"
+                  }
+                }
+              },
+              "adaptive_branch": {
+                "chosen": 627,
+                "first_continuity": 623,
+                "weak_width": 620,
+                "second_continuity": 620,
+                "retained": 512,
+                "spatial_filter": {
+                  "version": 1,
+                  "enabled": true,
+                  "radius_mm": 70.0,
+                  "margin_mm": 0.0,
+                  "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                  "effective_radius_mm": 70.0,
+                  "input_points": 620,
+                  "removed_points": 0,
+                  "kept_points": 620,
+                  "method": "axis_radial_cylinder",
+                  "continuity_rejected": 0,
+                  "before_multipeak": true,
+                  "invalid_geometry_points": 0
+                },
+                "turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 582,
+                  "removed_points": 70,
+                  "kept_points": 512,
+                  "profile": "duck-platform-height-20261003"
+                },
+                "ground_branch": {
+                  "version": "ground-unique-frozen-branch-v1",
+                  "settings": {
+                    "neighbor_rows": 4,
+                    "min_support": 3,
+                    "dx_intercept": 2,
+                    "dx_per_row": 3,
+                    "ground_margin_mm": 0,
+                    "large_separation_diagnostic_px": 100
+                  },
+                  "enabled": true,
+                  "original_final_points": 512,
+                  "eligible_points": 0,
+                  "added_points": 0,
+                  "original_points_removed": 0,
+                  "final_points": 512,
+                  "support_rejected": 0,
+                  "cross_angle_gate": false,
+                  "large_separation_gate": false,
+                  "legacy_turntable_filter": {
+                    "enabled": true,
+                    "method": "axis_height",
+                    "min_axis_y_mm": -75.7,
+                    "input_points": 582,
+                    "removed_points": 70,
+                    "kept_points": 512,
+                    "profile": "duck-platform-height-20261003"
+                  }
+                }
+              },
+              "retained_points": 513,
+              "adaptive_added": 19,
+              "original_points_removed": 0,
+              "spatial_filter": {
+                "version": 1,
+                "enabled": true,
+                "radius_mm": 70.0,
+                "margin_mm": 0.0,
+                "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                "effective_radius_mm": 70.0,
+                "input_points": 600,
+                "removed_points": 0,
+                "kept_points": 600,
+                "method": "axis_radial_cylinder",
+                "continuity_rejected": 0,
+                "before_multipeak": true,
+                "invalid_geometry_points": 0
+              },
+              "turntable_filter": {
+                "enabled": true,
+                "method": "axis_height",
+                "min_axis_y_mm": -75.7,
+                "input_points": 564,
+                "removed_points": 70,
+                "kept_points": 494,
+                "profile": "duck-platform-height-20261003"
+              },
+              "ground_branch": {
+                "version": "ground-unique-frozen-branch-v1",
+                "settings": {
+                  "neighbor_rows": 4,
+                  "min_support": 3,
+                  "dx_intercept": 2,
+                  "dx_per_row": 3,
+                  "ground_margin_mm": 0,
+                  "large_separation_diagnostic_px": 100
+                },
+                "enabled": true,
+                "original_final_points": 494,
+                "eligible_points": 0,
+                "added_points": 0,
+                "original_points_removed": 0,
+                "final_points": 494,
+                "support_rejected": 0,
+                "cross_angle_gate": false,
+                "large_separation_gate": false,
+                "legacy_turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 564,
+                  "removed_points": 70,
+                  "kept_points": 494,
+                  "profile": "duck-platform-height-20261003"
+                }
+              },
+              "seconds": 0.23354284299784922,
+              "source_frame_id": 1129,
+              "inferred_points": 0,
+              "raw_images_preserved": true,
+              "raw_images_read_for_extraction": false,
+              "color_patch_size": 7,
+              "noise_gate": false
+            },
+            "legacy_fpga_multiple_peak_rows": 33,
+            "comparison": {
+              "passed": true,
+              "rows": 660,
+              "centers": 636,
+              "exact_rational_and_metadata": true,
+              "mismatch_rows": 0
+            },
+            "capture_and_raw_save_s": 0.29598464199807495,
+            "extract_and_receive_s": 1.4256496889975097,
+            "rk_geometry_s": 0.2905974340028479,
+            "software_reference_s": 2.5911341499995615
+          }
+        },
+        "pid": 151906,
+        "boot_id": "186c36b6-c651-48b2-9d87-556702002128",
+        "timing_profile": {
+          "background_wait": 0.05,
+          "laser_wait": 0.05,
+          "color_wait": 0.1,
+          "motor_settle": 0.15,
+          "rate_pps": 120,
+          "name": "fast"
+        },
+        "full_pixel_check": true,
+        "camera_profile": {
+          "device": "/dev/video73",
+          "before": "gain: 0",
+          "applied": "gain: 0"
+        },
+        "capture_overlap": {
+          "enabled": true,
+          "policy": "last_batch_only",
+          "note": "Extraction interval includes the next capture; do not sum overlapping timings"
+        },
+        "acquisition_seconds": 4.645990510998672,
+        "color": {
+          "led": 8,
+          "gain": 50,
+          "capture_and_save_s": 0.27935112099658,
+          "samples": 976,
+          "median_max": 146.0,
+          "saturated_fraction": 0.0,
+          "stream_id": "fce18e2dbf8e441bb2862781f83dcbd2",
+          "frame_id": 1166,
+          "same_commanded_position": true
+        },
+        "passed": true,
+        "scan_ready": true,
+        "scan_ready_scope": "Static point-count gate only; repeatability and motor closure remain separate",
+        "elapsed_seconds": 9.998207458997058,
+        "queue_geometry_complete_s": 5.337706168000295
+      },
+      "storage_seconds": 1.2667562159986119
+    },
+    {
+      "folder": "/userdata/afc03-scanner/jobs/rgb-adaptive-20261010/overlap-27413674016621/position-001",
+      "report": {
+        "status": "complete",
+        "motor_operations": false,
+        "points_are_static_profile": true,
+        "absolute_accuracy_validated": false,
+        "transport": "dma_result_queue_atomic_capture_v2",
+        "timings": {
+          "background_capture_and_save_s": 0.2978122370004712
+        },
+        "lasers": {
+          "A": {
+            "passed": true,
+            "batches": [
+              {
+                "epoch": 455484528,
+                "records": 60,
+                "rows": 60,
+                "centers": 0,
+                "crc32": 317127313,
+                "cycles": 1501278,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 200,
+                "roi": [
+                  1000,
+                  0,
+                  1060,
+                  1080
+                ],
+                "receive_seconds": 0.0035290090017952025,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 134,
+                "rows": 60,
+                "centers": 37,
+                "crc32": 2755121471,
+                "cycles": 1690422,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 201,
+                "roi": [
+                  1060,
+                  0,
+                  1120,
+                  1080
+                ],
+                "receive_seconds": 0.0028697569978248794,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 270527677,
+                "cycles": 1596803,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 202,
+                "roi": [
+                  1120,
+                  0,
+                  1180,
+                  1080
+                ],
+                "receive_seconds": 0.003036730002349941,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 184,
+                "rows": 60,
+                "centers": 62,
+                "crc32": 1870825349,
+                "cycles": 1735860,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 203,
+                "roi": [
+                  1180,
+                  0,
+                  1240,
+                  1080
+                ],
+                "receive_seconds": 0.002707786003156798,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 1722695743,
+                "cycles": 1867231,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 204,
+                "roi": [
+                  1240,
+                  0,
+                  1300,
+                  1080
+                ],
+                "receive_seconds": 0.003394850002223393,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 1865823992,
+                "cycles": 1951971,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 205,
+                "roi": [
+                  1300,
+                  0,
+                  1360,
+                  1080
+                ],
+                "receive_seconds": 0.001582657998369541,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 150,
+                "rows": 60,
+                "centers": 45,
+                "crc32": 4133325960,
+                "cycles": 1947317,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 206,
+                "roi": [
+                  1360,
+                  0,
+                  1420,
+                  1080
+                ],
+                "receive_seconds": 0.0034670410022954457,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 176,
+                "rows": 60,
+                "centers": 58,
+                "crc32": 904013052,
+                "cycles": 1875805,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 207,
+                "roi": [
+                  1420,
+                  0,
+                  1480,
+                  1080
+                ],
+                "receive_seconds": 0.002908426002250053,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 3221360297,
+                "cycles": 1840783,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 208,
+                "roi": [
+                  1480,
+                  0,
+                  1540,
+                  1080
+                ],
+                "receive_seconds": 0.002555164999648696,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 232,
+                "rows": 60,
+                "centers": 86,
+                "crc32": 2386416410,
+                "cycles": 1762920,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 209,
+                "roi": [
+                  1540,
+                  0,
+                  1600,
+                  1080
+                ],
+                "receive_seconds": 0.0029256390007503796,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 3724387202,
+                "cycles": 1954527,
+                "on_frame": 1200,
+                "bg_frame": 1190,
+                "token": 210,
+                "roi": [
+                  1600,
+                  0,
+                  1660,
+                  1080
+                ],
+                "receive_seconds": 0.0014209340006345883,
+                "overlap_callback_seconds": 0.6617335980008647
+              }
+            ],
+            "rows": 660,
+            "centers": 588,
+            "payload_crc32": 335671330,
+            "seconds": 1.805981335000979,
+            "transport": "dma_result_queue_atomic_capture_v2",
+            "hardware_seconds": 0.19724917,
+            "retained_points": 465,
+            "turntable_filter": {
+              "enabled": true,
+              "method": "axis_height",
+              "min_axis_y_mm": -75.7,
+              "input_points": 474,
+              "removed_points": 61,
+              "kept_points": 413,
+              "profile": "duck-platform-height-20261003"
+            },
+            "strategy": {
+              "version": "fpga-spatial25-rk-localrgb100-160-protected-v1",
+              "execution": "FPGA spatial pre-gate, peak detection and bright-core; RK local raw RGB threshold, precise radius and sparse continuity/geometry",
+              "stripe_settings": {
+                "radius_mm": 70.0,
+                "signal_min": 40,
+                "adaptive_min": 25,
+                "dark_v": 100,
+                "bright_v": 160,
+                "prominence": 18,
+                "distance": 8,
+                "width_max": 100,
+                "weak_width_max": 65,
+                "weak_signal": 80,
+                "core_fraction": 0.7,
+                "core_radius": 10,
+                "neighbor_rows": 4,
+                "min_support": 3,
+                "weak_support": 4,
+                "adaptive_width": 25,
+                "dx_intercept": 2,
+                "dx_per_row": 3,
+                "noise_gate": false
+              },
+              "candidates": 588,
+              "main_branch": {
+                "chosen": 501,
+                "first_continuity": 498,
+                "weak_width": 478,
+                "second_continuity": 474,
+                "retained": 413,
+                "spatial_filter": {
+                  "version": 1,
+                  "enabled": true,
+                  "radius_mm": 70.0,
+                  "margin_mm": 0.0,
+                  "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                  "effective_radius_mm": 70.0,
+                  "input_points": 474,
+                  "removed_points": 0,
+                  "kept_points": 474,
+                  "method": "axis_radial_cylinder",
+                  "continuity_rejected": 0,
+                  "before_multipeak": true,
+                  "invalid_geometry_points": 0
+                },
+                "turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 474,
+                  "removed_points": 61,
+                  "kept_points": 413,
+                  "profile": "duck-platform-height-20261003"
+                },
+                "ground_branch": {
+                  "version": "ground-unique-frozen-branch-v1",
+                  "settings": {
+                    "neighbor_rows": 4,
+                    "min_support": 3,
+                    "dx_intercept": 2,
+                    "dx_per_row": 3,
+                    "ground_margin_mm": 0,
+                    "large_separation_diagnostic_px": 100
+                  },
+                  "enabled": true,
+                  "original_final_points": 413,
+                  "eligible_points": 0,
+                  "added_points": 0,
+                  "original_points_removed": 0,
+                  "final_points": 413,
+                  "support_rejected": 0,
+                  "cross_angle_gate": false,
+                  "large_separation_gate": false,
+                  "legacy_turntable_filter": {
+                    "enabled": true,
+                    "method": "axis_height",
+                    "min_axis_y_mm": -75.7,
+                    "input_points": 474,
+                    "removed_points": 61,
+                    "kept_points": 413,
+                    "profile": "duck-platform-height-20261003"
+                  }
+                }
+              },
+              "adaptive_branch": {
+                "chosen": 556,
+                "first_continuity": 551,
+                "weak_width": 531,
+                "second_continuity": 527,
+                "retained": 464,
+                "spatial_filter": {
+                  "version": 1,
+                  "enabled": true,
+                  "radius_mm": 70.0,
+                  "margin_mm": 0.0,
+                  "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                  "effective_radius_mm": 70.0,
+                  "input_points": 527,
+                  "removed_points": 0,
+                  "kept_points": 527,
+                  "method": "axis_radial_cylinder",
+                  "continuity_rejected": 0,
+                  "before_multipeak": true,
+                  "invalid_geometry_points": 0
+                },
+                "turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 525,
+                  "removed_points": 61,
+                  "kept_points": 464,
+                  "profile": "duck-platform-height-20261003"
+                },
+                "ground_branch": {
+                  "version": "ground-unique-frozen-branch-v1",
+                  "settings": {
+                    "neighbor_rows": 4,
+                    "min_support": 3,
+                    "dx_intercept": 2,
+                    "dx_per_row": 3,
+                    "ground_margin_mm": 0,
+                    "large_separation_diagnostic_px": 100
+                  },
+                  "enabled": true,
+                  "original_final_points": 464,
+                  "eligible_points": 0,
+                  "added_points": 0,
+                  "original_points_removed": 0,
+                  "final_points": 464,
+                  "support_rejected": 0,
+                  "cross_angle_gate": false,
+                  "large_separation_gate": false,
+                  "legacy_turntable_filter": {
+                    "enabled": true,
+                    "method": "axis_height",
+                    "min_axis_y_mm": -75.7,
+                    "input_points": 525,
+                    "removed_points": 61,
+                    "kept_points": 464,
+                    "profile": "duck-platform-height-20261003"
+                  }
+                }
+              },
+              "retained_points": 465,
+              "adaptive_added": 52,
+              "original_points_removed": 0,
+              "spatial_filter": {
+                "version": 1,
+                "enabled": true,
+                "radius_mm": 70.0,
+                "margin_mm": 0.0,
+                "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                "effective_radius_mm": 70.0,
+                "input_points": 474,
+                "removed_points": 0,
+                "kept_points": 474,
+                "method": "axis_radial_cylinder",
+                "continuity_rejected": 0,
+                "before_multipeak": true,
+                "invalid_geometry_points": 0
+              },
+              "turntable_filter": {
+                "enabled": true,
+                "method": "axis_height",
+                "min_axis_y_mm": -75.7,
+                "input_points": 474,
+                "removed_points": 61,
+                "kept_points": 413,
+                "profile": "duck-platform-height-20261003"
+              },
+              "ground_branch": {
+                "version": "ground-unique-frozen-branch-v1",
+                "settings": {
+                  "neighbor_rows": 4,
+                  "min_support": 3,
+                  "dx_intercept": 2,
+                  "dx_per_row": 3,
+                  "ground_margin_mm": 0,
+                  "large_separation_diagnostic_px": 100
+                },
+                "enabled": true,
+                "original_final_points": 413,
+                "eligible_points": 0,
+                "added_points": 0,
+                "original_points_removed": 0,
+                "final_points": 413,
+                "support_rejected": 0,
+                "cross_angle_gate": false,
+                "large_separation_gate": false,
+                "legacy_turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 474,
+                  "removed_points": 61,
+                  "kept_points": 413,
+                  "profile": "duck-platform-height-20261003"
+                }
+              },
+              "seconds": 0.16909442999894964,
+              "source_frame_id": 1200,
+              "inferred_points": 0,
+              "raw_images_preserved": true,
+              "raw_images_read_for_extraction": false,
+              "color_patch_size": 7,
+              "noise_gate": false
+            },
+            "legacy_fpga_multiple_peak_rows": 29,
+            "comparison": {
+              "passed": true,
+              "rows": 660,
+              "centers": 588,
+              "exact_rational_and_metadata": true,
+              "mismatch_rows": 0
+            },
+            "capture_and_raw_save_s": 0.3241095179982949,
+            "extract_and_receive_s": 1.8352134030028537,
+            "rk_geometry_s": 0.20849879999877885,
+            "software_reference_s": 1.6574598970000807
+          },
+          "B": {
+            "passed": true,
+            "batches": [
+              {
+                "epoch": 455484528,
+                "records": 70,
+                "rows": 60,
+                "centers": 5,
+                "crc32": 2113027857,
+                "cycles": 1694236,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 300,
+                "roi": [
+                  1000,
+                  0,
+                  1060,
+                  1080
+                ],
+                "receive_seconds": 0.001461861000279896,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 190,
+                "rows": 60,
+                "centers": 65,
+                "crc32": 3853365160,
+                "cycles": 1785534,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 301,
+                "roi": [
+                  1060,
+                  0,
+                  1120,
+                  1080
+                ],
+                "receive_seconds": 0.0013491739991877694,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 2818092999,
+                "cycles": 1722661,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 302,
+                "roi": [
+                  1120,
+                  0,
+                  1180,
+                  1080
+                ],
+                "receive_seconds": 0.0026235730001644697,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 1021675858,
+                "cycles": 2102249,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 303,
+                "roi": [
+                  1180,
+                  0,
+                  1240,
+                  1080
+                ],
+                "receive_seconds": 0.002201690000219969,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 3659456444,
+                "cycles": 2146339,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 304,
+                "roi": [
+                  1240,
+                  0,
+                  1300,
+                  1080
+                ],
+                "receive_seconds": 0.0017200380025315098,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 3325406931,
+                "cycles": 2230967,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 305,
+                "roi": [
+                  1300,
+                  0,
+                  1360,
+                  1080
+                ],
+                "receive_seconds": 0.0014515570001094602,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 196,
+                "rows": 60,
+                "centers": 68,
+                "crc32": 2787680543,
+                "cycles": 2096915,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 306,
+                "roi": [
+                  1360,
+                  0,
+                  1420,
+                  1080
+                ],
+                "receive_seconds": 0.0031635800005460624,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 194,
+                "rows": 60,
+                "centers": 67,
+                "crc32": 3405011297,
+                "cycles": 2275397,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 307,
+                "roi": [
+                  1420,
+                  0,
+                  1480,
+                  1080
+                ],
+                "receive_seconds": 0.003307087998109637,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 192,
+                "rows": 60,
+                "centers": 66,
+                "crc32": 2019468041,
+                "cycles": 2266778,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 308,
+                "roi": [
+                  1480,
+                  0,
+                  1540,
+                  1080
+                ],
+                "receive_seconds": 0.0021615460027533118,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 1953868691,
+                "cycles": 2334239,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 309,
+                "roi": [
+                  1540,
+                  0,
+                  1600,
+                  1080
+                ],
+                "receive_seconds": 0.004330327999923611,
+                "overlap_callback_seconds": 0
+              },
+              {
+                "epoch": 455484528,
+                "records": 180,
+                "rows": 60,
+                "centers": 60,
+                "crc32": 2436645492,
+                "cycles": 2595193,
+                "on_frame": 1247,
+                "bg_frame": 1190,
+                "token": 310,
+                "roi": [
+                  1600,
+                  0,
+                  1660,
+                  1080
+                ],
+                "receive_seconds": 0.0028554849995998666,
+                "overlap_callback_seconds": 0.6579185730006429
+              }
+            ],
+            "rows": 660,
+            "centers": 631,
+            "payload_crc32": 3672441669,
+            "seconds": 1.8569896799999697,
+            "transport": "dma_result_queue_atomic_capture_v2",
+            "hardware_seconds": 0.23250508,
+            "retained_points": 511,
+            "turntable_filter": {
+              "enabled": true,
+              "method": "axis_height",
+              "min_axis_y_mm": -75.7,
+              "input_points": 563,
+              "removed_points": 70,
+              "kept_points": 493,
+              "profile": "duck-platform-height-20261003"
+            },
+            "strategy": {
+              "version": "fpga-spatial25-rk-localrgb100-160-protected-v1",
+              "execution": "FPGA spatial pre-gate, peak detection and bright-core; RK local raw RGB threshold, precise radius and sparse continuity/geometry",
+              "stripe_settings": {
+                "radius_mm": 70.0,
+                "signal_min": 40,
+                "adaptive_min": 25,
+                "dark_v": 100,
+                "bright_v": 160,
+                "prominence": 18,
+                "distance": 8,
+                "width_max": 100,
+                "weak_width_max": 65,
+                "weak_signal": 80,
+                "core_fraction": 0.7,
+                "core_radius": 10,
+                "neighbor_rows": 4,
+                "min_support": 3,
+                "weak_support": 4,
+                "adaptive_width": 25,
+                "dx_intercept": 2,
+                "dx_per_row": 3,
+                "noise_gate": false
+              },
+              "candidates": 631,
+              "main_branch": {
+                "chosen": 604,
+                "first_continuity": 603,
+                "weak_width": 600,
+                "second_continuity": 598,
+                "retained": 493,
+                "spatial_filter": {
+                  "version": 1,
+                  "enabled": true,
+                  "radius_mm": 70.0,
+                  "margin_mm": 0.0,
+                  "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                  "effective_radius_mm": 70.0,
+                  "input_points": 598,
+                  "removed_points": 0,
+                  "kept_points": 598,
+                  "method": "axis_radial_cylinder",
+                  "continuity_rejected": 1,
+                  "before_multipeak": true,
+                  "invalid_geometry_points": 0
+                },
+                "turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 563,
+                  "removed_points": 70,
+                  "kept_points": 493,
+                  "profile": "duck-platform-height-20261003"
+                },
+                "ground_branch": {
+                  "version": "ground-unique-frozen-branch-v1",
+                  "settings": {
+                    "neighbor_rows": 4,
+                    "min_support": 3,
+                    "dx_intercept": 2,
+                    "dx_per_row": 3,
+                    "ground_margin_mm": 0,
+                    "large_separation_diagnostic_px": 100
+                  },
+                  "enabled": true,
+                  "original_final_points": 493,
+                  "eligible_points": 0,
+                  "added_points": 0,
+                  "original_points_removed": 0,
+                  "final_points": 493,
+                  "support_rejected": 0,
+                  "cross_angle_gate": false,
+                  "large_separation_gate": false,
+                  "legacy_turntable_filter": {
+                    "enabled": true,
+                    "method": "axis_height",
+                    "min_axis_y_mm": -75.7,
+                    "input_points": 563,
+                    "removed_points": 70,
+                    "kept_points": 493,
+                    "profile": "duck-platform-height-20261003"
+                  }
+                }
+              },
+              "adaptive_branch": {
+                "chosen": 623,
+                "first_continuity": 623,
+                "weak_width": 620,
+                "second_continuity": 618,
+                "retained": 511,
+                "spatial_filter": {
+                  "version": 1,
+                  "enabled": true,
+                  "radius_mm": 70.0,
+                  "margin_mm": 0.0,
+                  "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                  "effective_radius_mm": 70.0,
+                  "input_points": 618,
+                  "removed_points": 0,
+                  "kept_points": 618,
+                  "method": "axis_radial_cylinder",
+                  "continuity_rejected": 1,
+                  "before_multipeak": true,
+                  "invalid_geometry_points": 0
+                },
+                "turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 581,
+                  "removed_points": 70,
+                  "kept_points": 511,
+                  "profile": "duck-platform-height-20261003"
+                },
+                "ground_branch": {
+                  "version": "ground-unique-frozen-branch-v1",
+                  "settings": {
+                    "neighbor_rows": 4,
+                    "min_support": 3,
+                    "dx_intercept": 2,
+                    "dx_per_row": 3,
+                    "ground_margin_mm": 0,
+                    "large_separation_diagnostic_px": 100
+                  },
+                  "enabled": true,
+                  "original_final_points": 511,
+                  "eligible_points": 0,
+                  "added_points": 0,
+                  "original_points_removed": 0,
+                  "final_points": 511,
+                  "support_rejected": 0,
+                  "cross_angle_gate": false,
+                  "large_separation_gate": false,
+                  "legacy_turntable_filter": {
+                    "enabled": true,
+                    "method": "axis_height",
+                    "min_axis_y_mm": -75.7,
+                    "input_points": 581,
+                    "removed_points": 70,
+                    "kept_points": 511,
+                    "profile": "duck-platform-height-20261003"
+                  }
+                }
+              },
+              "retained_points": 511,
+              "adaptive_added": 18,
+              "original_points_removed": 0,
+              "spatial_filter": {
+                "version": 1,
+                "enabled": true,
+                "radius_mm": 70.0,
+                "margin_mm": 0.0,
+                "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+                "effective_radius_mm": 70.0,
+                "input_points": 598,
+                "removed_points": 0,
+                "kept_points": 598,
+                "method": "axis_radial_cylinder",
+                "continuity_rejected": 1,
+                "before_multipeak": true,
+                "invalid_geometry_points": 0
+              },
+              "turntable_filter": {
+                "enabled": true,
+                "method": "axis_height",
+                "min_axis_y_mm": -75.7,
+                "input_points": 563,
+                "removed_points": 70,
+                "kept_points": 493,
+                "profile": "duck-platform-height-20261003"
+              },
+              "ground_branch": {
+                "version": "ground-unique-frozen-branch-v1",
+                "settings": {
+                  "neighbor_rows": 4,
+                  "min_support": 3,
+                  "dx_intercept": 2,
+                  "dx_per_row": 3,
+                  "ground_margin_mm": 0,
+                  "large_separation_diagnostic_px": 100
+                },
+                "enabled": true,
+                "original_final_points": 493,
+                "eligible_points": 0,
+                "added_points": 0,
+                "original_points_removed": 0,
+                "final_points": 493,
+                "support_rejected": 0,
+                "cross_angle_gate": false,
+                "large_separation_gate": false,
+                "legacy_turntable_filter": {
+                  "enabled": true,
+                  "method": "axis_height",
+                  "min_axis_y_mm": -75.7,
+                  "input_points": 563,
+                  "removed_points": 70,
+                  "kept_points": 493,
+                  "profile": "duck-platform-height-20261003"
+                }
+              },
+              "seconds": 0.2185708489996614,
+              "source_frame_id": 1247,
+              "inferred_points": 0,
+              "raw_images_preserved": true,
+              "raw_images_read_for_extraction": false,
+              "color_patch_size": 7,
+              "noise_gate": false
+            },
+            "legacy_fpga_multiple_peak_rows": 31,
+            "comparison": {
+              "passed": true,
+              "rows": 660,
+              "centers": 631,
+              "exact_rational_and_metadata": true,
+              "mismatch_rows": 0
+            },
+            "capture_and_raw_save_s": 0.48258333600097103,
+            "extract_and_receive_s": 1.8784271550030098,
+            "rk_geometry_s": 0.2657946469989838,
+            "software_reference_s": 1.8377393470000243
+          }
+        },
+        "pid": 151906,
+        "boot_id": "186c36b6-c651-48b2-9d87-556702002128",
+        "timing_profile": {
+          "background_wait": 0.05,
+          "laser_wait": 0.05,
+          "color_wait": 0.1,
+          "motor_settle": 0.15,
+          "rate_pps": 120,
+          "name": "fast"
+        },
+        "full_pixel_check": true,
+        "camera_profile": {
+          "device": "/dev/video73",
+          "before": "gain: 0",
+          "applied": "gain: 0"
+        },
+        "capture_overlap": {
+          "enabled": true,
+          "policy": "last_batch_only",
+          "note": "Extraction interval includes the next capture; do not sum overlapping timings"
+        },
+        "acquisition_seconds": 5.044788089002395,
+        "color": {
+          "led": 8,
+          "gain": 50,
+          "capture_and_save_s": 0.41394637700068415,
+          "samples": 976,
+          "median_max": 145.5,
+          "saturated_fraction": 0.0,
+          "stream_id": "fce18e2dbf8e441bb2862781f83dcbd2",
+          "frame_id": 1295,
+          "same_commanded_position": true
+        },
+        "passed": true,
+        "scan_ready": true,
+        "scan_ready_scope": "Static point-count gate only; repeatability and motor closure remain separate",
+        "elapsed_seconds": 9.357579028001055,
+        "queue_geometry_complete_s": 4.279239914001664
+      },
+      "storage_seconds": 1.0428523699993093
+    }
+  ],
+  "rejected": []
+}

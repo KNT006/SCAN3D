@@ -1,0 +1,16 @@
+{
+  "mode": "B_post_selection_v1",
+  "normal_camera": [
+    0.8362717537704093,
+    -0.005369365459009167,
+    0.5482889053777503
+  ],
+  "offset_mm": 111.40011704008225,
+  "acquisition_hashes": {
+    "camera_sha256": "32ef6bc57b8ef02cf0043ecb657ae2fbad72dc12bb0653d787c7e93c8884f8d1",
+    "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+    "planes_sha256": "4c1c3e00a5bbb2ae41355cfeefa6100081813846b8bca1e2b3da9be7ec5ab0a9"
+  },
+  "source": "calibration-B-20261027/candidate-validation.json",
+  "absolute_accuracy_validated": false
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "known_old_and_new": true,
+  "unknown_plane_rejected": true,
+  "unknown_camera_rejected": true,
+  "live_old_plane_rejected": true,
+  "old_full_replay_passed": true,
+  "source_sha256": "3aa291af84c72b50ddd041c05ba21d93e6b59b64d9e1b222ceb6fcb65d450695"
+}

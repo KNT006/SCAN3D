@@ -1,0 +1,8 @@
+import type {ExhibitAsset} from './MuseumData';
+import {paintKey} from './MuseumSegmentation';
+const memory=new Map<string,{signature:string;blob:Blob}>();
+function db(){return new Promise<IDBDatabase>((ok,no)=>{const r=indexedDB.open('scan3d-cabinet-previews',1);r.onupgradeneeded=()=>r.result.createObjectStore('previews');r.onsuccess=()=>ok(r.result);r.onerror=()=>no(r.error);});}
+export function previewSignature(a:ExhibitAsset,yaw:number){let revision='';try{revision=localStorage.getItem('scan3d-paint-revision:'+paintKey(a))||'';}catch{}return JSON.stringify([3,paintKey(a),a.palette,yaw,revision]);}
+export async function cachedPreview(id:string,signature:string){let value=memory.get(id);if(!value)try{const d=await db();value=await new Promise<any>((ok,no)=>{const t=d.transaction('previews'),r=t.objectStore('previews').get(id);r.onsuccess=()=>ok(r.result);r.onerror=()=>no(r.error);t.oncomplete=()=>d.close();});if(value)memory.set(id,value);}catch{}return value?.signature===signature?value.blob:null;}
+export async function savePreview(id:string,signature:string,blob:Blob){memory.set(id,{signature,blob});try{const d=await db();await new Promise<void>((ok,no)=>{const t=d.transaction('previews','readwrite');t.objectStore('previews').put({signature,blob},id);t.oncomplete=()=>{d.close();ok();};t.onerror=()=>{d.close();no(t.error);};});}catch{}}
+export async function deletePreview(id:string){memory.delete(id);const d=await db();await new Promise<void>((ok,no)=>{const t=d.transaction('previews','readwrite');t.objectStore('previews').delete(id);t.oncomplete=()=>{d.close();ok();};t.onerror=()=>{d.close();no(t.error);};});}

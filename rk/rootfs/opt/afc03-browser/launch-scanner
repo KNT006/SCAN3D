@@ -1,0 +1,18 @@
+#!/bin/sh
+# Chinese keyboard input for the HDMI project UI.
+export GTK_IM_MODULE=ibus
+export QT_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+# Wait for IBus before Chromium creates its input context.
+if ! timeout 2 ibus engine >/dev/null 2>&1; then
+    ibus-daemon --daemonize --xim --desktop=XFCE
+fi
+for im_attempt in 1 2 3 4 5 6 7 8 9 10; do
+    if timeout 2 ibus engine >/dev/null 2>&1; then break; fi
+    sleep 0.2
+done
+
+export LD_LIBRARY_PATH=/opt/afc03-browser/gpu-candidate/lib:/opt/afc03-browser/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
+# Tie the HDMI entry URL to the deployed HTML, bypassing any old cached entry.
+version=$(sha256sum /opt/afc03-scanner/frontend/dist/index.html | cut -c 1-16)
+exec /usr/bin/chromium --no-first-run --no-proxy-server "--app=http://127.0.0.1:8081/?ui=scan3d&v=$version" --start-maximized "$@"

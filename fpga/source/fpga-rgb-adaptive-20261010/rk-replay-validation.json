@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "runtime": "RK3576 native Python/numpy; isolated candidate; no hardware controls",
+  "cases": [
+    {
+      "case": "000-A",
+      "points": 465,
+      "added": 54,
+      "strategy_seconds": 0.18594713600032264,
+      "decode_and_strategy_seconds": 0.2597141550031665
+    },
+    {
+      "case": "000-B",
+      "points": 513,
+      "added": 20,
+      "strategy_seconds": 0.21178579499974148,
+      "decode_and_strategy_seconds": 0.282352902002458
+    },
+    {
+      "case": "034-A",
+      "points": 391,
+      "added": 166,
+      "strategy_seconds": 0.1487899550011207,
+      "decode_and_strategy_seconds": 0.20917534299951512
+    },
+    {
+      "case": "034-B",
+      "points": 436,
+      "added": 5,
+      "strategy_seconds": 0.17413283900168608,
+      "decode_and_strategy_seconds": 0.23513258099774248
+    },
+    {
+      "case": "059-A",
+      "points": 471,
+      "added": 43,
+      "strategy_seconds": 0.1896824959985679,
+      "decode_and_strategy_seconds": 0.25572772799932864
+    },
+    {
+      "case": "059-B",
+      "points": 519,
+      "added": 22,
+      "strategy_seconds": 0.2174554330013052,
+      "decode_and_strategy_seconds": 0.2884245900022506
+    }
+  ]
+}

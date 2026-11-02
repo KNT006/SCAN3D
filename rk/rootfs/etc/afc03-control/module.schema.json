@@ -1,0 +1,380 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "device",
+    "baudrate",
+    "operations"
+  ],
+  "properties": {
+    "device": {
+      "type": "string",
+      "minLength": 1
+    },
+    "baudrate": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "encoding": {
+      "type": "string"
+    },
+    "dtr": {
+      "type": "boolean"
+    },
+    "rts": {
+      "type": "boolean"
+    },
+    "reply_timeout_seconds": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 3
+    },
+    "operations": {
+      "type": "object",
+      "required": [
+        "ping",
+        "position",
+        "state",
+        "enabled",
+        "laser_state",
+        "led_state",
+        "enable",
+        "disable",
+        "stop",
+        "move",
+        "arm",
+        "disarm",
+        "zero",
+        "pulse_move",
+        "laser",
+        "laser_keep",
+        "led"
+      ],
+      "properties": {
+        "ping": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: ready"
+            }
+          }
+        },
+        "position": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: deg"
+            }
+          }
+        },
+        "state": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: session, emitted, moving, pending, count_known, armed, fault"
+            }
+          }
+        },
+        "enabled": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: enabled"
+            }
+          }
+        },
+        "laser_state": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: A, B, remaining_ms"
+            }
+          }
+        },
+        "led_state": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: white"
+            }
+          }
+        },
+        "enable": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        },
+        "disable": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        },
+        "stop": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        },
+        "move": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: pulses, speed"
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        },
+        "arm": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: session"
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        },
+        "disarm": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        },
+        "zero": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: session"
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        },
+        "pulse_move": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: pulses, rate, session"
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        },
+        "laser": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: channel"
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        },
+        "laser_keep": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: "
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        },
+        "led": {
+          "type": "object",
+          "required": [
+            "request",
+            "response"
+          ],
+          "properties": {
+            "request": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Wire template arguments: white"
+            },
+            "response": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Full line regex with named groups: accepted"
+            }
+          }
+        }
+      }
+    }
+  }
+}

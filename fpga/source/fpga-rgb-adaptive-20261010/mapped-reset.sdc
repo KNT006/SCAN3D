@@ -1,0 +1,2 @@
+# Exact asynchronous assertion pins only; release paths remain timed.
+set_false_path -to [get_pins {u_dbg_snapshot/u_dst_reset/pipe_reg[2]_syn_2.asr u_cam_config_snapshot/u_dst_reset/pipe_reg[2]_syn_2.asr u_cam_video_source/u_mipi_csi_rx/u_csi_rx_phy/gen_channel_wrapper[0]$u_csi_rx_hs_data_phy/gen_ph1a$u_sample_reset/pipe_reg[2]_syn_2.asr u_cam_video_source/u_mipi_csi_rx/u_csi_rx_phy/u_csi_rx_clock_det/u_watchdog/u_ext_reset/pipe_reg[2]_syn_2.asr}]

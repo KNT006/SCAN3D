@@ -1,0 +1,33 @@
+[Unit]
+Description=SCAN3D local Qwen2 RK3576 NPU chat (scan priority)
+After=local-fs.target
+
+[Service]
+User=scan3dchat
+Group=scan3dchat
+SupplementaryGroups=video render
+WorkingDirectory=/opt/scan3d-chat
+ExecStart=/usr/bin/python3 /opt/scan3d-chat/broker.py
+RuntimeDirectory=scan3d-chat
+RuntimeDirectoryMode=0750
+Restart=on-failure
+RestartSec=3
+KillMode=control-group
+TimeoutStopSec=4
+Nice=15
+CPUQuota=100%
+CPUWeight=10
+IOWeight=10
+MemoryMax=1100M
+MemorySwapMax=0
+OOMPolicy=kill
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+RestrictAddressFamilies=AF_UNIX
+ReadWritePaths=/run/scan3d-chat
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "fpga_sha256": "a8802376d4e0919e336af94aaf2abc905dede19c837a99b68f7c66510a105ad4",
+  "job_abi": "0x60000",
+  "probe_abi": "0x00020000",
+  "camera": {
+    "frames": 593,
+    "age": 0.04692032400271273,
+    "raw_frames": 1046,
+    "raw_age": 0.024220021998189623,
+    "stream_id": "8c02465e52f143b68f868561ec0eacb8",
+    "raw_bad_sizes": 0,
+    "raw_timeouts": 0,
+    "raw_pts_nonmonotonic": 0,
+    "raw_metadata_version": 1,
+    "marker_capture_stage": "source"
+  },
+  "services": {
+    "afc03-pcie": {
+      "active": "active",
+      "enabled": "enabled"
+    },
+    "afc03-fpga-ready": {
+      "active": "active",
+      "enabled": "enabled"
+    },
+    "afc03-camera": {
+      "active": "active",
+      "enabled": "enabled"
+    },
+    "afc03-scanner": {
+      "active": "active",
+      "enabled": "enabled"
+    }
+  },
+  "ready": {
+    "passed": true,
+    "mode": "inspect",
+    "read_only": true,
+    "ready_verified": false,
+    "scanner_idle": {
+      "active_scans": [],
+      "active_jobs": [],
+      "active_calibrations": []
+    },
+    "bgc1_magic": "0x42474331",
+    "bgc1_abi": "0x20000",
+    "bgc1_mailbox_flags": 18,
+    "legacy_capability": 1,
+    "legacy_before": {
+      "flags": "0x5",
+      "bridge_ready": true,
+      "pending": false,
+      "snapshot_valid": true,
+      "timeout": false,
+      "reset_held": false,
+      "rejected": false,
+      "snapshot_seq": 1,
+      "init_advisory": {
+        "pll_locked": true,
+        "phy_reset_released": true,
+        "cal_done": true,
+        "control_ready": true,
+        "error": 0,
+        "step": 32
+      },
+      "region_bytes": 65536
+    },
+    "probe_before": {
+      "flags": 0,
+      "waiting": false,
+      "active": false,
+      "done": false,
+      "fault_present": false,
+      "rejected": false,
+      "read_valid": false,
+      "token": 174166809,
+      "frame_id": 426,
+      "words_written": 1,
+      "capacity_words": 2048,
+      "roi": [
+        4,
+        0,
+        8,
+        1
+      ],
+      "image_size": [
+        1920,
+        1080
+      ],
+      "fault": 0,
+      "fault_name": "none",
+      "read_index": 0,
+      "expected_words": 1,
+      "current_frame_counter": 1048
+    },
+    "commands": [],
+    "flash_modified": false,
+    "motor_operations": false,
+    "laser_operations": false,
+    "note": "Read-only inspection; no fresh SNAP or DDR readiness claim."
+  },
+  "cold_boot_tested": false,
+  "recorded_unix": 1777350509.0299811
+}

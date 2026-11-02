@@ -1,0 +1,521 @@
+[
+  {
+    "id": "duck",
+    "name": "小鸭",
+    "category": "无脚鸭子摆件",
+    "subtitle": "把日常的小小陪伴，留在这里。",
+    "regions": [
+      "身体",
+      "头部",
+      "嘴部",
+      "左眼",
+      "左翼",
+      "右翼",
+      "尾部",
+      "右眼"
+    ],
+    "palette": [
+      "#f4e5bd",
+      "#f4e5bd",
+      "#e88b35",
+      "#26312d",
+      "#f4e5bd",
+      "#f4e5bd",
+      "#f4e5bd",
+      "#26312d"
+    ],
+    "faces": 60000,
+    "vertices": 29990,
+    "bounds_mm": [
+      50.8099479675293,
+      44.99052047729492,
+      58.477020263671875
+    ],
+    "geometry_key": "222a21512f201dd591c6fe4d1bb4134385793c05e0bfc9c9ab657f24c46c1db1",
+    "source_scan": "fpga-full-20261003-005504",
+    "source_stl_sha256": "14619b1418d4c4e4c951be199a9ab5b8d080db7433379bcf14979961c82908d0",
+    "source_stl": "/assets/duck-original-mm.stl",
+    "features": [
+      "圆润的身体",
+      "扁平的嘴部",
+      "没有脚的扫描外形"
+    ],
+    "processing": "扫描 STL 展示副本，减至 60,000 面；保留已有补全曲面。",
+    "segmentation_note": "几何先验与连通生长候选；嘴眼种子沿用此前颜色候选，可手动修正。",
+    "transform": {
+      "origin": [
+        -1.1764202117919922,
+        -75.69999694824219,
+        -1.3773574829101562
+      ],
+      "rotation": [
+        [
+          0.9968664280257381,
+          0.0,
+          -0.0791032532529845
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0791032532529845,
+          0.0,
+          0.9968664280257381
+        ]
+      ]
+    },
+    "asset_base": "/museum/duck/",
+    "thumbnail": "/museum/duck/cabinet.png",
+    "color_segmentation": {
+      "version": "photo-v2-90df5b1ce5487ad1",
+      "regions": [
+        "浅色色区 1",
+        "橙棕色区 2",
+        "深色细节 3",
+        "粉红细节 4",
+        "自定分区 5",
+        "自定分区 6",
+        "自定分区 7",
+        "颜色未知"
+      ],
+      "palette": [
+        "#e9dfcf",
+        "#de9958",
+        "#343336",
+        "#cf8b93",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d5d2cb"
+      ],
+      "labels_file": "rgb-segmentation/face-regions.bin?v=90df5b1ce5487ad1",
+      "note": "融合本次扫描多角度 RGB 原图与对应点云，检查可见性后保留细节、合并相近颜色。灰色为颜色未知；不是五官语义识别。",
+      "report_url": "/museum/duck/rgb-segmentation/report.json",
+      "thumbnail": "/museum/duck/rgb-segmentation/cabinet.png",
+      "region_count": 4,
+      "measured_area_fraction": 0.8357648253440857,
+      "unknown_faces": 2018
+    },
+    "previous_color_segmentation": {
+      "version": "rgb-lab-v1-d2be529d613ee574",
+      "regions": [
+        "浅色色区 1",
+        "橙棕色区 2",
+        "深色细节 3",
+        "自定分区 4",
+        "自定分区 5",
+        "自定分区 6",
+        "自定分区 7",
+        "颜色未知"
+      ],
+      "palette": [
+        "#e9dfcf",
+        "#de9958",
+        "#665f62",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d5d2cb"
+      ],
+      "labels_file": "../rgb-v1/duck/face-regions.bin",
+      "note": "依据本展品实测点云 RGB 色差合并；同色可跨部位共用上色。灰色未知区缺少可靠实测颜色，非语义识别。",
+      "report_url": "/museum/rgb-v1/duck/report.json",
+      "thumbnail": "/museum/rgb-v1/duck/cabinet.png",
+      "region_count": 3,
+      "measured_area_fraction": 0.8357648253440857,
+      "unknown_faces": 3741
+    }
+  },
+  {
+    "id": "doll",
+    "name": "娃娃",
+    "category": "娃娃摆件",
+    "subtitle": "每个微小轮廓，都值得被记住。",
+    "regions": [
+      "衣服",
+      "面部候选",
+      "头发候选",
+      "头饰",
+      "左侧装饰",
+      "右侧装饰",
+      "底面",
+      "自定细节"
+    ],
+    "palette": [
+      "#e7dfd0",
+      "#e7dfd0",
+      "#e7dfd0",
+      "#e7dfd0",
+      "#e7dfd0",
+      "#e7dfd0",
+      "#e7dfd0",
+      "#e7dfd0"
+    ],
+    "faces": 26170,
+    "vertices": 13087,
+    "bounds_mm": [
+      55.99772335269839,
+      62.000953674316406,
+      52.52490340156767
+    ],
+    "geometry_key": "a937d690093a7d2e05fccb646693fbc0ba4f09825ea3aa2f5d62a6ff90e3b703",
+    "source_scan": "scan3d-pc-20261010-032157-5c3bcd",
+    "source_stl_sha256": "9826aecc8c353b3558d541af349a321a61bd9ec33e6654a3906eba665621dfe7",
+    "source_stl": "/museum/doll/original-mm.stl",
+    "features": [
+      "较大的头部",
+      "头饰与垂落的发束",
+      "坐姿轮廓"
+    ],
+    "processing": "保留主体，移除 5 个离散部分，按底面平面封底；封底属于推断表面。",
+    "segmentation_note": "按高度、朝向和表面位置生成的粗分区，不是图像语义识别；面部与头发边界需人工修正。",
+    "transform": {
+      "origin": [
+        1.7695331573486328,
+        -75.69999694824219,
+        -7.363739013671875
+      ],
+      "rotation": [
+        [
+          0.573576436351046,
+          0.0,
+          0.8191520442889918
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.8191520442889918,
+          0.0,
+          0.573576436351046
+        ]
+      ]
+    },
+    "asset_base": "/museum/doll/",
+    "thumbnail": "/museum/doll/cabinet.png",
+    "color_segmentation": {
+      "version": "photo-v2-43a3c9f1cbdcfde7",
+      "regions": [
+        "黄褐色区 1",
+        "浅色色区 2",
+        "深蓝色区 3",
+        "深色细节 4",
+        "粉红细节 5",
+        "自定分区 6",
+        "自定分区 7",
+        "颜色未知"
+      ],
+      "palette": [
+        "#b9a077",
+        "#e9dfcf",
+        "#37688a",
+        "#343336",
+        "#cf8b93",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d5d2cb"
+      ],
+      "labels_file": "rgb-segmentation/face-regions.bin?v=43a3c9f1cbdcfde7",
+      "note": "融合本次扫描多角度 RGB 原图与对应点云，检查可见性后保留细节、合并相近颜色。灰色为颜色未知；不是五官语义识别。",
+      "report_url": "/museum/doll/rgb-segmentation/report.json",
+      "thumbnail": "/museum/doll/rgb-segmentation/cabinet.png",
+      "region_count": 5,
+      "measured_area_fraction": 0.829522430896759,
+      "unknown_faces": 1344
+    },
+    "previous_color_segmentation": {
+      "version": "rgb-lab-v1-a486111a52557f7a",
+      "regions": [
+        "黄褐色区 1",
+        "浅色色区 2",
+        "深蓝色区 3",
+        "深色细节 4",
+        "蓝色色区 5",
+        "自定分区 6",
+        "自定分区 7",
+        "颜色未知"
+      ],
+      "palette": [
+        "#b9a077",
+        "#e9dfcf",
+        "#37688a",
+        "#665f62",
+        "#658fae",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d5d2cb"
+      ],
+      "labels_file": "../rgb-v1/doll/face-regions.bin",
+      "note": "依据本展品实测点云 RGB 色差合并；同色可跨部位共用上色。灰色未知区缺少可靠实测颜色，非语义识别。",
+      "report_url": "/museum/rgb-v1/doll/report.json",
+      "thumbnail": "/museum/rgb-v1/doll/cabinet.png",
+      "region_count": 5,
+      "measured_area_fraction": 0.829522430896759,
+      "unknown_faces": 2424
+    }
+  },
+  {
+    "id": "cat",
+    "name": "小猫",
+    "category": "小猫 · 局部重建",
+    "subtitle": "真实扫描，值得珍藏。",
+    "regions": [
+      "整体",
+      "自定分区 1",
+      "自定分区 2",
+      "自定分区 3",
+      "自定分区 4",
+      "自定分区 5",
+      "自定分区 6",
+      "自定分区 7"
+    ],
+    "palette": [
+      "#d3a47c",
+      "#d3a47c",
+      "#d3a47c",
+      "#d3a47c",
+      "#d3a47c",
+      "#d3a47c",
+      "#d3a47c",
+      "#d3a47c"
+    ],
+    "faces": 50880,
+    "vertices": 25434,
+    "bounds_mm": [
+      35.4620246887207,
+      21.770702362060547,
+      34.665069580078125
+    ],
+    "geometry_key": "341b8ee182988a883159a122d104ab10792f578cf6459e50b55728418f0c52a0",
+    "source_scan": "scan3d-20260427-214255-3f97df",
+    "source_stl_sha256": "76e131c5e8dde660f96b47042d97ff6a5e47469b8b7e1cbc580994dda71820eb",
+    "source_stl": "/museum/cat/original-mm.stl",
+    "features": [
+      "小猫扫描的局部表面",
+      "此旧版 STL 未保留完整外形"
+    ],
+    "processing": "旧版点云重建 STL，仅保留约 21.8 mm 高的局部表面，不是完整小猫；已移除离散部分并封底。封底属于推断表面。",
+    "segmentation_note": "本展品以整体素色开始。自定分区留空，可用修正画笔建立；未进行自动语义分割。",
+    "transform": {
+      "origin": [
+        -2.4218578338623047,
+        -75.69999694824219,
+        1.3415069580078125
+      ],
+      "rotation": [
+        [
+          0.573576436351046,
+          0.0,
+          0.8191520442889918
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.8191520442889918,
+          0.0,
+          0.573576436351046
+        ]
+      ]
+    },
+    "asset_base": "/museum/cat/",
+    "thumbnail": "/museum/cat/cabinet.png",
+    "color_segmentation": {
+      "version": "photo-v2-4aff5fd7762462bd",
+      "regions": [
+        "浅色色区 1",
+        "蓝色色区 2",
+        "自定分区 3",
+        "自定分区 4",
+        "自定分区 5",
+        "自定分区 6",
+        "自定分区 7",
+        "颜色未知"
+      ],
+      "palette": [
+        "#e9dfcf",
+        "#658fae",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d5d2cb"
+      ],
+      "labels_file": "rgb-segmentation/face-regions.bin?v=4aff5fd7762462bd",
+      "note": "融合本次扫描多角度 RGB 原图与对应点云，检查可见性后保留细节、合并相近颜色。灰色为颜色未知；不是五官语义识别。",
+      "report_url": "/museum/cat/rgb-segmentation/report.json",
+      "thumbnail": "/museum/cat/rgb-segmentation/cabinet.png",
+      "region_count": 2,
+      "measured_area_fraction": 0.7412620186805725,
+      "unknown_faces": 1139
+    },
+    "previous_color_segmentation": {
+      "version": "rgb-lab-v1-d90f985c44ab4110",
+      "regions": [
+        "浅色色区 1",
+        "深色细节 2",
+        "蓝色色区 3",
+        "自定分区 4",
+        "自定分区 5",
+        "自定分区 6",
+        "自定分区 7",
+        "颜色未知"
+      ],
+      "palette": [
+        "#e9dfcf",
+        "#665f62",
+        "#658fae",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d5d2cb"
+      ],
+      "labels_file": "../rgb-v1/cat/face-regions.bin",
+      "note": "依据本展品实测点云 RGB 色差合并；同色可跨部位共用上色。灰色未知区缺少可靠实测颜色，非语义识别。",
+      "report_url": "/museum/rgb-v1/cat/report.json",
+      "thumbnail": "/museum/rgb-v1/cat/cabinet.png",
+      "region_count": 3,
+      "measured_area_fraction": 0.7412620186805725,
+      "unknown_faces": 2353
+    }
+  },
+  {
+    "id": "duck-last",
+    "name": "Duck_last",
+    "category": "小鸭 · 精细扫描",
+    "subtitle": "真实扫描，值得珍藏。",
+    "regions": [
+      "整体",
+      "自定分区 1",
+      "自定分区 2",
+      "自定分区 3",
+      "自定分区 4",
+      "自定分区 5",
+      "自定分区 6",
+      "自定分区 7"
+    ],
+    "palette": [
+      "#e9d5a4",
+      "#e9d5a4",
+      "#e9d5a4",
+      "#e9d5a4",
+      "#e9d5a4",
+      "#e9d5a4",
+      "#e9d5a4",
+      "#e9d5a4"
+    ],
+    "faces": 20438,
+    "vertices": 10221,
+    "bounds_mm": [
+      50.81374740600586,
+      44.89025115966797,
+      57.635215759277344
+    ],
+    "geometry_key": "038e8100083862400bfcd498ad3d8f2cd8b6b2adcc83ead64a446e60b25492b8",
+    "source_scan": "scan3d-pc-20261010-163204-441887",
+    "source_stl_sha256": "6a6f1c3f5dfe7008810fe60876faa41a435474dac81c8c6d20171b40936a642e",
+    "source_stl": "/museum/duck-last/original-mm.stl",
+    "features": [
+      "圆润的身体",
+      "扁平的嘴部",
+      "没有脚的扫描外形"
+    ],
+    "processing": "0.1125° 精细扫描的已闭合 STL，保留主体和原有曲面；平面封底属于推断表面。",
+    "segmentation_note": "本展品以整体素色开始。自定分区留空，可用修正画笔建立；未进行自动语义分割。",
+    "transform": {
+      "origin": [
+        3.412259101867676,
+        -75.69999694824219,
+        -0.2624330520629883
+      ],
+      "rotation": [
+        [
+          0.9968664280257381,
+          0.0,
+          -0.0791032532529845
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0791032532529845,
+          0.0,
+          0.9968664280257381
+        ]
+      ]
+    },
+    "asset_base": "/museum/duck-last/",
+    "thumbnail": "/museum/duck-last/cabinet.png",
+    "color_segmentation": {
+      "version": "photo-v2-fd97d3000c021652",
+      "regions": [
+        "浅色色区 1",
+        "橙棕色区 2",
+        "深色细节 3",
+        "橙棕色区 4",
+        "粉红细节 5",
+        "自定分区 6",
+        "自定分区 7",
+        "颜色未知"
+      ],
+      "palette": [
+        "#e9dfcf",
+        "#de9958",
+        "#343336",
+        "#de9958",
+        "#cf8b93",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d5d2cb"
+      ],
+      "labels_file": "rgb-segmentation/face-regions.bin?v=fd97d3000c021652",
+      "note": "融合本次扫描多角度 RGB 原图与对应点云，检查可见性后保留细节、合并相近颜色。灰色为颜色未知；不是五官语义识别。",
+      "report_url": "/museum/duck-last/rgb-segmentation/report.json",
+      "thumbnail": "/museum/duck-last/rgb-segmentation/cabinet.png",
+      "region_count": 5,
+      "measured_area_fraction": 0.842786967754364,
+      "unknown_faces": 331
+    },
+    "previous_color_segmentation": {
+      "version": "rgb-lab-v1-b774f95c5253df73",
+      "regions": [
+        "浅色色区 1",
+        "橙棕色区 2",
+        "深色细节 3",
+        "自定分区 4",
+        "自定分区 5",
+        "自定分区 6",
+        "自定分区 7",
+        "颜色未知"
+      ],
+      "palette": [
+        "#e9dfcf",
+        "#de9958",
+        "#665f62",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d6d4cc",
+        "#d5d2cb"
+      ],
+      "labels_file": "../rgb-v1/duck-last/face-regions.bin",
+      "note": "依据本展品实测点云 RGB 色差合并；同色可跨部位共用上色。灰色未知区缺少可靠实测颜色，非语义识别。",
+      "report_url": "/museum/rgb-v1/duck-last/report.json",
+      "thumbnail": "/museum/rgb-v1/duck-last/cabinet.png",
+      "region_count": 3,
+      "measured_area_fraction": 0.842786967754364,
+      "unknown_faces": 681
+    }
+  }
+]

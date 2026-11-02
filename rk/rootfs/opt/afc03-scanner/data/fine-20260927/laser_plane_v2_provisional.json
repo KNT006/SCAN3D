@@ -1,0 +1,118 @@
+{
+  "status": "provisional_laser_plane_for_prototype_scan_not_metrology_certified",
+  "training_poses": [
+    "check03",
+    "check05"
+  ],
+  "held_out_poses": [
+    "check01",
+    "check06"
+  ],
+  "normal_camera": [
+    -0.7837636331147727,
+    -0.005392887835498541,
+    0.6210358155271929
+  ],
+  "offset_mm_n_dot_X_equals_offset": 111.61152037752038,
+  "covariance_eigenvalues_mm2": [
+    0.009564782054538087,
+    218.0443742694264,
+    299.67409962976177
+  ],
+  "training_centroid_separation_mm": 34.54112357781375,
+  "per_pose": {
+    "check01": {
+      "role": "held_out",
+      "rms_mm": 0.5287719716870476,
+      "mean_mm": -0.39280576421923863,
+      "p95_abs_mm": 1.095141129134267,
+      "old_plane_rms_mm": 1.0384912666944024
+    },
+    "check03": {
+      "role": "training",
+      "rms_mm": 0.10505728090396171,
+      "mean_mm": 0.0012677817172457998,
+      "p95_abs_mm": 0.18264333697483506,
+      "old_plane_rms_mm": 1.2748395049146968
+    },
+    "check05": {
+      "role": "training",
+      "rms_mm": 0.08995850064465713,
+      "mean_mm": -0.0012677817172745596,
+      "p95_abs_mm": 0.18405027436018315,
+      "old_plane_rms_mm": 0.5540759140582163
+    }
+  },
+  "runtime_activated": false,
+  "schema_version": 2,
+  "created_at": "2026-09-27T22:04:48.664475+08:00",
+  "prospective_validation": {
+    "pose": "check06",
+    "role": "prospective_held_out_no_refit",
+    "candidate_sha256": "b6d2ed2400d40f4b6ab50b9c37ae5212aae3a17ed20b16c8e418bd847da96a5c",
+    "training_poses": [
+      "check03",
+      "check05"
+    ],
+    "refitted_with_validation": false,
+    "samples": 309,
+    "rms_plane_distance_mm": 0.470760548036383,
+    "signed_mean_mm": -0.4318546213605887,
+    "median_absolute_mm": 0.4457435342924186,
+    "p95_absolute_mm": 0.7528738724111111,
+    "max_absolute_mm": 1.0680103726998171
+  },
+  "refitted_with_validation_data": false,
+  "plane_coefficients_ax_by_cz_d_equals_zero": [
+    -0.7837636331147727,
+    -0.005392887835498541,
+    0.6210358155271929,
+    -111.61152037752038
+  ],
+  "coordinate_system": "OpenCV camera axes; raw1920x1080 rotated90CW to1080x1920; Xright,Ydown,Zforward; undistorted rays; mm",
+  "camera": {
+    "raw_size_wh": [
+      1920,
+      1080
+    ],
+    "analysis_size_wh": [
+      1080,
+      1920
+    ],
+    "rotation_clockwise_degrees": 90,
+    "crop": false,
+    "resize": false,
+    "camera_matrix": [
+      [
+        1487.2464332397228,
+        0.0,
+        451.3882902349757
+      ],
+      [
+        0.0,
+        1491.7906811133953,
+        975.3038662372377
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion_coefficients": [
+      0.058165630588144994,
+      -0.023434140508959405,
+      0.005487572770556362,
+      -0.012355872188324653,
+      0.0
+    ],
+    "intrinsics_sha256": "ab8c8a712c680973dcac1999086e52d0d811c4c260b0edd36d77ff284f1b11f9"
+  },
+  "limitations": [
+    "Plane-distance residual is not reconstructed depth/absolute dimension accuracy.",
+    "Held-out check06 signed mean -0.432mm; check01 RMS0.529mm and p95 1.095mm remain.",
+    "Limited height/depth coverage; manual paired exposures assume no camera/laser/board motion.",
+    "Related turntable axis is provisional and validated primarily in one command direction.",
+    "Camera, lens, laser mount changes require revalidation."
+  ]
+}

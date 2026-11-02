@@ -1,0 +1,17 @@
+{
+  "model": "Qwen2-0.5B-Instruct",
+  "target": "RK3576",
+  "quantization": "W4A16_G128",
+  "source": "https://huggingface.co/HanzoHuang/Qwen2-0.5B-Instruct-RKLLM",
+  "download": "https://huggingface.co/HanzoHuang/Qwen2-0.5B-Instruct-RKLLM/resolve/main/RK3576/Qwen2-0.5B-Instruct_RK3576_w4a16_g128.rkllm",
+  "model_sha256": "a166cdcff5d8a2e33423d01d8bac6f7a6ad1e1130fbd0bfefdb8b69082113e87",
+  "runtime_repository": "https://github.com/airockchip/rknn-llm",
+  "runtime_tag": "release-v1.3.0",
+  "runtime_commit": "878f9361fd3afa7e167b7079918918f78d2c1c2a",
+  "driver_observed": "0.9.8",
+  "max_context_tokens": 1024,
+  "max_new_tokens": 160,
+  "model_file_bytes": 691738964,
+  "runtime_sha256": "6a9e4fc5324c68921c3a900340361e107af7599fe34dc8fa7759b2c5ae22a6e6",
+  "header_sha256": "5077f32e43b9e539ff2f194de1d9b70758db90f6b2100d2ee79e8c4346276400"
+}

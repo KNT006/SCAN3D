@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rows": 4,
+  "sha256": {
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\rtl\\laser_full_row_core.v": "6065072fe966e116e151338d8ab65b5b2e463eec3750281f5c4d1319e3769275",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\rtl\\laser_peak_frontend.v": "63ab98a53d1b491bf5c3b805c04620e7a8f05c9105d1207e60067525d13189c4",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\rtl\\laser_row_evaluator_precomputed.v": "29915e92789064bbb7540e0151787cd9a388c8f1619a99b66cb6a6fb08bdc246",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\tb_capacity.sv": "4c81aa40fa1be16397454f7dd1b6d1e5fd885bf655802f14f06f270626a97cba"
+  }
+}

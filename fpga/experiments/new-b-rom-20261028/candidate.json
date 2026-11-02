@@ -1,0 +1,23 @@
+{
+  "bit": "D:\\PCle\\FPGA_SCAN3D\\fpga\\experiments\\new-b-rom-20261028\\candidate-20261028-205122\\afc03-new-B-rom-20261028.bit",
+  "sha256": "be4a1ab543de7402cc07e130a2964f185199db846928333dd13fcb3944d0df8f",
+  "bytes": 4850315,
+  "rom_sha256": "604112b06c3fd40738de5ea3f558201b52e85c321904521cf74e0b26301d2e7d",
+  "calibration_hashes": {
+    "camera_sha256": "32ef6bc57b8ef02cf0043ecb657ae2fbad72dc12bb0653d787c7e93c8884f8d1",
+    "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+    "planes_sha256": "4219e460decd036b1d0afd9049601c4bb8e18f151a776e9e32b9afb9aa319d61"
+  },
+  "timing_qualified": true,
+  "hardware_validated": true,
+  "flash_written": true,
+  "absolute_accuracy_validated": false,
+  "strict_db_sha256": "2715eb122d0583cf81504d139d7c73a0448ac26fdb0583e2dbe7e6dd4d66a92f",
+  "timing_qualification_sha256": "56da9ad46824631fc086e56a407cc96d45599fc26ae521717284f613f02e2c0b",
+  "job_abi": "0x00060000",
+  "c2h_channels": 2,
+  "hardware_candidate_comparison_passed": true,
+  "cold_boot_tested": false,
+  "object_scan_validated": true,
+  "board_scan": "scan3d-20261028-214500-nativeb"
+}

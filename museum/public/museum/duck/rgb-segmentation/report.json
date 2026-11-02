@@ -1,0 +1,505 @@
+{
+  "id": "duck",
+  "name": "小鸭",
+  "algorithm": "visibility-aware calibrated photos + SLIC + weighted view fusion + Lab groups + edge-aware ICM",
+  "photo_refinement": {
+    "method": "edge-aware Potts ICM + conservative small island merge",
+    "changed_faces": 483,
+    "iteration_changes": [
+      182,
+      102,
+      66,
+      51,
+      38,
+      36,
+      40,
+      37,
+      37,
+      29,
+      23,
+      21
+    ]
+  },
+  "semantic_recognition": false,
+  "geometry_key": "222a21512f201dd591c6fe4d1bb4134385793c05e0bfc9c9ab657f24c46c1db1",
+  "source": {
+    "source_cloud": "F:\\AAA_FPGA\\afc03-esp32-motor\\surface-repair-20261003\\duck-no-turntable\\combined.npz",
+    "source_cloud_sha256": "8f9fc4c5da80b5b72afa1b315a2857c21be0ddfc3be515bbb8f36376e3e98270",
+    "source_scan": "fpga-full-20261003-005504",
+    "source_points": 597326,
+    "usable_measured_points": 591837,
+    "query_neighbors": 24,
+    "minimum_samples": 3,
+    "max_distance_mm": 0.9,
+    "local_radius_extra_mm": 0.28,
+    "planar_cap_faces": 282,
+    "measured_face_fraction": 0.93765,
+    "measured_area_fraction": 0.8357648253440857,
+    "nearest_distance_percentiles_mm": [
+      0.11835370450161625,
+      1.1068243517941743,
+      4.049339475826735
+    ],
+    "median_sample_rgb_spread": 6.082762718200684,
+    "photo_evidence": {
+      "version": "photo-evidence-v2",
+      "archive": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source",
+      "views": [
+        {
+          "position": "position-000",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-000\\COLOR\\same-frame.png",
+          "image_sha256": "681505ed2c24b669a0a8ab37ef5c4899752a028295fdd421f9c4dd4ae245e06e",
+          "held_out_projection_p95_px": 1.429276353011288e-07,
+          "visible_faces": 17650
+        },
+        {
+          "position": "position-017",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-017\\COLOR\\same-frame.png",
+          "image_sha256": "5ed6ccbe5ceb6c16e4fd736bcde32dd611f0b69c32ac8775cfec66afecdb09fd",
+          "held_out_projection_p95_px": 1.484792678196782e-07,
+          "visible_faces": 17203
+        },
+        {
+          "position": "position-034",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-034\\COLOR\\same-frame.png",
+          "image_sha256": "71ff7d4e61e177edbee7ae434faa185aecf06bb92635debf82885d64ca383dd1",
+          "held_out_projection_p95_px": 1.4178318515149502e-07,
+          "visible_faces": 16896
+        },
+        {
+          "position": "position-051",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-051\\COLOR\\same-frame.png",
+          "image_sha256": "d8fa2435471d09b3ec6a377db807b4c7b3bc89582f62ba3580209e68b50c660a",
+          "held_out_projection_p95_px": 1.3990180396475756e-07,
+          "visible_faces": 17126
+        },
+        {
+          "position": "position-068",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-068\\COLOR\\same-frame.png",
+          "image_sha256": "5018ca82411e0ceeaaa8880cd990528a3dd74db52b1ac0c4b02c08e0fc9eaf2a",
+          "held_out_projection_p95_px": 1.452523039895771e-07,
+          "visible_faces": 17406
+        },
+        {
+          "position": "position-085",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-085\\COLOR\\same-frame.png",
+          "image_sha256": "f4b4656b77f73dc7e38dd46aa263b82faa6b8cd7370187271c2e1643eedf66a9",
+          "held_out_projection_p95_px": 1.2949640102785995e-07,
+          "visible_faces": 17611
+        },
+        {
+          "position": "position-102",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-102\\COLOR\\same-frame.png",
+          "image_sha256": "004f002b7ee8e24cf8e5cef1f1eaa93f19ca646ac4dc8a54ec030faa20653920",
+          "held_out_projection_p95_px": 1.3443476988075575e-07,
+          "visible_faces": 17691
+        },
+        {
+          "position": "position-119",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-119\\COLOR\\same-frame.png",
+          "image_sha256": "0cb13750105e83aefd38eff1b71f47d696539e1d888b7284af4a79fe5ab2f5d4",
+          "held_out_projection_p95_px": 1.357224313116593e-07,
+          "visible_faces": 18025
+        },
+        {
+          "position": "position-136",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-136\\COLOR\\same-frame.png",
+          "image_sha256": "360bb2d800e734572e85f7e456e39e229fd49d1b7eb46b8df52c8ee7736d6ba4",
+          "held_out_projection_p95_px": 1.396334881237947e-07,
+          "visible_faces": 18271
+        },
+        {
+          "position": "position-153",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-153\\COLOR\\same-frame.png",
+          "image_sha256": "0c8cf5deb817f2e8f15a95184479b8e7c0256421f998be4c396294c9b91179f4",
+          "held_out_projection_p95_px": 1.4377496831856225e-07,
+          "visible_faces": 18368
+        },
+        {
+          "position": "position-170",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-170\\COLOR\\same-frame.png",
+          "image_sha256": "9df4ae4cdd3b2207a7cac5dd68958dd63df3dd86603d113a4f6da61646525fdb",
+          "held_out_projection_p95_px": 1.4310710538604289e-07,
+          "visible_faces": 18511
+        },
+        {
+          "position": "position-187",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-187\\COLOR\\same-frame.png",
+          "image_sha256": "bc32c553a2d185eeb0d9df75a5b406ddeb247f4beb998e5aed479ec90d71c3e2",
+          "held_out_projection_p95_px": 1.3677000982832898e-07,
+          "visible_faces": 18425
+        },
+        {
+          "position": "position-204",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-204\\COLOR\\same-frame.png",
+          "image_sha256": "21f421f8e799096b625d97b1f3fd6d2ba912976be3fc21bbf84a7fae5a15d948",
+          "held_out_projection_p95_px": 1.3687821678147824e-07,
+          "visible_faces": 18267
+        },
+        {
+          "position": "position-221",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-221\\COLOR\\same-frame.png",
+          "image_sha256": "c3b570096326bddab1505a87acf6498052597688c5b8aeb31952f77d3f3ab6d0",
+          "held_out_projection_p95_px": 1.4288431502182116e-07,
+          "visible_faces": 18160
+        },
+        {
+          "position": "position-238",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-238\\COLOR\\same-frame.png",
+          "image_sha256": "fb14553c5a1c562a864912120b1b027a2887430fba8b97f4197f1a7d13c835f5",
+          "held_out_projection_p95_px": 1.3297186293320114e-07,
+          "visible_faces": 18118
+        },
+        {
+          "position": "position-255",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-255\\COLOR\\same-frame.png",
+          "image_sha256": "65733d931002b3c908c4725b95bff872ca1a22c0f027b184429c15db2fdca3cc",
+          "held_out_projection_p95_px": 1.3478816523784383e-07,
+          "visible_faces": 18087
+        },
+        {
+          "position": "position-272",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-272\\COLOR\\same-frame.png",
+          "image_sha256": "ad4eb7842d850a741e36d403d877c8cb8c281c96c1b4ab9f6d7179bd647fe0ec",
+          "held_out_projection_p95_px": 1.3753944630959526e-07,
+          "visible_faces": 18050
+        },
+        {
+          "position": "position-289",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-289\\COLOR\\same-frame.png",
+          "image_sha256": "2ce4b3cabc9999b74576d7a07935b68b630ed9b7f5f2278d33a7737c98640275",
+          "held_out_projection_p95_px": 1.5662487278585388e-07,
+          "visible_faces": 18087
+        },
+        {
+          "position": "position-306",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-306\\COLOR\\same-frame.png",
+          "image_sha256": "2dd75cb4bb18b8754f0318bba856be5ec8bd951f75046815b7bfc52df79d5782",
+          "held_out_projection_p95_px": 1.482851917502476e-07,
+          "visible_faces": 17993
+        },
+        {
+          "position": "position-323",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-323\\COLOR\\same-frame.png",
+          "image_sha256": "043ed5df7ace06be752ced4b54b4ee97732d80dd1137515d2646feb177ff5582",
+          "held_out_projection_p95_px": 1.4866840399798025e-07,
+          "visible_faces": 18018
+        },
+        {
+          "position": "position-340",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-340\\COLOR\\same-frame.png",
+          "image_sha256": "092a870d54901df16333834fde38156844637e33703bdbdb74c8e6cb0b3a408b",
+          "held_out_projection_p95_px": 1.4966260324288797e-07,
+          "visible_faces": 18088
+        },
+        {
+          "position": "position-357",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-357\\COLOR\\same-frame.png",
+          "image_sha256": "69cbdee7b4121e7ecbf636aff65f1d77fe01c80d3d1dfd071be48b8e7950001a",
+          "held_out_projection_p95_px": 1.6487449013439454e-07,
+          "visible_faces": 18273
+        },
+        {
+          "position": "position-374",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-374\\COLOR\\same-frame.png",
+          "image_sha256": "3d67baa679a47c1bebd802e3c27192e3beca63f6297c43853971557af832587e",
+          "held_out_projection_p95_px": 1.848393730505197e-07,
+          "visible_faces": 18456
+        },
+        {
+          "position": "position-391",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-391\\COLOR\\same-frame.png",
+          "image_sha256": "17e95ce19ca7997fc5816bdb498243936dc085081716621fc7a6c55988f5575a",
+          "held_out_projection_p95_px": 1.5783087444118775e-07,
+          "visible_faces": 19015
+        },
+        {
+          "position": "position-408",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-408\\COLOR\\same-frame.png",
+          "image_sha256": "5de51d8db28473f8e5c1c0843b5bf042e037bb2c333e8ae27f8b48c0a1955edd",
+          "held_out_projection_p95_px": 1.6132708210255357e-07,
+          "visible_faces": 19343
+        },
+        {
+          "position": "position-425",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-425\\COLOR\\same-frame.png",
+          "image_sha256": "f329625cdb1ca221ad56dee70f340d7122388129f2ce79211a12bac484bf0564",
+          "held_out_projection_p95_px": 1.5253811984754402e-07,
+          "visible_faces": 19434
+        },
+        {
+          "position": "position-442",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-442\\COLOR\\same-frame.png",
+          "image_sha256": "f4669983c15b5baf1e18d792504a2b094a6c51db97e12ac9f94b62c09e3ee497",
+          "held_out_projection_p95_px": 1.486286653156094e-07,
+          "visible_faces": 19525
+        },
+        {
+          "position": "position-459",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-459\\COLOR\\same-frame.png",
+          "image_sha256": "0bf6e6aef7df0f33bf020c739e79e2be386773ae3ce1b5d9d5d3af1d50d16076",
+          "held_out_projection_p95_px": 1.4208878772847932e-07,
+          "visible_faces": 19681
+        },
+        {
+          "position": "position-476",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-476\\COLOR\\same-frame.png",
+          "image_sha256": "369b6229c38de59701fdce8c18243616e002fb27910cd13e714c949dd2810a0b",
+          "held_out_projection_p95_px": 1.447347817588641e-07,
+          "visible_faces": 19923
+        },
+        {
+          "position": "position-493",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-493\\COLOR\\same-frame.png",
+          "image_sha256": "67630671330cbdcc6a7b6d9ed33ba01575fa3ac1517f071408f2aadeeb2213da",
+          "held_out_projection_p95_px": 1.3526257093264835e-07,
+          "visible_faces": 20250
+        },
+        {
+          "position": "position-510",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-510\\COLOR\\same-frame.png",
+          "image_sha256": "e516e119d5fe56f47af96875aeed41f371d311925be77ee3461b4ff2f4e60bb9",
+          "held_out_projection_p95_px": 1.0162902173870201e-07,
+          "visible_faces": 20555
+        },
+        {
+          "position": "position-527",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-527\\COLOR\\same-frame.png",
+          "image_sha256": "fdcb51c882dc4bf6d555d96a9574d5218b00145af17039933ddd780a76dbe72c",
+          "held_out_projection_p95_px": 2.905971488091179e-07,
+          "visible_faces": 21073
+        },
+        {
+          "position": "position-544",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-544\\COLOR\\same-frame.png",
+          "image_sha256": "0e3dacf2c89abb0b2abfba9a29ef6e63bd98a1d98fc050bb28f57c6c0d033126",
+          "held_out_projection_p95_px": 1.0594428469714017e-07,
+          "visible_faces": 21628
+        },
+        {
+          "position": "position-561",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-561\\COLOR\\same-frame.png",
+          "image_sha256": "b3c46d864588af100dcd95e7a483d2d2206055cec085d4db8b793f99462eb74d",
+          "held_out_projection_p95_px": 2.792622936063751e-07,
+          "visible_faces": 22084
+        },
+        {
+          "position": "position-578",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-578\\COLOR\\same-frame.png",
+          "image_sha256": "257b41a81a4090ca2fe9b3f773b371ec2598a0cf025f23141169b33b3f9b1dfd",
+          "held_out_projection_p95_px": 2.799836102420213e-07,
+          "visible_faces": 22584
+        },
+        {
+          "position": "position-595",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-595\\COLOR\\same-frame.png",
+          "image_sha256": "912b93e9821248e77326e9d23eba7cf1afa4f026754bfe1509f2734c380fce8d",
+          "held_out_projection_p95_px": 1.5914434513862877e-07,
+          "visible_faces": 22923
+        },
+        {
+          "position": "position-612",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-612\\COLOR\\same-frame.png",
+          "image_sha256": "6040bcb4eb52a6a2f6ab146cc8750e2f04c0dfd4ca68a963dfdcd60b28fc11b1",
+          "held_out_projection_p95_px": 1.2056585797336765e-07,
+          "visible_faces": 23091
+        },
+        {
+          "position": "position-629",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-629\\COLOR\\same-frame.png",
+          "image_sha256": "fb8752a865dda767764fffa1f681b3d1d39117cfbc57c2b57ea89e9723b30352",
+          "held_out_projection_p95_px": 1.2371645746954926e-07,
+          "visible_faces": 23064
+        },
+        {
+          "position": "position-646",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-646\\COLOR\\same-frame.png",
+          "image_sha256": "74a8b0c5451377df675fce44257836a99d07b1b2a375bebccb9888805d271d92",
+          "held_out_projection_p95_px": 1.891430040410401e-07,
+          "visible_faces": 23032
+        },
+        {
+          "position": "position-663",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-663\\COLOR\\same-frame.png",
+          "image_sha256": "274f542b4695637dc3b5e59a252668a2503b14bf94b6b5a17dd9e7d173556aa0",
+          "held_out_projection_p95_px": 1.407191249993982e-07,
+          "visible_faces": 22800
+        },
+        {
+          "position": "position-680",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-680\\COLOR\\same-frame.png",
+          "image_sha256": "30f10ee5d9ec4eecd0267735eea9cd4fc5883499dded89cba3c7086b5bb7984f",
+          "held_out_projection_p95_px": 1.440208583163065e-07,
+          "visible_faces": 22279
+        },
+        {
+          "position": "position-697",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-697\\COLOR\\same-frame.png",
+          "image_sha256": "7bfde2b0c34323d5b3cc5cdf8c376c5e04ea01ea117a628a73839801cb7c8671",
+          "held_out_projection_p95_px": 1.394144408715295e-07,
+          "visible_faces": 21724
+        },
+        {
+          "position": "position-714",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-714\\COLOR\\same-frame.png",
+          "image_sha256": "324c1955c590901ae865db06bc7ab8c17074c6d0b065d95e219c465b821b2c0c",
+          "held_out_projection_p95_px": 1.4620698725113324e-07,
+          "visible_faces": 21126
+        },
+        {
+          "position": "position-731",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-731\\COLOR\\same-frame.png",
+          "image_sha256": "8fe4653bc7eed756a4937f0031b107fde5c205c8c1061eefc1d6bb2ddaacaf84",
+          "held_out_projection_p95_px": 1.5073894701070383e-07,
+          "visible_faces": 20490
+        },
+        {
+          "position": "position-748",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-748\\COLOR\\same-frame.png",
+          "image_sha256": "c0c5f97b8dff87bcdda6a2f4626be97f32c335f27b50ee8ba8c2e3e5434c29ed",
+          "held_out_projection_p95_px": 1.4747487446224905e-07,
+          "visible_faces": 19839
+        },
+        {
+          "position": "position-765",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-765\\COLOR\\same-frame.png",
+          "image_sha256": "be99c0bcb23aafacc343fa16ec6eba59638d6b766df336453db3d7e1058eb96b",
+          "held_out_projection_p95_px": 1.499741581069255e-07,
+          "visible_faces": 19071
+        },
+        {
+          "position": "position-782",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-782\\COLOR\\same-frame.png",
+          "image_sha256": "537e97dba230372fae1a0c63ebb4898a4325f7e7b26794e3e41f63adbf8e2511",
+          "held_out_projection_p95_px": 1.5484648569740717e-07,
+          "visible_faces": 18318
+        },
+        {
+          "position": "position-799",
+          "image": "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-scan-20261002\\fpga-full-20261003-005504\\source\\position-799\\COLOR\\same-frame.png",
+          "image_sha256": "607733510f7014e1cd0068556ff5556c527a8e095dc4b8bc0ee982f57e428761",
+          "held_out_projection_p95_px": 1.4943917012158104e-07,
+          "visible_faces": 17679
+        }
+      ],
+      "settings": {
+        "view_count": 48,
+        "minimum_views": 3,
+        "facing_min": 0.3,
+        "visibility_depth_mm": 0.45,
+        "top_view_weight_ratio": 0.45,
+        "slic_compactness": 7,
+        "slic_area_px": 64
+      },
+      "held_out_projection_max_p95_px": 2.905971488091179e-07
+    },
+    "photo_supported_faces": 55149,
+    "photo_supported_area_fraction": 0.8208441734313965,
+    "color_evidence_area_fraction": 0.8630087971687317
+  },
+  "settings": {
+    "color_tolerance": 15,
+    "lightness_weight": 0.55,
+    "max_color_groups": 7,
+    "unknown_label": 7,
+    "low_contrast_island_delta": 6,
+    "neutral_chroma_max": 16,
+    "same_hue_max_degrees": 23,
+    "same_hue_max_lightness_delta": 14,
+    "same_hue_max_distance": 23,
+    "dark_local_radius_mm": [
+      1.3,
+      4.5
+    ],
+    "dark_baseline_percentile": 65,
+    "dark_max_L": 43,
+    "dark_min_contrast": 12,
+    "dark_seed_L": 37,
+    "dark_seed_contrast": 10,
+    "dark_strong_contrast": 22,
+    "dark_min_area_mm2": 0.08,
+    "dark_seed_rule": "L < 37 OR contrast > 22, after contrast > 12 and L < 43",
+    "accent_rule": "a > 10, b < 20, L > 35, a-b > 7; measured RGB only",
+    "unsupported_photo_dark_candidates": false,
+    "mesh_optimizer": "ICM, 12 bounded passes; not graph cuts",
+    "label_texture_generated": false
+  },
+  "regions": [
+    {
+      "id": 0,
+      "faces": 54867,
+      "area_mm2": 6744.46826171875,
+      "measured_rgb_median": [
+        138.0,
+        149.0,
+        170.0
+      ],
+      "weighted_lab": [
+        33.863067626953125,
+        0.890625,
+        -11.96875
+      ],
+      "dark_contrast_candidate": false,
+      "chromatic_accent": false,
+      "name": "浅色色区 1"
+    },
+    {
+      "id": 1,
+      "faces": 1907,
+      "area_mm2": 147.10443115234375,
+      "measured_rgb_median": [
+        147.0,
+        86.0,
+        50.0
+      ],
+      "weighted_lab": [
+        23.525390625,
+        22.296875,
+        32.0
+      ],
+      "dark_contrast_candidate": false,
+      "chromatic_accent": false,
+      "name": "橙棕色区 2"
+    },
+    {
+      "id": 2,
+      "faces": 1049,
+      "area_mm2": 57.53163146972656,
+      "measured_rgb_median": [
+        86.0,
+        77.0,
+        80.0
+      ],
+      "weighted_lab": [
+        18.605804443359375,
+        1.4609375,
+        -2.71875
+      ],
+      "dark_contrast_candidate": true,
+      "chromatic_accent": false,
+      "name": "深色细节 3"
+    },
+    {
+      "id": 3,
+      "faces": 159,
+      "area_mm2": 11.514723777770996,
+      "measured_rgb_median": [
+        143.0,
+        115.0,
+        129.0
+      ],
+      "weighted_lab": [
+        27.93304443359375,
+        11.890625,
+        -4.921875
+      ],
+      "dark_contrast_candidate": false,
+      "chromatic_accent": true,
+      "name": "粉红细节 4"
+    }
+  ],
+  "unknown_faces": 2018,
+  "unknown_area_fraction": 0.13699111342430115,
+  "elapsed_seconds": 8.682,
+  "original_geometry_unchanged": true
+}

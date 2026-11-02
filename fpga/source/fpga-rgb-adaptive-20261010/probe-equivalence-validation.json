@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "output": "PASS RGB bypass, stable backpressure, unique frame tag, exact ROI, split AXI-Lite, invalid frames/reset/config rejection\n",
+  "all_valid_count_combinations": 8396802,
+  "cycle_by_cycle_interface_and_state_match": true,
+  "sha256": {
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\rtl\\afc03_rgb_roi_probe.sv": "edb88f0e0b8bdfa474ace489e08304deb1ffbf36ffbd235006954ef35d63a666",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\probe-golden.sv": "464b7afa6297fe091509445229cb16ccaba9a63804ac1f475746b007067967ab",
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\tb_probe_equivalence.sv": "3f665cc3f28245989a6ffd997b82bc7a0bb4f0edfd0613fe2785de01d3da3887"
+  }
+}

@@ -1,0 +1,25 @@
+[Unit]
+Description=SCAN3D museum and local Qwen chat
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=scan3dmuseum
+Group=scan3dmuseum
+SupplementaryGroups=scan3dchat
+WorkingDirectory=/userdata/scan3d-museum
+Environment=MUSEUM_HOSTS=127.0.0.1:8830,localhost:8830,192.168.1.89:8830
+ExecStart=/userdata/scan3d-museum/runtime/bin/node --max-old-space-size=128 /userdata/scan3d-museum/server/standalone.mjs
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/userdata/scan3d-museum/assets/vision-cache
+PrivateTmp=true
+MemoryMax=256M
+CPUQuota=80%
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target

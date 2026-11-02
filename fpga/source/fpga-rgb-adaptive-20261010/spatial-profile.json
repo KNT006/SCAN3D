@@ -1,0 +1,12 @@
+{
+  "radius_mm": 70,
+  "core_guard": 11,
+  "max_intervals": 2,
+  "masked_pixels": 1106532,
+  "sha256": {
+    "axis": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+    "camera": "32ef6bc57b8ef02cf0043ecb657ae2fbad72dc12bb0653d787c7e93c8884f8d1",
+    "planes": "4c1c3e00a5bbb2ae41355cfeefa6100081813846b8bca1e2b3da9be7ec5ab0a9"
+  },
+  "rom_sha256": "9c7444500f11bc383458c516ded37c205c004c6329e67752a20acb0747dc22c0"
+}

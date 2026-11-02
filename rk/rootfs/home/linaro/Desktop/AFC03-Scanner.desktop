@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=AFC03 Scanner
+Comment=Board-hosted 3D scanning and calibration
+Exec=/opt/afc03-browser/launch-scanner
+Terminal=false
+Icon=camera-photo
+Categories=Graphics;

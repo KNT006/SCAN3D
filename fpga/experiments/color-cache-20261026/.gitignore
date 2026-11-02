@@ -1,0 +1,5 @@
+*.vvp
+*.log
+board-records.txt
+dma-packets.txt
+__pycache__/

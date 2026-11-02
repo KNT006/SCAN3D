@@ -1,0 +1,11 @@
+{
+  "kind": "community_primary_RFID_readout",
+  "not_official_colorimetric_reference": true,
+  "variant": "A09-A0",
+  "code": "12300",
+  "hex": "#FF7F41",
+  "sources": [
+    "https://raw.githubusercontent.com/queengooborg/Bambu-Lab-RFID-Library/main/PLA/PLA%20Tough/Orange/F04AB42F/hf-mf-F04AB42F-dump.json",
+    "https://raw.githubusercontent.com/queengooborg/Bambu-Lab-RFID-Library/main/PLA/PLA%20Tough/Orange/3023542E/hf-mf-3023542E-dump.json"
+  ]
+}

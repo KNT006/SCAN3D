@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "status": "provisional_axis_for_one_direction_prototype_only",
+  "method": "fixed intrinsics and measured encoder angles; least-squares pixel reprojection of rigid checkerboard rotating about one fixed axis",
+  "training_labels": [
+    "origin",
+    "step01",
+    "step03"
+  ],
+  "held_out_labels": [
+    "probe15",
+    "probeReturn",
+    "step02",
+    "return30",
+    "return15",
+    "returnZero",
+    "verify15",
+    "verify30",
+    "finalZero"
+  ],
+  "axis_direction_for_positive_encoder_camera": [
+    0.00834842130860562,
+    0.9997566717861133,
+    0.020418155666167257
+  ],
+  "axis_point_closest_to_camera_origin_mm": [
+    6.539470239293764,
+    -3.8596095974284736,
+    186.30851165119907
+  ],
+  "axis_parameterization": "X = axis_point + lambda * axis_direction, millimeters",
+  "encoder_zero_degrees": 0.02197,
+  "positive_command_pulses_decrease_encoder_angle": true,
+  "reference_board_rvec": [
+    0.09530633692376671,
+    -0.08541433893334305,
+    3.119584691241383
+  ],
+  "reference_board_tvec_mm": [
+    44.76009785244364,
+    14.180801743581224,
+    207.06570147506088
+  ],
+  "coordinate_system": "OpenCV camera axes for raw 1920x1080 rotated clockwise90 to 1080x1920; X right, Y down, Z forward",
+  "intrinsics_sha256": "ab8c8a712c680973dcac1999086e52d0d811c4c260b0edd36d77ff284f1b11f9",
+  "optimizer_success": true,
+  "optimizer_message": "`ftol` termination condition is satisfied.",
+  "fit_pixel_rms": 1.021660555693052,
+  "per_view": {
+    "origin": {
+      "role": "training",
+      "encoder_degrees_from_origin": 0.0,
+      "pixel_rms": 0.982424997342492,
+      "pixel_p95": 2.0022393862394035,
+      "pixel_max": 2.202337281335956
+    },
+    "probe15": {
+      "role": "held_out",
+      "encoder_degrees_from_origin": -14.963379999999999,
+      "pixel_rms": 0.5919482324618612,
+      "pixel_p95": 1.049929217441345,
+      "pixel_max": 1.3681900925727488
+    },
+    "probeReturn": {
+      "role": "held_out",
+      "encoder_degrees_from_origin": 0.0,
+      "pixel_rms": 1.0364996574510037,
+      "pixel_p95": 2.148222114972767,
+      "pixel_max": 2.251892233815734
+    },
+    "step01": {
+      "role": "training",
+      "encoder_degrees_from_origin": -14.963379999999999,
+      "pixel_rms": 0.9010829476560951,
+      "pixel_p95": 1.278513871498379,
+      "pixel_max": 1.5357021629446814
+    },
+    "step02": {
+      "role": "held_out",
+      "encoder_degrees_from_origin": -29.926759999999998,
+      "pixel_rms": 0.8788625502735902,
+      "pixel_p95": 1.58213547547812,
+      "pixel_max": 1.7050102210067621
+    },
+    "step03": {
+      "role": "training",
+      "encoder_degrees_from_origin": -44.884640000000005,
+      "pixel_rms": 1.1637274247937597,
+      "pixel_p95": 2.0746701515774024,
+      "pixel_max": 2.5412623164257737
+    },
+    "return30": {
+      "role": "held_out",
+      "encoder_degrees_from_origin": -29.926759999999998,
+      "pixel_rms": 3.6374526314742184,
+      "pixel_p95": 5.728376402822964,
+      "pixel_max": 6.048647957466801
+    },
+    "return15": {
+      "role": "held_out",
+      "encoder_degrees_from_origin": -14.963379999999999,
+      "pixel_rms": 2.99251962526973,
+      "pixel_p95": 4.913522892783911,
+      "pixel_max": 5.215742532679818
+    },
+    "returnZero": {
+      "role": "held_out",
+      "encoder_degrees_from_origin": 0.0,
+      "pixel_rms": 1.295920458681937,
+      "pixel_p95": 2.4185440214046614,
+      "pixel_max": 2.51429633601844
+    },
+    "verify15": {
+      "role": "prospective_held_out_no_refit",
+      "pixel_rms": 0.8533898484506424,
+      "pixel_p95": 1.4681617973841765
+    },
+    "verify30": {
+      "role": "prospective_held_out_no_refit",
+      "pixel_rms": 1.075607892416268,
+      "pixel_p95": 1.9653146260605459
+    },
+    "finalZero": {
+      "role": "prospective_held_out_no_refit",
+      "pixel_rms": 1.0690896130779561,
+      "pixel_p95": 1.6831792631578817
+    }
+  },
+  "runtime_activated": false,
+  "limitations": [
+    "No turntable surface height or origin determined by this axis line.",
+    "Reprojection residuals do not certify absolute reconstructed dimensions.",
+    "Assumes direct-drive encoder angle and rigid stationary camera/board mounting."
+  ],
+  "prospective_repeatability": [
+    {
+      "pair": [
+        "step01",
+        "verify15"
+      ],
+      "median_px": 1.0519772649795607,
+      "p95_px": 1.226697447731313
+    },
+    {
+      "pair": [
+        "step02",
+        "verify30"
+      ],
+      "median_px": 0.4940837753939651,
+      "p95_px": 0.6084461244747809
+    },
+    {
+      "pair": [
+        "origin",
+        "finalZero"
+      ],
+      "median_px": 0.7536348653205345,
+      "p95_px": 1.005317462981228
+    }
+  ],
+  "validation_scope": "Same positive-command direction, measured interval 0 to44.88464deg. Reverse-direction discrepancies remain; not validated for full360deg or dimensional accuracy.",
+  "laser_plane_compatibility": "Old plane must be recalibrated or revalidated after camera repositioning.",
+  "camera_matrix": [
+    [
+      1487.2464332397228,
+      0.0,
+      451.3882902349757
+    ],
+    [
+      0.0,
+      1491.7906811133953,
+      975.3038662372377
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "distortion_coefficients": [
+    0.058165630588144994,
+    -0.023434140508959405,
+    0.005487572770556362,
+    -0.012355872188324653,
+    0.0
+  ]
+}

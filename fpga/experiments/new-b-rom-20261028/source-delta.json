@@ -1,0 +1,9 @@
+{
+  "compiled_hdl_and_rom_files_compared": 160,
+  "changed": [
+    "fpga-gain-handshake-20261013/rtl/laser_full_row_core.v",
+    "fpga-gain-handshake-20261013/rtl/spatial_mask.hex"
+  ],
+  "baseline": "gain-handshake-20261013",
+  "hardware_validated": false
+}

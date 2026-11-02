@@ -1,0 +1,16 @@
+[Unit]
+Description=SCAN3D bounded local hardware control
+After=afc03-controller.service afc03-fpga-ready.service
+Wants=afc03-controller.service
+[Service]
+Type=simple
+Environment=PYTHONPATH=/opt/afc03-scanner/vendor
+Environment=OPENBLAS_NUM_THREADS=2
+Environment=OMP_NUM_THREADS=2
+ExecStart=/usr/bin/python3 /opt/afc03-scanner/scan3d/helper.py
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=30
+KillMode=control-group
+[Install]
+WantedBy=multi-user.target

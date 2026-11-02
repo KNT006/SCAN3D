@@ -1,0 +1,1 @@
+{"name":"afc03-scanner-ui","version":"0.1.0","private":true,"type":"module","scripts":{"build":"vite build","dev":"vite --host 127.0.0.1"},"dependencies":{"vue":"3.5.43","three":"0.186.1"},"devDependencies":{"vite":"8.3.1","@vitejs/plugin-vue":"latest","typescript":"~5.9.3","@types/three":"latest"}}

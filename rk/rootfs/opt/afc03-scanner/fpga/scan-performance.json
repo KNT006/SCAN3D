@@ -1,0 +1,22 @@
+{
+  "active": "fast",
+  "qualified_on": "2026-10-04",
+  "scope": "6-degree coarse scan: 120 pps and 150 ms settling; shared stationary acquisition waits",
+  "evidence": "/userdata/afc03-scanner/jobs/duck-fast-20261004-153349-coarse6",
+  "rollback_profile": "qualified",
+  "fpga_modified": false,
+  "recovered_capture_retries": [
+    {
+      "position": "position-049",
+      "role": "B",
+      "cause": "wait_raw_marker",
+      "recovery": "new token, same camera stream, accepted DDR marker equal; no motor replay"
+    },
+    {
+      "position": "position-059",
+      "role": "OFF",
+      "cause": "wait_raw_marker",
+      "recovery": "new token, same camera stream, accepted DDR marker equal; no motor replay"
+    }
+  ]
+}

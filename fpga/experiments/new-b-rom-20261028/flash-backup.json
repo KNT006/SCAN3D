@@ -1,0 +1,8 @@
+{
+  "path": "D:\\PCle\\_b28\\before-new-B-flash.hex",
+  "bytes": 8388608,
+  "sha256": "755f95155b08bd4a1b567eb5abffe996bff672bd0e93288845014d85070a0687",
+  "last_non_ff_end": 4849916,
+  "header_hex": "ffffffffddbb6622ffffff00ffffffffffffffff000000aa11220044ffffffff",
+  "scope": "first 8 MiB from offset 0, not full flash"
+}

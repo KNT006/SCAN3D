@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "seconds": 1322.7186872959137,
+  "bit_sha256": "be4a1ab543de7402cc07e130a2964f185199db846928333dd13fcb3944d0df8f",
+  "flash_written": true,
+  "cold_boot_tested": false,
+  "object_scan_validated": false,
+  "validation_scope": "Exact A/B FPGA candidate comparison; empty turntable, not object accuracy"
+}

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=SCAN3D 图像处理演示
+Comment=KEY1 切换图像处理阶段
+Exec=chromium --start-fullscreen --app=http://127.0.0.1:8840/
+Icon=camera-photo
+Terminal=false
+Categories=Education;Science;

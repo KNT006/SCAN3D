@@ -1,0 +1,4 @@
+Noto Sans SC and Noto Serif SC, SIL Open Font License 1.1.
+Bundled display subsets renamed SCAN3D Sans / SCAN3D Serif.
+Source: locally installed NotoSansSC-VF.ttf and NotoSerifSC-VF.ttf.
+Includes GB2312 and application characters; other characters use system fallback.

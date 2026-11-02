@@ -1,0 +1,7 @@
+/* Give the scan name its own row when the panel is narrow. */
+.scan3d .frame-toolbar{flex-wrap:wrap;gap:8px;min-width:0}
+.scan3d .frame-toolbar .frame-run-select{flex:1 1 100%;min-width:0;width:100%;max-width:100%;font-size:13px;padding:9px 30px 9px 12px}
+.scan3d .frame-toolbar .frame-laser-select{flex:0 0 72px;width:72px;min-width:72px;padding:9px 24px 9px 12px;font-size:13px}
+.scan3d .frame-toolbar>button{flex:0 0 auto;min-width:max-content;white-space:nowrap;padding:9px 16px;font-size:13px}
+.scan3d .flow-head .frame-toolbar{width:min(100%,1000px);max-width:100%;flex-wrap:nowrap}
+.scan3d .flow-head .frame-toolbar .frame-run-select{flex:1 1 480px;width:auto;min-width:0}

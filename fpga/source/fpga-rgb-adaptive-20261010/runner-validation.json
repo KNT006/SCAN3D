@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "points": 1805,
+  "summary": {
+    "A": 856,
+    "B": 949
+  },
+  "provenance_preserved": true,
+  "sha256": {
+    "F:\\AAA_FPGA\\afc03-esp32-motor\\fpga-rgb-adaptive-20261010\\scan3d\\runner.py": "139f1cbff99d943547a11d1d28c374c157e5edf16ab7c8e4e5d11eebac953847"
+  }
+}

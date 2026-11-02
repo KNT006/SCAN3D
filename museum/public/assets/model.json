@@ -1,0 +1,142 @@
+{
+  "source_scan": "fpga-full-20261003-005504",
+  "source_cloud": "F:\\AAA_FPGA\\afc03-esp32-motor\\surface-repair-20261003\\duck-no-turntable\\combined.npz",
+  "source_stl": "F:\\AAA_FPGA\\afc03-esp32-motor\\surface-repair-20261003\\duck-confidence-stl\\duck-confidence-mm.stl",
+  "source_cloud_sha256": "8f9fc4c5da80b5b72afa1b315a2857c21be0ddfc3be515bbb8f36376e3e98270",
+  "source_stl_sha256": "14619b1418d4c4e4c951be199a9ab5b8d080db7433379bcf14979961c82908d0",
+  "source_points": 597326,
+  "excluded_inferred": 5489,
+  "display_points": 101815,
+  "vertices": 29990,
+  "faces": 60000,
+  "height_mm": 44.98391151428223,
+  "color_mapping": {
+    "max_distance_mm": 1.0,
+    "reliable_fraction": 0.9511503834611538,
+    "nearest_distance_percentiles_mm": [
+      0.11734309219898317,
+      0.9069782696452625,
+      3.827864768992571
+    ],
+    "fallback_rgb": [
+      184,
+      184,
+      175
+    ]
+  },
+  "transform": {
+    "origin": [
+      -1.1764202117919922,
+      -75.69999694824219,
+      -1.3773574829101562
+    ],
+    "rotation": [
+      [
+        0.9968664280257381,
+        0.0,
+        -0.0791032532529845
+      ],
+      [
+        -0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0791032532529845,
+        0.0,
+        0.9968664280257381
+      ]
+    ]
+  },
+  "parts": {
+    "eye_left": {
+      "point": [
+        -3.587925491820415,
+        35.73788126138399,
+        23.110791304673405
+      ],
+      "radius": 3.2,
+      "method": "深色点聚类＋头部高度＋双侧约束",
+      "evidence_points": 8,
+      "status": "颜色候选"
+    },
+    "eye_right": {
+      "point": [
+        4.3344938606943595,
+        35.532095779116986,
+        22.956392732531693
+      ],
+      "radius": 3.2,
+      "method": "深色点聚类＋头部高度＋双侧约束",
+      "evidence_points": 29,
+      "status": "颜色候选"
+    },
+    "mouth": {
+      "point": [
+        0.0,
+        29.120810155563248,
+        26.413328061126812
+      ],
+      "radius": 5.5,
+      "method": "头部中暖色 RGB 点的稳健中位数",
+      "evidence_points": 5557,
+      "status": "颜色候选"
+    },
+    "head": {
+      "point": [
+        0.15089720902602238,
+        39.04313196665522,
+        -2.3320155916835734
+      ],
+      "radius": 11,
+      "method": "模型朝向＋高度分区＋表面最近点；粗定位",
+      "evidence_points": 0,
+      "status": "几何估计"
+    },
+    "body": {
+      "point": [
+        1.4504496181019155,
+        20.395191331849695,
+        20.374756449144055
+      ],
+      "radius": 14,
+      "method": "模型朝向＋高度分区＋表面最近点；粗定位",
+      "evidence_points": 0,
+      "status": "几何估计"
+    },
+    "wing_left": {
+      "point": [
+        -18.183777690652253,
+        18.25532281057393,
+        0.11719750666526518
+      ],
+      "radius": 6,
+      "method": "模型朝向＋高度分区＋表面最近点；粗定位",
+      "evidence_points": 0,
+      "status": "几何估计"
+    },
+    "wing_right": {
+      "point": [
+        17.85133981873296,
+        18.86504199865213,
+        -0.3748552778426837
+      ],
+      "radius": 6,
+      "method": "模型朝向＋高度分区＋表面最近点；粗定位",
+      "evidence_points": 0,
+      "status": "几何估计"
+    },
+    "tail": {
+      "point": [
+        -1.3264110758291978,
+        11.38917542666357,
+        -26.98562290158377
+      ],
+      "radius": 6,
+      "method": "模型朝向＋高度分区＋表面最近点；粗定位",
+      "evidence_points": 0,
+      "status": "几何估计"
+    }
+  },
+  "description": "既有鸭子扫描；坐标已对齐，未重复配准。展示副本减面；颜色取 1mm 内实测点中位数，无可靠近邻区域使用默认材质。"
+}

@@ -1,0 +1,45 @@
+{
+  "roi_xyxy": [
+    1300,
+    735,
+    1385,
+    840
+  ],
+  "mask_pixels": 2772,
+  "input": "duck-0.ppm",
+  "conditions": {
+    "led": 8,
+    "gain": 50,
+    "laser": "OFF"
+  },
+  "results": {
+    "original": {
+      "median_rgb": [
+        140.0,
+        78.0,
+        40.0
+      ],
+      "hue_deg": 22.8,
+      "clipped_pixel_fraction": 0.0
+    },
+    "v1": {
+      "median_rgb": [
+        138.0,
+        40.0,
+        7.0
+      ],
+      "hue_deg": 15.11450381679389,
+      "clipped_pixel_fraction": 0.0
+    },
+    "v2": {
+      "median_rgb": [
+        150.0,
+        63.0,
+        14.0
+      ],
+      "hue_deg": 21.617647058823533,
+      "clipped_pixel_fraction": 0.0
+    }
+  },
+  "interpretation": "Same raw-pixel mask, median RGB then HSV hue. Duck was not fitted. No measured duck reflectance reference; hue shift is not absolute color error."
+}

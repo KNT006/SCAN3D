@@ -1,0 +1,7 @@
+{
+  "upstream_version": "13.72",
+  "upstream_url": "https://www.cs.jhu.edu/~misha/Code/PoissonRecon/Version13.72/",
+  "original_archive_sha256": "30d1d7becd4136fb347a397b79c43bbc068a804f9b2b9360c4dd19a8d86e5f27",
+  "snapshot": "RK patched build tree, source only",
+  "binary_included": false
+}

@@ -1,0 +1,517 @@
+{
+  "id": "duck-last",
+  "name": "Duck_last",
+  "algorithm": "visibility-aware calibrated photos + SLIC + weighted view fusion + Lab groups + edge-aware ICM",
+  "photo_refinement": {
+    "method": "edge-aware Potts ICM + conservative small island merge",
+    "changed_faces": 76,
+    "iteration_changes": [
+      52,
+      13,
+      6,
+      4,
+      3,
+      1
+    ]
+  },
+  "semantic_recognition": false,
+  "geometry_key": "038e8100083862400bfcd498ad3d8f2cd8b6b2adcc83ead64a446e60b25492b8",
+  "source": {
+    "source_cloud": "F:\\AAA_FPGA\\afc03-esp32-motor\\duck-last-20261010\\mesh\\combined.npz",
+    "source_cloud_sha256": "524e1dc14e207661551b7cd23686203ab34fae71155225d96e781a65e1d5aca5",
+    "source_scan": "scan3d-pc-20261010-163204-441887",
+    "source_points": 2374830,
+    "usable_measured_points": 2374830,
+    "query_neighbors": 24,
+    "minimum_samples": 3,
+    "max_distance_mm": 0.9,
+    "local_radius_extra_mm": 0.28,
+    "planar_cap_faces": 304,
+    "measured_face_fraction": 0.9666797142577551,
+    "measured_area_fraction": 0.842786967754364,
+    "nearest_distance_percentiles_mm": [
+      0.22894878593063778,
+      0.45183177269309155,
+      3.612590736258887
+    ],
+    "median_sample_rgb_spread": 4.582251071929932,
+    "photo_evidence": {
+      "version": "photo-evidence-v2",
+      "archive": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887",
+      "views": [
+        {
+          "position": "position-000",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-000\\COLOR\\same-frame.png",
+          "image_sha256": "52789e7edea0733775ef34528da8c694e70411ad1b3e0e32f7064e134c97aa8e",
+          "held_out_projection_p95_px": 1.6678888742692818e-07,
+          "visible_faces": 5941
+        },
+        {
+          "position": "position-068",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-068\\COLOR\\same-frame.png",
+          "image_sha256": "55914e9d7ccca2424e023c1563ae3c9106a8c602bc666672af20dba0c4183190",
+          "held_out_projection_p95_px": 1.665429988155989e-07,
+          "visible_faces": 6062
+        },
+        {
+          "position": "position-136",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-136\\COLOR\\same-frame.png",
+          "image_sha256": "0316419642a0e441d657c51f8f658a8e3f5ef8dec2c55d3c4e0a09c39aad9deb",
+          "held_out_projection_p95_px": 1.605722528031744e-07,
+          "visible_faces": 6267
+        },
+        {
+          "position": "position-204",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-204\\COLOR\\same-frame.png",
+          "image_sha256": "9eabc2b49ab27b65b74cef48efd2344962df163caed7ca45081cba0f533bd6b5",
+          "held_out_projection_p95_px": 1.6541683811553005e-07,
+          "visible_faces": 6416
+        },
+        {
+          "position": "position-272",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-272\\COLOR\\same-frame.png",
+          "image_sha256": "a67b15eee1c3ec86dc8d3537d8a03d1583e230eeb261ff3585274d17741e5105",
+          "held_out_projection_p95_px": 1.5946565699746153e-07,
+          "visible_faces": 6518
+        },
+        {
+          "position": "position-340",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-340\\COLOR\\same-frame.png",
+          "image_sha256": "87088ee29223781bbbc1cf544c1e1317e3bae7d9f381302ee6891ab4ffedfc31",
+          "held_out_projection_p95_px": 1.6689099467402452e-07,
+          "visible_faces": 6650
+        },
+        {
+          "position": "position-408",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-408\\COLOR\\same-frame.png",
+          "image_sha256": "bf4ecd2f6f1410143117eb9f3f4295261fdbc3e66f84c98a65ab25d966044e2c",
+          "held_out_projection_p95_px": 1.6709078919749785e-07,
+          "visible_faces": 6780
+        },
+        {
+          "position": "position-476",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-476\\COLOR\\same-frame.png",
+          "image_sha256": "97d81e21384996b82a18f7b3657e9d793895d0b6795f220c254365ac5dfc2a2f",
+          "held_out_projection_p95_px": 1.6931380623947947e-07,
+          "visible_faces": 6871
+        },
+        {
+          "position": "position-544",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-544\\COLOR\\same-frame.png",
+          "image_sha256": "2083b90b495f646619ff2250403d1bfdf1b8475092db293fdf0c86fedfacf0b1",
+          "held_out_projection_p95_px": 1.7453394542838483e-07,
+          "visible_faces": 7072
+        },
+        {
+          "position": "position-612",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-612\\COLOR\\same-frame.png",
+          "image_sha256": "5286e6b19f730b8cda55390265ca3c3fd46b5e3432adb45c367ac958632b8ad0",
+          "held_out_projection_p95_px": 1.7238602098600526e-07,
+          "visible_faces": 7213
+        },
+        {
+          "position": "position-680",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-680\\COLOR\\same-frame.png",
+          "image_sha256": "b0137adad9b5135586e07964cecb76704f237fd4ae24f11f9802d31c0fd8e843",
+          "held_out_projection_p95_px": 1.7247880520597014e-07,
+          "visible_faces": 7271
+        },
+        {
+          "position": "position-748",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-748\\COLOR\\same-frame.png",
+          "image_sha256": "69427dcef0a9bfc7078922038426458695a1026153ab7c27fff0dc757202f03a",
+          "held_out_projection_p95_px": 1.7964692112173446e-07,
+          "visible_faces": 7262
+        },
+        {
+          "position": "position-816",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-816\\COLOR\\same-frame.png",
+          "image_sha256": "219b7d1729ed79eff817a424aeb7cc5eb3a8c078fdb1657df23cbca199f67c29",
+          "held_out_projection_p95_px": 1.7840073794942892e-07,
+          "visible_faces": 7227
+        },
+        {
+          "position": "position-884",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-884\\COLOR\\same-frame.png",
+          "image_sha256": "e3bfdb6816f1dee474d5be73769df84d833e0e38d81fe7c0db9d2a9f14c26127",
+          "held_out_projection_p95_px": 1.7347527307156133e-07,
+          "visible_faces": 7207
+        },
+        {
+          "position": "position-952",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-952\\COLOR\\same-frame.png",
+          "image_sha256": "788be7f8e6609c7c85b317dbf65bf01c01d4b8252e69308ecb998bb7b0a51be8",
+          "held_out_projection_p95_px": 1.6001887744819065e-07,
+          "visible_faces": 6985
+        },
+        {
+          "position": "position-1020",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1020\\COLOR\\same-frame.png",
+          "image_sha256": "1210b7ecc28c49f3ee50c61db2d6853b005a21d00311227c8c301e458cc95a6d",
+          "held_out_projection_p95_px": 1.6032737799728012e-07,
+          "visible_faces": 6742
+        },
+        {
+          "position": "position-1089",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1089\\COLOR\\same-frame.png",
+          "image_sha256": "b1015b882d2277c0df9cf8fa9cb905feb22320bf4dc2ad55ed4d330b36991d86",
+          "held_out_projection_p95_px": 1.5845210905425619e-07,
+          "visible_faces": 6526
+        },
+        {
+          "position": "position-1157",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1157\\COLOR\\same-frame.png",
+          "image_sha256": "975c64eacd3d0a1208a14cf4a84d560ce805a6b4bdb7bd5b478b6f5c8295d744",
+          "held_out_projection_p95_px": 1.5920739451726503e-07,
+          "visible_faces": 6399
+        },
+        {
+          "position": "position-1225",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1225\\COLOR\\same-frame.png",
+          "image_sha256": "129e378b352e810b3d413d7904239a2fb9b87506970f6df49bffad6d6dfa2b69",
+          "held_out_projection_p95_px": 1.646421595645673e-07,
+          "visible_faces": 6262
+        },
+        {
+          "position": "position-1293",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1293\\COLOR\\same-frame.png",
+          "image_sha256": "6b85a1193296aa623ad38b8a45c4a044e051216dec870d5a116669b76c1854c8",
+          "held_out_projection_p95_px": 1.6603527424423555e-07,
+          "visible_faces": 6123
+        },
+        {
+          "position": "position-1361",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1361\\COLOR\\same-frame.png",
+          "image_sha256": "24ee255be7ce2dac9193dfaf661c44f410f5edf3ccdfa4bb6e1a7b13083fe39e",
+          "held_out_projection_p95_px": 1.6844781111461441e-07,
+          "visible_faces": 6053
+        },
+        {
+          "position": "position-1429",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1429\\COLOR\\same-frame.png",
+          "image_sha256": "f3e4f874f209d8beea12420f2284069da7ba17d2c17c5df997b0a7117089be34",
+          "held_out_projection_p95_px": 1.6915060522721632e-07,
+          "visible_faces": 6149
+        },
+        {
+          "position": "position-1497",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1497\\COLOR\\same-frame.png",
+          "image_sha256": "a94f97d633b05dffcc800a3b094642cd2b268626d297d6a058f86c3f724e47ba",
+          "held_out_projection_p95_px": 1.758067448617358e-07,
+          "visible_faces": 6331
+        },
+        {
+          "position": "position-1565",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1565\\COLOR\\same-frame.png",
+          "image_sha256": "e9086de77d04590e3fb432bab94b4dbe0ffd9360881a6a56be73b8f2489c97d9",
+          "held_out_projection_p95_px": 1.8163769753085592e-07,
+          "visible_faces": 6461
+        },
+        {
+          "position": "position-1633",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1633\\COLOR\\same-frame.png",
+          "image_sha256": "67013bb3412585e66829cd0dff82fb4d9617da30749a6578b98f2b96b6b6e23b",
+          "held_out_projection_p95_px": 2.120013318467987e-07,
+          "visible_faces": 6407
+        },
+        {
+          "position": "position-1701",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1701\\COLOR\\same-frame.png",
+          "image_sha256": "b2ab8c8f03c91c804fcb97ff9b0283195bc6b6fdbdb9d643d7a3df4dd256c517",
+          "held_out_projection_p95_px": 2.1662586957958827e-07,
+          "visible_faces": 6354
+        },
+        {
+          "position": "position-1769",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1769\\COLOR\\same-frame.png",
+          "image_sha256": "a8d1cd61717136ac139819ad968b44621a1e8c3494cbd5274884208b4dc523f8",
+          "held_out_projection_p95_px": 2.1716171032697365e-07,
+          "visible_faces": 6363
+        },
+        {
+          "position": "position-1837",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1837\\COLOR\\same-frame.png",
+          "image_sha256": "c574c11f3ea5683cde50d9a4c14196e655a4279ecabcd4b21c8150b59d5315e9",
+          "held_out_projection_p95_px": 2.1907923440545583e-07,
+          "visible_faces": 6357
+        },
+        {
+          "position": "position-1905",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1905\\COLOR\\same-frame.png",
+          "image_sha256": "292f124317300be5c41529feda28c4fa02fc7547ffeac7129da58aa044e4ffea",
+          "held_out_projection_p95_px": 2.2410589162386924e-07,
+          "visible_faces": 6425
+        },
+        {
+          "position": "position-1973",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-1973\\COLOR\\same-frame.png",
+          "image_sha256": "2a1d97a04b0819218b76eab9dab184ac7da26b36478d6e4aa0f066246fcc4013",
+          "held_out_projection_p95_px": 2.1841307312049182e-07,
+          "visible_faces": 6543
+        },
+        {
+          "position": "position-2041",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2041\\COLOR\\same-frame.png",
+          "image_sha256": "60b37654e9e60495b7e9f6e7cb2251be4196d530c634d60faa2bac19fe4cc242",
+          "held_out_projection_p95_px": 1.820444663696162e-07,
+          "visible_faces": 6725
+        },
+        {
+          "position": "position-2109",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2109\\COLOR\\same-frame.png",
+          "image_sha256": "7817e25f505a7b12a242e5d9a277348a7ca048846c22fa342dc33518df67a205",
+          "held_out_projection_p95_px": 1.8115236982659163e-07,
+          "visible_faces": 6863
+        },
+        {
+          "position": "position-2178",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2178\\COLOR\\same-frame.png",
+          "image_sha256": "8b414b52d49f63ce255d7ae688f49186d58f3eb47b7714103090683441371182",
+          "held_out_projection_p95_px": 2.115623624864789e-07,
+          "visible_faces": 7025
+        },
+        {
+          "position": "position-2246",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2246\\COLOR\\same-frame.png",
+          "image_sha256": "68458b0a4efa16b3b7ea5ddcb99c6c19bc98becabe07a32db69011a822975a00",
+          "held_out_projection_p95_px": 1.8794293638506325e-07,
+          "visible_faces": 7248
+        },
+        {
+          "position": "position-2314",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2314\\COLOR\\same-frame.png",
+          "image_sha256": "a998420d6dd87bf9b91d17555106acc465d220edcfed4d168dc5acb2fad14b12",
+          "held_out_projection_p95_px": 1.9828342968030706e-07,
+          "visible_faces": 7390
+        },
+        {
+          "position": "position-2382",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2382\\COLOR\\same-frame.png",
+          "image_sha256": "e11a618b591ca633e0d0f4a0a0180374092faae0975424691ff0354f8b51975a",
+          "held_out_projection_p95_px": 2.1318012387831875e-07,
+          "visible_faces": 7474
+        },
+        {
+          "position": "position-2450",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2450\\COLOR\\same-frame.png",
+          "image_sha256": "0224f754d358ad8d836cbc8a9e41b80b03352d17d10286cde69c97c55dda05c5",
+          "held_out_projection_p95_px": 1.9131848077904962e-07,
+          "visible_faces": 7494
+        },
+        {
+          "position": "position-2518",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2518\\COLOR\\same-frame.png",
+          "image_sha256": "e1e74ace01284ae298388a77b564e8eae8860b7edd27633c8db57b334f166d8e",
+          "held_out_projection_p95_px": 2.0673194132746294e-07,
+          "visible_faces": 7364
+        },
+        {
+          "position": "position-2586",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2586\\COLOR\\same-frame.png",
+          "image_sha256": "99e6534962235c96dc6d7d5da2670c49c1b97e67b1ae3ad5bc8339460c77b865",
+          "held_out_projection_p95_px": 2.066185744982827e-07,
+          "visible_faces": 7063
+        },
+        {
+          "position": "position-2654",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2654\\COLOR\\same-frame.png",
+          "image_sha256": "d4f9776c7127bbe15c35a88d2b3ab0bfa696508e8f24db66dd34cebce59372c3",
+          "held_out_projection_p95_px": 2.0767960610941296e-07,
+          "visible_faces": 6820
+        },
+        {
+          "position": "position-2722",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2722\\COLOR\\same-frame.png",
+          "image_sha256": "54676f041a70594f0ab3c65209222ac3501c6e86c65c52b17d05b96ee2fbe611",
+          "held_out_projection_p95_px": 1.9962698514954726e-07,
+          "visible_faces": 6625
+        },
+        {
+          "position": "position-2790",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2790\\COLOR\\same-frame.png",
+          "image_sha256": "90fd069fde8d7bbf7a7ab9d3ef1661eeb494a90d7830116e448a140ae30a7bcc",
+          "held_out_projection_p95_px": 1.8902623000870215e-07,
+          "visible_faces": 6501
+        },
+        {
+          "position": "position-2858",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2858\\COLOR\\same-frame.png",
+          "image_sha256": "704d9560196171c2ae2b32b84a691a5d011787498f95c4f855db5f1e44341487",
+          "held_out_projection_p95_px": 1.9397364291940496e-07,
+          "visible_faces": 6332
+        },
+        {
+          "position": "position-2926",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2926\\COLOR\\same-frame.png",
+          "image_sha256": "35b1e847774af15347d328450aabfe3499b5471a90cd230a66d55a5ec9eb0d6a",
+          "held_out_projection_p95_px": 1.8031612749988274e-07,
+          "visible_faces": 6035
+        },
+        {
+          "position": "position-2994",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-2994\\COLOR\\same-frame.png",
+          "image_sha256": "fdb608a41a0516d63c23e22436b5829fc9b523a9222cc5cdde620d0d0a449e4f",
+          "held_out_projection_p95_px": 1.7446342007774201e-07,
+          "visible_faces": 5907
+        },
+        {
+          "position": "position-3062",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-3062\\COLOR\\same-frame.png",
+          "image_sha256": "a43ca5d0479cd865df8b8c58fee5e6e414c518b809121f0548b3be3ac5f6a87d",
+          "held_out_projection_p95_px": 1.7092801975145494e-07,
+          "visible_faces": 5889
+        },
+        {
+          "position": "position-3130",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-3130\\COLOR\\same-frame.png",
+          "image_sha256": "87834b84b3d8d200c22a281ab425fd70dc9f3108d5e1fd3f241ba78b18959120",
+          "held_out_projection_p95_px": 1.687797060807865e-07,
+          "visible_faces": 5923
+        },
+        {
+          "position": "position-3199",
+          "image": "E:\\SCAN3D\\scan3d-pc-archives\\scan3d-pc-20261010-163204-441887\\position-3199\\COLOR\\same-frame.png",
+          "image_sha256": "44a5d36c5630d6af337b1ce036e979b2f3d8401196ef0a25babb173d5341451a",
+          "held_out_projection_p95_px": 1.6662177226970703e-07,
+          "visible_faces": 5944
+        }
+      ],
+      "settings": {
+        "view_count": 48,
+        "minimum_views": 3,
+        "facing_min": 0.3,
+        "visibility_depth_mm": 0.45,
+        "top_view_weight_ratio": 0.45,
+        "slic_compactness": 7,
+        "slic_area_px": 64
+      },
+      "held_out_projection_max_p95_px": 2.2410589162386924e-07
+    },
+    "photo_supported_faces": 19258,
+    "photo_supported_area_fraction": 0.8374422192573547,
+    "color_evidence_area_fraction": 0.8670300245285034
+  },
+  "settings": {
+    "color_tolerance": 15,
+    "lightness_weight": 0.55,
+    "max_color_groups": 7,
+    "unknown_label": 7,
+    "low_contrast_island_delta": 6,
+    "neutral_chroma_max": 16,
+    "same_hue_max_degrees": 23,
+    "same_hue_max_lightness_delta": 14,
+    "same_hue_max_distance": 23,
+    "dark_local_radius_mm": [
+      1.3,
+      4.5
+    ],
+    "dark_baseline_percentile": 65,
+    "dark_max_L": 43,
+    "dark_min_contrast": 12,
+    "dark_seed_L": 37,
+    "dark_seed_contrast": 10,
+    "dark_strong_contrast": 22,
+    "dark_min_area_mm2": 0.08,
+    "dark_seed_rule": "L < 37 OR contrast > 22, after contrast > 12 and L < 43",
+    "accent_rule": "a > 10, b < 20, L > 35, a-b > 7; measured RGB only",
+    "unsupported_photo_dark_candidates": false,
+    "mesh_optimizer": "ICM, 12 bounded passes; not graph cuts",
+    "label_texture_generated": false
+  },
+  "regions": [
+    {
+      "id": 0,
+      "faces": 19449,
+      "area_mm2": 6661.54296875,
+      "measured_rgb_median": [
+        132.0,
+        142.0,
+        160.0
+      ],
+      "weighted_lab": [
+        32.333984375,
+        0.875,
+        -10.5
+      ],
+      "dark_contrast_candidate": false,
+      "chromatic_accent": false,
+      "name": "浅色色区 1"
+    },
+    {
+      "id": 1,
+      "faces": 340,
+      "area_mm2": 114.03789520263672,
+      "measured_rgb_median": [
+        145.0,
+        83.0,
+        45.0
+      ],
+      "weighted_lab": [
+        22.91778564453125,
+        22.8125,
+        32.875
+      ],
+      "dark_contrast_candidate": false,
+      "chromatic_accent": false,
+      "name": "橙棕色区 2"
+    },
+    {
+      "id": 2,
+      "faces": 218,
+      "area_mm2": 40.5518798828125,
+      "measured_rgb_median": [
+        89.0,
+        77.0,
+        80.0
+      ],
+      "weighted_lab": [
+        18.47991943359375,
+        4.96875,
+        -1.25
+      ],
+      "dark_contrast_candidate": true,
+      "chromatic_accent": false,
+      "name": "深色细节 3"
+    },
+    {
+      "id": 3,
+      "faces": 92,
+      "area_mm2": 33.56480407714844,
+      "measured_rgb_median": [
+        127.0,
+        98.0,
+        82.0
+      ],
+      "weighted_lab": [
+        23.99200439453125,
+        9.40625,
+        12.546875
+      ],
+      "dark_contrast_candidate": false,
+      "chromatic_accent": false,
+      "name": "橙棕色区 4"
+    },
+    {
+      "id": 4,
+      "faces": 8,
+      "area_mm2": 2.9919326305389404,
+      "measured_rgb_median": [
+        145.0,
+        100.0,
+        103.0
+      ],
+      "weighted_lab": [
+        25.99273681640625,
+        17.640625,
+        6.109375
+      ],
+      "dark_contrast_candidate": false,
+      "chromatic_accent": true,
+      "name": "粉红细节 5"
+    }
+  ],
+  "unknown_faces": 331,
+  "unknown_area_fraction": 0.13297003507614136,
+  "elapsed_seconds": 2.466,
+  "original_geometry_unchanged": true
+}

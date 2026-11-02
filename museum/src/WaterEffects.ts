@@ -1,0 +1,8 @@
+import * as T from 'three';
+export class WaterEffects {
+ group=new T.Group();items:{mesh:T.Mesh,age:number,type:string}[]=[];
+ emit(type:string,x:number,z:number){if(this.items.length>=32){const old=this.items.shift()!;this.remove(old.mesh);}let g:T.BufferGeometry;if(type==='heart'){const s=new T.Shape();s.moveTo(0,.04);s.bezierCurveTo(-.18,.23,-.3,0,0,-.2);s.bezierCurveTo(.3,0,.18,.23,0,.04);g=new T.ShapeGeometry(s);}else if(type==='drop')g=new T.SphereGeometry(.035,6,4);else g=new T.RingGeometry(.9,1,48);const mesh=new T.Mesh(g,new T.MeshBasicMaterial({color:type==='heart'?'#df937e':'#eafbf5',transparent:true,opacity:.75,side:T.DoubleSide,depthWrite:false}));mesh.position.set(x,type==='heart'?1.8:.025,z);if(type!=='heart')mesh.rotation.x=-Math.PI/2;this.group.add(mesh);this.items.push({mesh,age:0,type});if(type==='splash'){for(let i=0;i<5;i++){const a=i*Math.PI*2/5;this.emit('drop',x+Math.sin(a)*.5,z+Math.cos(a)*.5);}}}
+ update(dt:number,camera:T.Camera){for(let i=this.items.length-1;i>=0;i--){const e=this.items[i];e.age+=dt;const duration=e.type==='heart'?2.2:e.type==='drop'?.6:2;if(e.age>duration){this.remove(e.mesh);this.items.splice(i,1);continue;}if(e.type==='heart'){e.mesh.position.y+=dt*.28;e.mesh.quaternion.copy(camera.quaternion);e.mesh.scale.setScalar(.7+e.age*.12);}else if(e.type==='drop')e.mesh.position.y=.025+Math.sin(Math.PI*e.age/.6)*.22;else e.mesh.scale.setScalar(.3+e.age*(e.type==='splash'?.85:.4));(e.mesh.material as T.MeshBasicMaterial).opacity=.7*(1-e.age/duration);}}
+ remove(m:T.Mesh){this.group.remove(m);m.geometry.dispose();(m.material as T.Material).dispose();}
+ dispose(){this.items.forEach(e=>this.remove(e.mesh));this.items=[];}
+}

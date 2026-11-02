@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "profile": "cat-ground-v2-20261014",
+  "min_axis_y_mm": -74.8,
+  "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+  "scope": "Same physical turntable and axis calibration only; contact layer may be removed",
+  "reference_source": "fpga-full-20261003-005504"
+}

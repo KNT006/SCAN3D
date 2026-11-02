@@ -1,0 +1,3 @@
+model/*.onnx
+model/*.rknn
+__pycache__/

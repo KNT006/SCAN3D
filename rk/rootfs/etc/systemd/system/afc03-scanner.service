@@ -1,0 +1,31 @@
+[Unit]
+Description=AFC03 board acquisition and reconstruction
+After=network.target afc03-camera.service
+Wants=afc03-camera.service
+
+[Service]
+Type=simple
+User=afcscanner
+Group=afcscanner
+SupplementaryGroups=dialout video
+WorkingDirectory=/opt/afc03-scanner
+Environment=PYTHONPATH=/opt/afc03-scanner/vendor
+Environment=SCANNER_ROOT=/opt/afc03-scanner
+Environment=OPENBLAS_NUM_THREADS=2
+Environment=OMP_NUM_THREADS=2
+Environment=SCANNER_CAMERA_URL=http://127.0.0.1:8080
+ExecStart=/usr/bin/python3 -m backend.serve
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=25
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/afc03-scanner/jobs
+PrivateTmp=true
+MemoryMax=1200M
+CPUQuota=250%
+UMask=0022
+
+[Install]
+WantedBy=multi-user.target

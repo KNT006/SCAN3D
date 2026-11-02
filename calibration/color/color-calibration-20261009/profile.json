@@ -1,0 +1,322 @@
+{
+  "version": 1,
+  "id": "bambu-nine-20261009-v1",
+  "title": "9 色样片试用校正",
+  "status": "provisional_catalog_reference",
+  "processor": "RK CPU",
+  "domain": "encoded_RGB_8bit_affine",
+  "source": "full_resolution_RGB_PPM_not_sensor_RAW",
+  "matrix_rgb": [
+    [
+      1.2549131684701136,
+      -0.04815857043089915,
+      0.022042670226944172,
+      -0.1362154748794365
+    ],
+    [
+      -0.15175669534024125,
+      1.4036299839056454,
+      0.04034862638035284,
+      -0.19926081282087332
+    ],
+    [
+      0.018152209869113364,
+      0.05657189066106607,
+      1.1833817623552958,
+      -0.18106826118275307
+    ]
+  ],
+  "strength": 0.65,
+  "white_target": 240,
+  "gain": 50,
+  "led": 12,
+  "led_count": 35,
+  "patch_count": 9,
+  "fit_patch_count": 7,
+  "unverified_reference_ids": [
+    "12102",
+    "12101"
+  ],
+  "conditions": "白灯 12 / 增益 50 / 激光关闭；相同照明与相机设置",
+  "limitation": "厂商 HEX 为显示参考，非样片实测 Lab。未验证真实色差；仅校正预览，原图、点云颜色与条纹路径不变。",
+  "sources": [
+    "https://bambu-lab-global.myshopify.com/products/petg-basic",
+    "https://bambu-lab-global.myshopify.com/products/abs-filament"
+  ],
+  "patch_results": [
+    {
+      "id": "30100",
+      "name": "白",
+      "upright_row": 0,
+      "upright_col": 0,
+      "raw_roi": [
+        704,
+        886,
+        48,
+        48
+      ],
+      "catalog_hex": "#FFFFFF",
+      "role": "approximate_fit",
+      "median_rgb": [
+        217.0,
+        219.0,
+        223.0
+      ],
+      "frame_range_rgb": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "corrected_rgb": [
+        231.95,
+        232.65,
+        234.05
+      ],
+      "saturated_fraction": 0.0
+    },
+    {
+      "id": "30102",
+      "name": "灰",
+      "upright_row": 0,
+      "upright_col": 1,
+      "raw_roi": [
+        702,
+        566,
+        48,
+        48
+      ],
+      "catalog_hex": "#9EA2A2",
+      "role": "approximate_fit",
+      "median_rgb": [
+        144.0,
+        155.0,
+        165.0
+      ],
+      "frame_range_rgb": [
+        1.0,
+        1.0,
+        0.0
+      ],
+      "corrected_rgb": [
+        142.15,
+        151.56,
+        160.47
+      ],
+      "saturated_fraction": 0.0
+    },
+    {
+      "id": "30601",
+      "name": "蓝灰",
+      "upright_row": 0,
+      "upright_col": 2,
+      "raw_roi": [
+        692,
+        262,
+        48,
+        48
+      ],
+      "catalog_hex": "#688197",
+      "role": "approximate_fit",
+      "median_rgb": [
+        103.0,
+        125.0,
+        139.0
+      ],
+      "frame_range_rgb": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "corrected_rgb": [
+        91.57,
+        114.62,
+        127.26
+      ],
+      "saturated_fraction": 0.0
+    },
+    {
+      "id": "12102",
+      "name": "旧版深灰",
+      "upright_row": 1,
+      "upright_col": 0,
+      "raw_roi": [
+        946,
+        910,
+        48,
+        48
+      ],
+      "catalog_hex": null,
+      "role": "observed_only_reference_unverified",
+      "median_rgb": [
+        89.0,
+        104.0,
+        111.0
+      ],
+      "frame_range_rgb": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "corrected_rgb": [
+        74.39,
+        86.14,
+        92.68
+      ],
+      "saturated_fraction": 0.0
+    },
+    {
+      "id": "12101",
+      "name": "旧版黑",
+      "upright_row": 1,
+      "upright_col": 1,
+      "raw_roi": [
+        940,
+        562,
+        48,
+        48
+      ],
+      "catalog_hex": null,
+      "role": "observed_only_reference_unverified",
+      "median_rgb": [
+        73.0,
+        86.0,
+        95.0
+      ],
+      "frame_range_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "corrected_rgb": [
+        54.83,
+        62.66,
+        72.44
+      ],
+      "saturated_fraction": 0.0
+    },
+    {
+      "id": "30200",
+      "name": "红",
+      "upright_row": 1,
+      "upright_col": 2,
+      "raw_roi": [
+        936,
+        266,
+        48,
+        48
+      ],
+      "catalog_hex": "#D6001C",
+      "role": "approximate_fit",
+      "median_rgb": [
+        205.0,
+        108.0,
+        84.0
+      ],
+      "frame_range_rgb": [
+        1.0,
+        0.0,
+        2.0
+      ],
+      "corrected_rgb": [
+        219.17,
+        73.06,
+        63.06
+      ],
+      "saturated_fraction": 0.0
+    },
+    {
+      "id": "40500",
+      "name": "绿",
+      "upright_row": 2,
+      "upright_col": 0,
+      "raw_roi": [
+        1152,
+        912,
+        48,
+        48
+      ],
+      "catalog_hex": "#00AE42",
+      "role": "approximate_fit",
+      "median_rgb": [
+        63.0,
+        137.0,
+        96.0
+      ],
+      "frame_range_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "corrected_rgb": [
+        39.84,
+        135.8,
+        76.33
+      ],
+      "saturated_fraction": 0.0
+    },
+    {
+      "id": "30602",
+      "name": "湖蓝",
+      "upright_row": 2,
+      "upright_col": 1,
+      "raw_roi": [
+        1156,
+        570,
+        48,
+        48
+      ],
+      "catalog_hex": "#0069B1",
+      "role": "approximate_fit",
+      "median_rgb": [
+        81.0,
+        151.0,
+        195.0
+      ],
+      "frame_range_rgb": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "corrected_rgb": [
+        63.94,
+        156.71,
+        194.6
+      ],
+      "saturated_fraction": 0.0
+    },
+    {
+      "id": "40501",
+      "name": "薄荷青",
+      "upright_row": 2,
+      "upright_col": 2,
+      "raw_roi": [
+        1152,
+        272,
+        48,
+        48
+      ],
+      "catalog_hex": "#7AE1BF",
+      "role": "approximate_fit",
+      "median_rgb": [
+        119.0,
+        207.0,
+        189.0
+      ],
+      "frame_range_rgb": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "corrected_rgb": [
+        108.8,
+        229.31,
+        191.36
+      ],
+      "saturated_fraction": 0.0
+    }
+  ],
+  "fit_reference_rgb_rmse_before": 39.365676049264295,
+  "fit_reference_rgb_rmse_after": 29.955157628872236,
+  "metric_note": "Same-sample catalogue-fit RGB residual, not independent accuracy or Delta E",
+  "full_frame_out_of_range_fraction": 0.00963011188271605
+}

@@ -1,0 +1,7 @@
+SCAN3D bundled handwriting font subsets. SIL Open Font License 1.1.
+Subsets renamed SCAN3D Marker, SCAN3D Smiley, SCAN3D Yozai, SCAN3D Pixel; original copyright/license metadata preserved.
+LXGW Marker Gothic v1.003: https://github.com/lxgw/LxgwMarkerGothic
+Smiley Sans v2.0.1: https://github.com/atelier-anchor/smiley-sans
+Yozai Regular v0.868: https://github.com/lxgw/yozai-font
+Fusion Pixel Font 12px monospaced Latin 2026.09.25: https://github.com/TakWolf/fusion-pixel-font
+Chinese subsets include GB2312 and current application characters; unsupported characters fall back to SCAN3D Sans / system fonts. Pixel subset includes ASCII only for navigation numbering, not measurement data.

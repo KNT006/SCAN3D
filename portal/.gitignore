@@ -1,0 +1,5 @@
+data/
+__pycache__/
+*.log
+tools/cloudflared.exe
+tools/python-libs/

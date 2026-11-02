@@ -1,0 +1,13 @@
+{
+  "baseline_rom_reproduced": true,
+  "A_unchanged": true,
+  "changed_B_rows": 1920,
+  "masked_pixels": 1104081,
+  "rom_sha256": "604112b06c3fd40738de5ea3f558201b52e85c321904521cf74e0b26301d2e7d",
+  "calibration_hashes": {
+    "camera_sha256": "32ef6bc57b8ef02cf0043ecb657ae2fbad72dc12bb0653d787c7e93c8884f8d1",
+    "axis_sha256": "aaad2d0409f0d6b59f64c23e4ef7ee32f9ec75941b480fb7fb7f0c0ffc21014b",
+    "planes_sha256": "4219e460decd036b1d0afd9049601c4bb8e18f151a776e9e32b9afb9aa319d61"
+  },
+  "hardware_validated": false
+}

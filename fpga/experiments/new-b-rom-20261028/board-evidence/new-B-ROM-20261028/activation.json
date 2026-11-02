@@ -1,0 +1,13 @@
+{
+  "planes_sha256": "4219e460decd036b1d0afd9049601c4bb8e18f151a776e9e32b9afb9aa319d61",
+  "host_sha256": "9b8be445fed779b00440a24daf4f85b7da7e85abc59bef8a89e99dd61046c6b1",
+  "native_B": true,
+  "split_reconstruction_active": false,
+  "changed": [
+    "planes.json",
+    "config.json sha256.planes.json",
+    "rgb_adaptive_strategy.py planes binding"
+  ],
+  "backup": "/userdata/afc03-scanner/jobs/new-B-ROM-20261028/activation-backup",
+  "absolute_accuracy_validated": false
+}

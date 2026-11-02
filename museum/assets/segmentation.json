@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "method": "anatomical geometry priors + seeded connected surface growth",
+  "eye_seeds": "previous measured dark-color candidates; editable, not semantic ground truth",
+  "regions": [
+    "身体",
+    "头部",
+    "嘴部",
+    "左眼",
+    "左翼",
+    "右翼",
+    "尾部",
+    "右眼"
+  ],
+  "face_counts": [
+    21396,
+    22755,
+    2059,
+    189,
+    3453,
+    3735,
+    6208,
+    205
+  ],
+  "geometry_key": "222a21512f201dd591c6fe4d1bb4134385793c05e0bfc9c9ab657f24c46c1db1",
+  "note": "候选分区，非学习模型。嘴眼定位沿用既有颜色候选；表面几何和连通性生成面标签，用户可用表面画笔修正。"
+}

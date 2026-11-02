@@ -1,0 +1,38 @@
+#!/bin/bash
+set -euo pipefail
+exec 9>/run/afc03-pcie-init.lock
+flock -n 9 || exit 1
+# OTG1 shares hardware with PCIe1. OTG0 (23000000) remains available.
+if [ -L /sys/bus/platform/devices/23400000.usb/driver ]; then
+    echo 23400000.usb > /sys/bus/platform/devices/23400000.usb/driver/unbind
+fi
+status=$(tr -d '\000' < /sys/firmware/devicetree/base/pcie@2a210000/status)
+[ "$status" = okay ] || { echo 'PCIe1 is disabled in the device tree'; exit 1; }
+sleep 5
+has_fpga() { lspci -Dn -d 1edb:abcd | grep -q '1edb:abcd'; }
+if ! has_fpga; then
+    drv=/sys/bus/platform/drivers/rk-pcie
+    if [ -L "$drv/2a210000.pcie" ]; then
+        echo 2a210000.pcie > "$drv/unbind"
+        sleep 1
+    fi
+    if [ -d /sys/class/gpio/gpio48 ]; then
+        echo 48 > /sys/class/gpio/unexport
+    fi
+    echo 2a210000.pcie > "$drv/bind"
+    sleep 2
+fi
+has_fpga || { echo 'FPGA 1edb:abcd not detected'; exit 1; }
+bash /usr/local/sbin/afc03-pcie-setup-20260929
+has_fpga
+[ -d /sys/module/anlogic_pci ] && [ -d /sys/module/milianke_v4l2 ]
+for node in /sys/class/video4linux/video*; do
+    if grep -qiE 'milianke|anlogic' "$node/name"; then
+        dev=/dev/$(basename "$node")
+        [ -c "$dev" ] || continue
+        echo "READY: FPGA 1edb:abcd, camera $dev"
+        exit 0
+    fi
+done
+echo 'Camera node missing'
+exit 1
